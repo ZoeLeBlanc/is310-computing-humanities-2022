@@ -10,7 +10,7 @@ class_date: 2022-02-10
 - Krause, H. (2017, March 27). Data Biographies: Getting to Know Your Data. Global Investigative Journalism Network. <https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/>
 - Explore some of the datasets available on <https://humanitiesdata.com/> and consider how well these fit within the definitions of “humanities data” proposed in our readings.
 - Google’s Know Your Data <https://knowyourdata-tfds.withgoogle.com/>
-- Start [Introduction to Python]({{site.baseurl}}/materials/intro-python-git/beginning-python)
+- Start [Introduction to Python]({{site.baseurl}}/materials/intro-python-git/02-beginning-python)
 
 ## Ready to go faster?
 
