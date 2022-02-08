@@ -321,6 +321,7 @@ defaults:
       author_profile: false
       share: false
       comments: false
+      toc_sticky: true
       sidebar:
         nav: "materials"
   # _assessments

@@ -1,6 +1,6 @@
 ---
 title: "Advanced Python: Part 2"
-permalink: /materials/advanced-python/03-complex-python/
+permalink: /materials/advanced-python/03-complex-python
 toc: true
 ---
 

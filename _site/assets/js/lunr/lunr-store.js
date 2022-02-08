@@ -20,7 +20,7 @@ var store = [{
         "title": "Advanced Python",
         "excerpt":"Data Flow Computers read code line by line, top to bottom of a script. But what if you want to have code run not in sequential order, or you want your code to do something depending on a value, or you want to reuse your code and run it multiple...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/advanced-python/01-more-python/",
+        "url": "/is310-computing-humanities/materials/advanced-python/01-more-python",
         "teaser": null
       },{
         "title": "Python Advanced Assignments",
@@ -32,7 +32,7 @@ var store = [{
         "title": "Advanced Python: Part 2",
         "excerpt":"So far we’ve learned how to store data in different data types (integers, strings, floats, etc…) and structures (lists and dictionaries). We’ve also learned how to use for loops to manipulate our data, conditionals to change the data flow, and functions to encapsulate our code and make it reusable and...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/advanced-python/03-complex-python/",
+        "url": "/is310-computing-humanities/materials/advanced-python/03-complex-python",
         "teaser": null
       },{
         "title": "Python Classes Cheatsheet",
@@ -44,13 +44,19 @@ var store = [{
         "title": "Python Virtual Environments",
         "excerpt":"If you already have experience with virtual environments and have a preferred setup, feel free to keep using what you have What is virtual environment? This past week we started exploring Python libraries that ship with Python when you install it on your computer, but that still need to be...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/advanced-python/05-virtual-environment/",
+        "url": "/is310-computing-humanities/materials/advanced-python/05-virtual-environment",
         "teaser": null
       },{
         "title": "Python Libraries Assignment",
         "excerpt":"Assignment for next week Choose one of the packages we’ll be looking at later in the class: Pandas https://pandas.pydata.org/ Altair Spacy Scikit-Learn Networkx OR select one you might use in your final project Install it into your virtual environment following instructions Read through some of the documentation. See if you...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/advanced-python/05-libraries-assignment/",
+        "url": "/is310-computing-humanities/materials/advanced-python/06-libraries-assignment",
+        "teaser": null
+      },{
+        "title": "Advanced Git",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/advanced-python/07-advanced-git",
         "teaser": null
       },{
         "title": "Getting Up and Running: Installation Instructions 💨 ",

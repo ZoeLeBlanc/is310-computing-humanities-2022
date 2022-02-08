@@ -1,6 +1,6 @@
 ---
 title: "Python Libraries Assignment"
-permalink: /materials/advanced-python/05-libraries-assignment/
+permalink: /materials/advanced-python/06-libraries-assignment
 toc: true
 ---
 

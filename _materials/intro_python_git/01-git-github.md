@@ -2,6 +2,7 @@
 title: "Introduction to Git 🌳 and GitHub 📁"
 permalink: /materials/intro-python-git/01-git-github
 toc: true
+toc_sticky: true
 ---
 
 For our introduction to git and Github, we'll be using two resources.
