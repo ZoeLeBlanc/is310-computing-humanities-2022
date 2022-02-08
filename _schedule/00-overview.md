@@ -8,6 +8,7 @@ author_profile: false
 share: false
 comments: false
 show_date: true
+toc: false
 sidebar:
     nav: "schedule"
 ---

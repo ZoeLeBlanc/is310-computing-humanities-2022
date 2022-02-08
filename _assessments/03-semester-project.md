@@ -2,6 +2,7 @@
 title: "💾 Semester Long Project 50%"
 permalink: /assessments/03-semester-project
 toc: true
+toc_sticky: true
 ---
 
 The remainder of your grade will be determined through a semester-long research project. The goal of this project is to expose you to how computing in the humanities research is created and evaluated. Working in groups OR individually you will select a humanities research question and relevant datasets. Example projects include exploring character networks in a set of novels to understand gender disparities, or correlation analysis of place names in historical documents to analyze spatial imaginings. Using your skills in Python and your knowledge from the course weekly materials, you will experience the lifecycle of a project, from planning the project and collecting data to analyzing and communicating your results, and finally reflecting and outlining future directions.

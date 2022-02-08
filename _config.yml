@@ -347,6 +347,7 @@ defaults:
       share: false
       comments: false
       show_date: true
+      toc_sticky: true
       sidebar:
         nav: "schedule"
 

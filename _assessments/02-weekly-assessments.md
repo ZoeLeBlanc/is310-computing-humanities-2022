@@ -2,6 +2,7 @@
 title: 🗓 Weekly Assessments 50%
 permalink: /assessments/02-weekly-assessments
 toc: true
+toc_sticky: true
 ---
 
 Since we are in a seminar, weekly participation is a core component of our experience. However, because we are initially meeting virtually on Zoom (and may have some hybrid meetings), we cannot always assume that we’ll be able to have normal in-person seminars. To manage this situation,  weekly participation will be based on a combination of: attendance (whether virtually or in person); completion of assigned materials and assignments prior to class; contributions during seminar and outside of it in our Discord server, and finally curating and summarizing class content as part of our course website.
