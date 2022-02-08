@@ -1,6 +1,6 @@
 ---
 title: "🔗 Coming Online: Introduction to the Command Line and Version Control"
-permalink: /materials/getting-started/command-line
+permalink: /materials/getting-started/02-command-line
 excerpt: "An introduction to the command line and version control"
 toc: true
 ---

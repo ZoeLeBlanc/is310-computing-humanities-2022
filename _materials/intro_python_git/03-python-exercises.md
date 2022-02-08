@@ -1,6 +1,6 @@
 ---
 title: "Python In Class Exercises"
-permalink: /materials/intro-python-git/03-python-exercises/
+permalink: /materials/intro-python-git/03-python-exercises
 toc: true
 ---
 

@@ -56,19 +56,19 @@ var store = [{
         "title": "Getting Up and Running: Installation Instructions 💨 ",
         "excerpt":"Goals for the Week Sign up Github Account Installing some way of writing and running code Installing some way of working with Python and HTML/CSS/JS Installation for Windows Installation for Mac Creating a Github Account While we’ll be sharing a lot of materials via Canvas and Google Drive, we’ll also...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/getting-started/installation-instructions",
+        "url": "/is310-computing-humanities/materials/getting-started/01-installation-instructions",
         "teaser": null
       },{
         "title": "🔗 Coming Online: Introduction to the Command Line and Version Control",
         "excerpt":"Weekly Assessment Goals We will review concepts on Tuesday and all material should be submitted before next Thursday’s class. Introduction/review of the command line (with the instructor, optional) Complete command line assignment What is the Command Line and how do we work with it? Command Line might sounds a bit...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/getting-started/command-line",
+        "url": "/is310-computing-humanities/materials/getting-started/02-command-line",
         "teaser": null
       },{
         "title": "Command Line Cheatsheet",
         "excerpt":"Command Line Cheatsheet for Windows SHORTCUTS Command Description Tab Auto-complete files and folder names Up Arrow Scroll through previous commands Ctrl + A Go to the beginning of the line you are currently typing on Ctrl + E Go to the end of the line you are currently typing on...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/getting-started/command-line-cheatsheet",
+        "url": "/is310-computing-humanities/materials/getting-started/03-command-line-cheatsheet",
         "teaser": null
       },{
         "title": "Introduction to Git 🌳 and GitHub 📁",
@@ -80,13 +80,13 @@ var store = [{
         "title": "Introduction to Python 🐍",
         "excerpt":"What is Python? Wikipedia’s Definition of Python In short: Programming language, created in 1991 by Guido van Rossum Named after Monty Python Used for a wide range of programming, from making web apps to data analysis Why Python? Jake VanderPlas Tweet Stack Overflow’s Annual Survey In short: Python is well...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/intro-python-git/beginning-python",
+        "url": "/is310-computing-humanities/materials/intro-python-git/02-beginning-python",
         "teaser": null
       },{
         "title": "Python In Class Exercises",
         "excerpt":"Few guidelines for working in groups Finishing first doesn’t matter, what matters is working together If you know the answer, give others a chance to work it out for themselves If none of you know the answer, try reading the course materials and asking for help for the instructor Exercise...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/intro-python-git/03-python-exercises/",
+        "url": "/is310-computing-humanities/materials/intro-python-git/03-python-exercises",
         "teaser": null
       },{
         "title": "Python Cheatsheet",
@@ -98,13 +98,13 @@ var store = [{
         "title": "Python Fundamentals 🐍",
         "excerpt":"FIRST EXERCISE (in breakout rooms) Work together to figure how to use the data types, structures, and methods we discussed to solve these prompts: Get everyone’s first names in the group. Create a data structure to hold one name and then add each person’s name to the data structure. Whose...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/intro-python-git/05-python-continued/",
+        "url": "/is310-computing-humanities/materials/intro-python-git/05-python-continued",
         "teaser": null
       },{
         "title": "Python At Home Assignment",
         "excerpt":"Working in pairs or individually, figure out how to use the data types, structures, and methods we discussed to solve these prompts. Save your work in a script, titled lastname_week2.py and upload it to Github before class on Thursday. Create a Github repository for your work. I would recommend naming...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/intro-python-git/06-python-assignment/",
+        "url": "/is310-computing-humanities/materials/intro-python-git/06-python-assignment",
         "teaser": null
       },{
         "title": "Introduction to HTML and Web Scraping",

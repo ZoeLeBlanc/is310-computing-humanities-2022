@@ -1,6 +1,6 @@
 ---
 title: "Python At Home Assignment"
-permalink: /materials/intro-python-git/06-python-assignment/
+permalink: /materials/intro-python-git/06-python-assignment
 classes: wide
 ---
 

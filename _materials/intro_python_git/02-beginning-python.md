@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Python 🐍"
-permalink: /materials/intro-python-git/beginning-python
+permalink: /materials/intro-python-git/02-beginning-python
 toc: true
 ---
 

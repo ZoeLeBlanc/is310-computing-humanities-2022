@@ -1,6 +1,6 @@
 ---
 title: "Python Fundamentals 🐍"
-permalink: /materials/intro-python-git/05-python-continued/
+permalink: /materials/intro-python-git/05-python-continued
 toc: true
 ---
 

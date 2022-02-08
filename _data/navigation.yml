@@ -9,7 +9,7 @@ main:
   - title: "Blog"
     url: /blog/
   - title: "Weekly Materials"
-    url: /materials/getting-started/installation-instructions
+    url: /materials/getting-started/01-installation-instructions
 
 assessments:
   - title: Assessments
@@ -25,25 +25,25 @@ materials:
   - title: Getting Started
     children:
       - title: "Installation Instructions"
-        url: /materials/getting-started/01-installation-instructions/
+        url: /materials/getting-started/01-installation-instructions
       - title: "Coming Online: Command Line Introduction"
         url: /materials/getting-started/02-command-line
       - title: "Command Line Cheatsheet"
-        url: /materials/getting-started/03-command-line-cheatsheet/
+        url: /materials/getting-started/03-command-line-cheatsheet
   - title: Introduction to Python & Git
     children:
       - title: "Introduction to Git and Github"
-        url: /materials/intro-python-git/01-git-github/
+        url: /materials/intro-python-git/01-git-github
       - title: "Introduction to Python"
         url: /materials/intro-python-git/02-beginning-python
       - title: "Python In Class Exercises"
-        url: /materials/intro-python-git/03-python-exercises/
+        url: /materials/intro-python-git/03-python-exercises
       - title: "Python Cheatsheet"
-        url: /materials/intro-python-git/04-python-cheatsheet/
+        url: /materials/intro-python-git/04-python-cheatsheet
       - title: "Python Fundamentals"
-        url: /materials/intro-python-git/05-python-continued/
+        url: /materials/intro-python-git/05-python-continued
       - title: "Python At Home Assignment"
-        url: /materials/intro-python-git/06-python-assignment/
+        url: /materials/intro-python-git/06-python-assignment
   - title: In-Depth Python & Git
     children:
       - title: "Advanced Python"

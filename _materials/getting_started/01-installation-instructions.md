@@ -1,6 +1,6 @@
 ---
 title: "Getting Up and Running: Installation Instructions 💨 "
-permalink: /materials/getting-started/installation-instructions
+permalink: /materials/getting-started/01-installation-instructions
 excerpt: "Installation instructions for setting up your computer for the course."
 toc: true
 ---
