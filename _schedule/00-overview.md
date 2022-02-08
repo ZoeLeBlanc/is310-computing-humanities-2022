@@ -1,5 +1,5 @@
 ---
-permalink: /schedule/overview
+permalink: /schedule/00-overview
 title: ''
 classes: wide
 layout: single
