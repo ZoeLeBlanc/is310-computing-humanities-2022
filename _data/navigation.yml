@@ -5,7 +5,7 @@ main:
   - title: "Assessments"
     url: /assessments/01-overview
   - title: "Policies"
-    url: /policies/
+    url: /policies
   - title: "Blog"
     url: /blog/
   - title: "Weekly Materials"
