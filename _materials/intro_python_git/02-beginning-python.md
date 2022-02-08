@@ -50,7 +50,7 @@ python3 --version
 You're results should look something like the following.
 ![python_version]({{site.baseurl}}/assets/images/python_version.png)
 
-If you are getting errors, try looking at the [Python Installation Instructions](/materials/getting-started/01-installation-instructions) and contact the instructor for help troubleshooting.
+If you are getting errors, try looking at the [Python Installation Instructions]({{site.baseurl}}/materials/getting-started/01-installation-instructions) and contact the instructor for help troubleshooting.
 
 
 ## Python in the Terminal
@@ -404,6 +404,6 @@ tools[0]
 
 Congratulations 🎉🎉🎉! You've now completed the introduction to Python.
 
-If anything is unclear, please bring questions you have to class or the instructor, and we will be doing an overview of these concepts. Also checkout the [Python Cheatsheet](/materials/intro-python-git/04-python-cheatsheet)!
+If anything is unclear, please bring questions you have to class or the instructor, and we will be doing an overview of these concepts. Also checkout the [Python Cheatsheet]({{site.baseurl}}/materials/intro-python-git/04-python-cheatsheet)!
 
-If you want to continue with learning and exercises, check out the additional materials [here](/materials/intro-python-git/05-python-continued) but otherwise we'll cover this in class together.
+If you want to continue with learning and exercises, check out the additional materials [here]({{site.baseurl}}/materials/intro-python-git/05-python-continued) but otherwise we'll cover this in class together.
