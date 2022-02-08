@@ -1,6 +1,6 @@
 ---
 title: "Python Classes Cheatsheet"
-permalink: /materials/advanced-python/python-classes/
+permalink: /materials/advanced-python/04-python-classes
 toc: true
 ---
 ## Subclassing
