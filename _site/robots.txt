@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4001/is310-computing-humanities/sitemap.xml
+Sitemap: /is310-computing-humanities/sitemap.xml
