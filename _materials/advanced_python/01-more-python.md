@@ -12,13 +12,13 @@ We can solve all those problems with data flow structures.
 
 ### Looping
 
-In `lastname_week2.py` you had to print out multiple values from the tools dictionary. While typing each value out is tedious, it was still possible to do. However, what would happen if you had hundreds or thousands of values?
+In `first_python_assignment.py` you had to print out multiple values from the tools dictionary. While typing each value out is tedious, it was still possible to do. However, what would happen if you had hundreds or thousands of values?
 
 There's a much faster way to traverse data structures and types in Python, called `Looping`. With various types of loops in Python, you can travel through a sequence (i.e. a list, dictionary, string, etc...) to be able to manipulate items within the sequence.
 
 **For Loops** are one of the most common ways in python to loop over a sequence. But what does looping mean exactly?
 
-Let's go back to our script from week 2, and find our list of names. Add these lines to the script:
+Let's go back to our script from our script, and find our list of names. Add these lines to the script:
 
 ```python
 tools=["Gephi", "R", "Python", "HathiTrust"]
@@ -110,7 +110,7 @@ Arguments can have any name (so our example above could have named `code_concept
 
 Using functions and for loops we can reuse our code whenever we want within our script.
 
-For example, try and understand this code from week 2 exercise:
+For example, try and understand this code from our assignment exercise:
 
 ```python
 def make_tool_dict(name, value_2015 , value_2016, value_2017,value_2018, value_2019):
