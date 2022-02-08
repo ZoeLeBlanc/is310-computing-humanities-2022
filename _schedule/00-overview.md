@@ -1,5 +1,5 @@
 ---
-# permalink: /schedule/overview
+permalink: /schedule/overview
 title: ''
 classes: wide
 layout: single

@@ -119,6 +119,12 @@ var store = [{
         "url": "/is310-computing-humanities/jekyll/post-draft/",
         "teaser": "/is310-computing-humanities/unsplash-gallery-image-2-th.jpg"
       },{
+        "title": "",
+        "excerpt":"Schedule Overview 🕒 (Subject to Change and Discussion) This overview gives a top level view of the topics for each of our meetings. You can either use the side navigation or click on a topic to jump to that section. Tuesday Topic Thursday Topic January 18 - Introducing Computing in...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/overview",
+        "teaser": null
+      },{
         "title": "Introducing Computing in the Humanities 🎟",
         "excerpt":"In-Class Activities      Introductions and goals for the course   Annotate the syllabus in Google Docs   What is computing in the humanities? Visit https://whatisdigitalhumanities.com/ and refresh a few times and we might also visit https://opensyllabus.org/   Decide on course communication platforms (Slack, Discord, Canvas???)  ","categories": [],
         "tags": [],
@@ -189,11 +195,5 @@ var store = [{
         "excerpt":"Class Activities      Ian Milligan “Welcome to the Web: The Online Community of GeoCities During The Early Years of The World Wide Web” https://ianmilligan.ca/2017/03/14/new-chapter-welcome-to-the-web-the-online-community-of-geocities-during-the-early-years-of-the-world-wide-web/   Introduction to Web Scraping and HTML   Additional Materials      Jeffrey Veen, “A Brief History of HTML” Wired. April 28, 1997 https://www.wired.com/1997/04/a-brief-history-of-html/  ","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/12-markup-and-scrape-off",
-        "teaser": null
-      },{
-        "title": "",
-        "excerpt":"Schedule Overview 🕒 (Subject to Change and Discussion) This overview gives a top level view of the topics for each of our meetings. You can either use the side navigation or click on a topic to jump to that section. Tuesday Topic Thursday Topic January 18 - Introducing Computing in...","categories": [],
-        "tags": [],
-        "url": "/is310-computing-humanities/schedule/overview/",
         "teaser": null
       }]
