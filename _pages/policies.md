@@ -2,6 +2,7 @@
 permalink: /policies
 title: 🚦Course Policies
 toc: true
+toc_sticky: true
 author_profile: false
 sidebar:
   - title: "Note"

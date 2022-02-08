@@ -12,6 +12,7 @@ header:
 # excerpt: >
 #   Explores use and application of technology to scholarly activity in the humanities, including projects that put classic texts on the web or create multimedia applications on humanities topics.
 toc: true
+toc_sticky: true
 title: 'Welcome to Computing in the Humanities'
 sidebar:
   - title: "Office Hours"
