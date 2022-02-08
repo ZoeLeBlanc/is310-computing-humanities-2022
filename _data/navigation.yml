@@ -3,7 +3,7 @@ main:
   - title: "Schedule"
     url: /schedule/overview/
   - title: "Assessments"
-    url: /assessments/overview
+    url: /assessments/01-overview
   - title: "Policies"
     url: /policies/
   - title: "Blog"
