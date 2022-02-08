@@ -122,7 +122,7 @@ var store = [{
         "title": "",
         "excerpt":"Schedule Overview 🕒 (Subject to Change and Discussion) This overview gives a top level view of the topics for each of our meetings. You can either use the side navigation or click on a topic to jump to that section. Tuesday Topic Thursday Topic January 18 - Introducing Computing in...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/schedule/overview",
+        "url": "/is310-computing-humanities/schedule/00-overview",
         "teaser": null
       },{
         "title": "Introducing Computing in the Humanities 🎟",
