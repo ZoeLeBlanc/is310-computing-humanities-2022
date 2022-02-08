@@ -1,0 +1,627 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Python Fundamentals 🐍 - IS 310 Computing in the Humanities</title>
+<meta name="description" content="FIRST EXERCISE (in breakout rooms)">
+
+
+  <meta name="author" content="Prof. Zoe LeBlanc">
+  
+  <meta property="article:author" content="Prof. Zoe LeBlanc">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="IS 310 Computing in the Humanities">
+<meta property="og:title" content="Python Fundamentals 🐍">
+<meta property="og:url" content="http://localhost:4001/is310-computing-humanities/materials/intro-python-git/05-python-continued/">
+
+
+  <meta property="og:description" content="FIRST EXERCISE (in breakout rooms)">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2022-02-07T20:40:57-06:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4001/is310-computing-humanities/materials/intro-python-git/05-python-continued/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Prof. Zoe LeBlanc",
+      "url": "http://localhost:4001/is310-computing-humanities/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/is310-computing-humanities/feed.xml" type="application/atom+xml" rel="alternate" title="IS 310 Computing in the Humanities Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/is310-computing-humanities/assets/css/main.css">
+<!-- <link rel="stylesheet" href="/is310-computing-humanities/assets/css/main.css" id="theme_source"> -->
+<link rel="shortcut icon" href="/is310-computing-humanities/assets/images/favicon.ico">
+
+<!-- Light mode -->
+<!-- <link rel="stylesheet" href="/is310-computing-humanities/assets/css/main.css"> -->
+
+<!-- Dark mode -->
+<!--  -->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/is310-computing-humanities/">
+          IS 310 Computing in the Humanities
+          <span class="site-subtitle">✨ A course at the intersection of culture and code ✨</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/is310-computing-humanities/schedule/overview/">Schedule</a>
+            </li><li class="masthead__menu-item">
+              <a href="/is310-computing-humanities/assessments/overview">Assessments</a>
+            </li><li class="masthead__menu-item">
+              <a href="/is310-computing-humanities/policies/">Policies</a>
+            </li><li class="masthead__menu-item">
+              <a href="/is310-computing-humanities/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/is310-computing-humanities/materials/getting-started/installation-instructions">Weekly Materials</a>
+            </li></ul>
+        <!--  -->
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Getting Started</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/is310-computing-humanities/materials/getting-started/01-installation-instructions/">Installation Instructions</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/getting-started/02-command-line">Coming Online: Command Line Introduction</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/getting-started/03-command-line-cheatsheet/">Command Line Cheatsheet</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Introduction to Python & Git</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/01-git-github/">Introduction to Git and Github</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/02-beginning-python">Introduction to Python</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/03-python-exercises/">Python In Class Exercises</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/04-python-cheatsheet/">Python Cheatsheet</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/05-python-continued/" class="active">Python Fundamentals</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/06-python-assignment/">Python At Home Assignment</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">In-Depth Python & Git</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/01-more-python">Advanced Python</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/02-python-assignment">Python Advanced Assignments</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/03-complex-python">Advanced Python: Part 2</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/04-python-classes">Python Classes Cheatsheet</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/05-virtual-environment">Python Virtual Environments</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/07-advanced-git">Advanced Git</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Web Scraping and HTML (More Soon)</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/is310-computing-humanities/materials/webscraping-html/01-intro-webscraping">Introduction to Web Scraping</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Exploratory Data Analysis (More Soon)</span>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Python Fundamentals 🐍">
+    <meta itemprop="description" content="FIRST EXERCISE (in breakout rooms)">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4001/is310-computing-humanities/materials/intro-python-git/05-python-continued/" class="u-url" itemprop="url">Python Fundamentals 🐍
+</a>
+          </h1>
+          
+
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#first-exercise-in-breakout-rooms">FIRST EXERCISE (in breakout rooms)</a><ul><li><a href="#so-whats-the-print-statement">So what’s the print statement?</a></li></ul></li><li><a href="#built-in-methods">Built-In Methods</a><ul><li><a href="#built-in-methods-for-strings">Built-In Methods for Strings</a></li><li><a href="#inline-commenting">Inline Commenting</a></li><li><a href="#documentation">Documentation</a></li><li><a href="#the-zen-of-python">The Zen of Python</a><ul><li><a href="#whats-the-deal-with-python">What’s the deal with Python?</a></li></ul></li></ul></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="first-exercise-in-breakout-rooms">FIRST EXERCISE (in breakout rooms)</h2>
+
+<p>Work together to figure how to use the data types, structures, and methods we discussed to solve these prompts:</p>
+
+<ol>
+  <li>Get everyone’s first names in the group. Create a data structure to hold one name and then add each person’s name to the data structure. Whose name comes first? How would we change the order? How could we access an individual’s name? How could we access the first two names?</li>
+  <li>Get everyone’s favorite number (or age). Calculate the average number for the group (hint: average is sum of all numbers divided by number of people in the group. You might check if Python has a built )</li>
+  <li>Create a data structure to store each a set of movies (maybe your favorite techno-themed one? Think Blade Runner or Hackers). Update the structure to keep a count for each movie depending on how many people in the group have seen the movie. Make sure that you don’t keep any movie that only has a count of one.</li>
+</ol>
+
+<hr />
+
+<p>Python interpreter is great, but why might we not want to write all our code in the interpreter? What happens every time you quit?</p>
+
+<p>SOLUTION:</p>
+
+<ol>
+  <li>Open your terminal directory in Visual Studio Code or your favorite code editor, and create a new file:</li>
+</ol>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">touch </span>first_script.py
+</code></pre></div></div>
+
+<p>You should see this file in Visual Studio Code. We’re going to write your first code script! Feel free to enter some of what you wrote for the exercise, or copy this below:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">tools</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span>
+        <span class="s">'name'</span><span class="p">:</span><span class="s">'HathiTrust'</span><span class="p">,</span>
+        <span class="s">'projects'</span><span class="p">:</span> <span class="p">[</span><span class="s">'Bookworm'</span><span class="p">,</span> <span class="s">'Google Ngram Viewer'</span><span class="p">]</span>
+    <span class="p">},{</span>
+        <span class="s">'name'</span><span class="p">:</span> <span class="s">'Gephi'</span><span class="p">,</span>
+        <span class="s">'founded_year'</span><span class="p">:</span> <span class="mi">2008</span>
+    <span class="p">}</span>
+<span class="p">]</span>
+</code></pre></div></div>
+
+<ol>
+  <li>Now try running the file from your terminal
+Make sure you are not in the python interpreter. Type:</li>
+</ol>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 first_script.py
+</code></pre></div></div>
+
+<p>What happens?</p>
+
+<p><img src="https://media.giphy.com/media/3KCOFfdqmptLi/giphy.gif" alt="https://media.giphy.com/media/3KCOFfdqmptLi/giphy.gif" /></p>
+
+<p>Because we aren’t in the interpreter any more, unless we tell the computer to output a value it won’t show us any message (unless there’s an error.)</p>
+
+<p>One solution is the <strong>print</strong> method.</p>
+
+<p>In first_script.py, add the line to the bottom of the script:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="n">tools</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>This time you should see the list of tools.</p>
+
+<p>Now try moving that line to the top of first_script.py and running the script again.</p>
+
+<p><img src="https://media.giphy.com/media/qQI16x8tgp7nW/giphy.gif" alt="https://media.giphy.com/media/qQI16x8tgp7nW/giphy.gif" /></p>
+
+<p>We’ve hit a problem. Let’s break down what happened here. If the print statement was at the bottom of the script it worked, but if it was at the top it didn’t.</p>
+
+<p>That’s because the print statement within it’s parentheses references the variable <code class="language-plaintext highlighter-rouge">tools</code>, but we haven’t defined that variable yet.</p>
+
+<p><strong>Computers read code from top to bottom</strong></p>
+
+<h3 id="so-whats-the-print-statement">So what’s the print statement?</h3>
+
+<p>Print is a <em>built-in Python method</em>, which means it comes installed with Python and we can use it whenever we are writing Python.</p>
+
+<p>Print is used to literally print out values to the terminal, and it’s one of many ways to find out the output of a Python script.</p>
+
+<h2 id="built-in-methods">Built-In Methods</h2>
+
+<p>Print is one of many methods. Let’s take a look at a few more.</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">Len()</code>
+In first_script.py, move the print statement back to the bottom of the script. Then above the print statement type:</li>
+</ol>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">tools_numbers</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">tools</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'how many DH tools do we have?'</span><span class="p">,</span> <span class="n">tools_numbers</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Then try running the code. You should first see our question followed by a number and then the list of projects.</p>
+
+<p>The <strong>len</strong> method can return the length of any list, dictionary, or string in Python.</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">Type()</code>
+You might also want to know the <strong>type</strong> of your variable, whether it’s a data type or a data structure. In first_script.py, add to the bottom of the script:</li>
+</ol>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">tools</span><span class="p">),</span> <span class="nb">type</span><span class="p">(</span><span class="n">tools</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+</code></pre></div></div>
+
+<p>Once you run the script you should see that we have both a list and a dictionary. With print statements you can add multiple items as long as they are separated by commas, and you can use built-in methods inside the print statement, instead of assigning them to a variable first.</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">Input()</code>
+You can also get input from the terminal using the <strong>input</strong> method. In first_script.py, type the following at the bottom of the script:</li>
+</ol>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">'Enter your name:'</span><span class="p">)</span>
+<span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Hello, '</span> <span class="o">+</span> <span class="n">name</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="https://media.giphy.com/media/3o7buirYcmV5nSwIRW/giphy.gif" alt="https://media.giphy.com/media/3o7buirYcmV5nSwIRW/giphy.gif" /></p>
+
+<p><em>What did we just do?</em>
+First we printed out a prompt. Then we assigned the input method to a variable, and then we printed out hello concatenated with the value of name.</p>
+
+<p>You’ve now used built-in methods before for both dictionaries and lists. But they exist for data types too.</p>
+
+<h3 id="built-in-methods-for-strings">Built-In Methods for Strings</h3>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">Split()</code>
+The <strong>split</strong> method lets us split up a string and turn it into a list. In first_script.py, add the following:</li>
+</ol>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">definition_of_dh</span> <span class="o">=</span> <span class="s">'DH is 1) using new digital tools to do humanistic research and 2) using humanistic methods to analyze new digital tools.'</span>
+<span class="k">print</span><span class="p">(</span><span class="n">definition_of_dh</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">definition_of_dh</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="s">''</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p><img src="/is310-computing-humanities/assets/images/def_dh.png" alt="dh definition" /></p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">Join()</code>
+The <strong>join</strong> method lets us take a list and join all the values together.</li>
+</ol>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">split_definition</span> <span class="o">=</span> <span class="n">definition_of_dh</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="s">' '</span><span class="p">)</span>
+<span class="n">joined_definition</span> <span class="o">=</span> <span class="s">'_'</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">split_definition</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">joined_definition</span><span class="p">)</span>
+</code></pre></div></div>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">Replace()</code>
+The <strong>replace</strong> method lets us find a string and replace it with another string. You can also specify how many times you want to replace a string.</li>
+</ol>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">edited_definition_of_dh</span> <span class="o">=</span> <span class="n">definition_of_dh</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="s">'tools'</span><span class="p">,</span> <span class="s">'people'</span><span class="p">)</span> 
+<span class="k">print</span><span class="p">(</span><span class="n">edited_definition_of_dh</span><span class="p">)</span>
+</code></pre></div></div>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">Upper()</code> and <code class="language-plaintext highlighter-rouge">Lower()</code>
+The <strong>upper</strong> and <strong>lower</strong> methods return the entire string capitalized or lowercased respectively.</li>
+</ol>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="n">definition_of_dh</span><span class="p">.</span><span class="n">upper</span><span class="p">(),</span> <span class="n">definition_of_dh</span><span class="p">.</span><span class="n">lower</span><span class="p">())</span>
+</code></pre></div></div>
+
+<p>You can find more information about string methods here
+<a href="https://www.w3schools.com/python/python_ref_string.asp">https://www.w3schools.com/python/python_ref_string.asp</a></p>
+
+<h3 id="inline-commenting">Inline Commenting</h3>
+
+<p>Comments are especially useful–necessary!–for collaboration. Python is open source and its community of millions of coders often share in its permissive approach to intellectual property. Python as a whole is a giant collaborative project of which you are now members.</p>
+
+<p>When you write particularly complicated logic or whenever you write new classes or functions (more on this later!), you should write a comment to explain yourself.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">edited_definition_of_dh</span> <span class="o">=</span> <span class="n">definition_of_dh</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="s">'tools'</span><span class="p">,</span> <span class="s">'people'</span><span class="p">)</span> 
+<span class="k">print</span><span class="p">(</span><span class="n">edited_definition_of_dh</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="documentation">Documentation</h3>
+
+<p>Python, as with virtually all other languages and complex codes, contains extensive documentation that covers all aspects of its use. This documentation is <a href="assets/MissionImpossible.m4v?raw=true">easily accessible via the Internet</a>.</p>
+
+<p><a href="https://docs.python.org/3/">Python 3 Documentation</a></p>
+
+<p>Let’s take a look at the specific documentation for strings:</p>
+
+<p><a href="https://docs.python.org/3/library/stdtypes.html#string-methods">Python 3 Docs: Built-in Types: Strings</a></p>
+
+<p>Learning to read documentation is a critical skill for succeeding as a programmer. Happily, most of you, as graduate students, should already be literate.</p>
+
+<h3 id="the-zen-of-python">The Zen of Python</h3>
+
+<h4 id="whats-the-deal-with-python">What’s the deal with Python?</h4>
+
+<p>Type this into the Python interpreter:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">this</span>
+</code></pre></div></div>
+
+<p>Here’s <a href="https://inventwithpython.com/blog/2018/08/17/the-zen-of-python-explained/">one interpretation of Z of P</a>.</p>
+
+<p>Also, a DH answer: lots of DH projects are written in Python because of its simplicity and robust community and it’s especially popular in areas like text analysis and machine learning.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/is310-computing-humanities/materials/intro-python-git/04-python-cheatsheet" class="pagination--pager" title="Python Cheatsheet
+">Previous</a>
+    
+    
+      <a href="/is310-computing-humanities/materials/intro-python-git/06-python-assignment/" class="pagination--pager" title="Python At Home Assignment
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/is310-computing-humanities/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Prof. Zoe LeBlanc. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/is310-computing-humanities/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/is310-computing-humanities/assets/js/lunr/lunr.min.js"></script>
+<script src="/is310-computing-humanities/assets/js/lunr/lunr-store.js"></script>
+<script src="/is310-computing-humanities/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+    window.addEventListener('load', addDarkmodeWidget);
+  }
+  const options = {
+    label: '🌓',
+  }
+  const darkmode = new Darkmode(options);
+  darkmode.showWidget();
+</script> -->
+
+
+  </body>
+</html>

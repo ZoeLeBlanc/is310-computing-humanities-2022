@@ -1,0 +1,591 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>🔗 Coming Online: Introduction to the Command Line and Version Control - IS 310 Computing in the Humanities</title>
+<meta name="description" content="An introduction to the command line and version control">
+
+
+  <meta name="author" content="Prof. Zoe LeBlanc">
+  
+  <meta property="article:author" content="Prof. Zoe LeBlanc">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="IS 310 Computing in the Humanities">
+<meta property="og:title" content="🔗 Coming Online: Introduction to the Command Line and Version Control">
+<meta property="og:url" content="http://localhost:4001/is310-computing-humanities/materials/getting-started/command-line">
+
+
+  <meta property="og:description" content="An introduction to the command line and version control">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2022-02-07T20:40:57-06:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4001/is310-computing-humanities/materials/getting-started/command-line">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Prof. Zoe LeBlanc",
+      "url": "http://localhost:4001/is310-computing-humanities/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/is310-computing-humanities/feed.xml" type="application/atom+xml" rel="alternate" title="IS 310 Computing in the Humanities Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/is310-computing-humanities/assets/css/main.css">
+<!-- <link rel="stylesheet" href="/is310-computing-humanities/assets/css/main.css" id="theme_source"> -->
+<link rel="shortcut icon" href="/is310-computing-humanities/assets/images/favicon.ico">
+
+<!-- Light mode -->
+<!-- <link rel="stylesheet" href="/is310-computing-humanities/assets/css/main.css"> -->
+
+<!-- Dark mode -->
+<!--  -->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/is310-computing-humanities/">
+          IS 310 Computing in the Humanities
+          <span class="site-subtitle">✨ A course at the intersection of culture and code ✨</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/is310-computing-humanities/schedule/overview/">Schedule</a>
+            </li><li class="masthead__menu-item">
+              <a href="/is310-computing-humanities/assessments/overview">Assessments</a>
+            </li><li class="masthead__menu-item">
+              <a href="/is310-computing-humanities/policies/">Policies</a>
+            </li><li class="masthead__menu-item">
+              <a href="/is310-computing-humanities/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/is310-computing-humanities/materials/getting-started/installation-instructions">Weekly Materials</a>
+            </li></ul>
+        <!--  -->
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Getting Started</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/is310-computing-humanities/materials/getting-started/01-installation-instructions/">Installation Instructions</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/getting-started/02-command-line">Coming Online: Command Line Introduction</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/getting-started/03-command-line-cheatsheet/">Command Line Cheatsheet</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Introduction to Python & Git</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/01-git-github/">Introduction to Git and Github</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/02-beginning-python">Introduction to Python</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/03-python-exercises/">Python In Class Exercises</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/04-python-cheatsheet/">Python Cheatsheet</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/05-python-continued/">Python Fundamentals</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/06-python-assignment/">Python At Home Assignment</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">In-Depth Python & Git</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/01-more-python">Advanced Python</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/02-python-assignment">Python Advanced Assignments</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/03-complex-python">Advanced Python: Part 2</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/04-python-classes">Python Classes Cheatsheet</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/05-virtual-environment">Python Virtual Environments</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/07-advanced-git">Advanced Git</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Web Scraping and HTML (More Soon)</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/is310-computing-humanities/materials/webscraping-html/01-intro-webscraping">Introduction to Web Scraping</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Exploratory Data Analysis (More Soon)</span>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="🔗 Coming Online: Introduction to the Command Line and Version Control">
+    <meta itemprop="description" content="An introduction to the command line and version control">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4001/is310-computing-humanities/materials/getting-started/command-line" class="u-url" itemprop="url">🔗 Coming Online: Introduction to the Command Line and Version Control
+</a>
+          </h1>
+          
+
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#weekly-assessment-goals">Weekly Assessment Goals</a></li><li><a href="#command-line-intro">What is the Command Line and how do we work with it?</a><ul><li><a href="#lets-do-an-exercise-together">Let’s do an exercise together</a></li></ul></li></ul></li></ul></li><li><a href="#command-line-assignment">Command Line Assignment</a><ul><li><a href="#time-to-get-lost-in-the-command-line">Time to get lost in the Command Line</a></li></ul></li><li><a href="#more-information">More Information</a></li><li><a href="#in-depth-dive-into-the-command-line-and-shells">In Depth Dive into the Command Line and Shells</a></li></ul></li></ul></li><li><a href="#resources">Resources</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="weekly-assessment-goals">Weekly Assessment Goals</h2>
+
+<p><em>We will review concepts on Tuesday and all material should be submitted before next Thursday’s class.</em></p>
+
+<ol>
+  <li><a href="#command-line-intro">Introduction/review of the command line (with the instructor, optional)</a></li>
+  <li><a href="#command-line-assignment">Complete command line assignment</a></li>
+</ol>
+
+<h2 id="command-line-intro">What is the Command Line and how do we work with it?</h2>
+
+<ul>
+  <li>Command Line might sounds a bit intimidating</li>
+  <li>But ask yourself, how do you find files and manipulate files on your computer? Probably using Windows Explorer or Mac Finder, right?</li>
+  <li>Command Line is a text-based way of doing the same thing you do with your files</li>
+  <li>Command Line is used a lot in coding because we manipulate our code files and run them all in the terminal</li>
+</ul>
+
+<p><img src="https://image.slidesharecdn.com/cli-101-170406170732/95/commandline-101-3-638.jpg?cb=1491498863" alt="command-line" /></p>
+
+<p>This is a helpful but brief overview. Often you might get confused, because we’ll talk about command line interface/CLI, terminal, shell, console. While these terms are overlapping, my colleague <a href="https://github.com/scholarslab/CodeLab/blob/master/Week01/commandline.md">Shane Lin at UVA</a> helped me understand that a lot of the differences between these terms has to do with the history of early computers, when computers looked like this 👇🏽.</p>
+
+<p><img src="https://www.computerhope.com/cdn/eniac.jpg" alt="early-computer" /></p>
+
+<p>According to Shane,</p>
+<blockquote>
+  <p>Operators would interact with these machines through a smaller device dedicated to input and output, called a console or terminal. In the very early days, these consoles would use literal printers to print out output from the computer onto paper. In modern computing, “console” and “terminal” are analogies for software programs that replicate these technologies. The application “Terminal” on MacOS is a terminal software.</p>
+</blockquote>
+
+<blockquote>
+  <p>A “shell” is a program that lives within a terminal that interprets commands from users and parses output from the computer. The name Shell comes out of the influential Unix operating system and is intended to convey the idea that shell programs completely surround and hide away the complex details of different underlying computer systems from users to provide a simplified and common interface. BASH (Bourne Again SHell) and Zsh (Z Shell) are the most popular shell programs.</p>
+</blockquote>
+
+<p>We’ve already interacted with the command line, terminal, and shell through our installation instructions.</p>
+
+<h5 id="lets-do-an-exercise-together">Let’s do an exercise together</h5>
+
+<ol>
+  <li>
+    <p>Open the <a href="command-line-cheatsheet">cheatsheet</a>. Copying is encouraged in coding, so make sure you use the cheatsheet!</p>
+  </li>
+  <li>
+    <p>Create a directory called <code class="language-plaintext highlighter-rouge">workspace</code> in your home directory.</p>
+  </li>
+</ol>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir</span> ~/workspace
+</code></pre></div></div>
+
+<ol>
+  <li>
+    <p>Create the following directory structure in your <code class="language-plaintext highlighter-rouge">workspace</code> directory, using <code class="language-plaintext highlighter-rouge">mkdir</code>.</p>
+
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code> workspace
+ +-- cli
+     +-- practice
+         +-- create
+</code></pre></div>    </div>
+  </li>
+  <li>Enter (change) into the <code class="language-plaintext highlighter-rouge">create</code> directory, using <code class="language-plaintext highlighter-rouge">cd</code>. Remember to use tab completion.</li>
+  <li>
+    <p>While in this directory, create a new file named <code class="language-plaintext highlighter-rouge">is310</code>.</p>
+
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">touch </span>is310
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Put some simple content in the file using the <code class="language-plaintext highlighter-rouge">echo</code> command.</p>
+
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">echo</span> <span class="s1">'Coding is ...'</span> <span class="o">&gt;</span> is310
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Now use the <code class="language-plaintext highlighter-rouge">cat</code> command to read those contents.</p>
+
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">cat </span>is310
+</code></pre></div>    </div>
+  </li>
+  <li>Remove the <code class="language-plaintext highlighter-rouge">is310</code> file you created earlier with the <code class="language-plaintext highlighter-rouge">rm</code> command.</li>
+  <li><code class="language-plaintext highlighter-rouge">cd</code> back up to the <code class="language-plaintext highlighter-rouge">cli</code> directory.</li>
+  <li>Remove the <code class="language-plaintext highlighter-rouge">practice</code> directory and all of its contents.</li>
+</ol>
+
+<p>Let’s dive futher through the following tutorials developed by <a href="https://melaniewalsh.org/">Melanie Walsh</a>:</p>
+
+<ul>
+  <li><a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html#command-line-cheatsheet">https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html#command-line-cheatsheet</a></li>
+</ul>
+
+<h2 id="command-line-assignment">Command Line Assignment</h2>
+
+<h5 id="time-to-get-lost-in-the-command-line">Time to get lost in the Command Line</h5>
+
+<p><em>In Class Asignment:</em></p>
+
+<ol>
+  <li>First, using the command line commands and your terminal create a series of nested directories and files.</li>
+</ol>
+
+<ul>
+  <li>At least one your directories needs to have nothing in it.</li>
+  <li>At least one of your directories needs to have a file with the text, “You’re lost” on it.</li>
+  <li>At least one your directories, needs to have a file with the text “You’ve made it to the center of the maze!”</li>
+</ul>
+
+<ol>
+  <li>Once you’ve completed your corn maze, pair up with another student and have them try and navigate to the center of your maze using command line commands.
+    <ul>
+      <li>Since we’re virtual, feel free to share your via <del>discord</del> <a href="https://drive.google.com/drive/folders/1JF2viPdcFmQUDcTmsx_K7cEsTdXIKHgS?usp=sharing">google drive folder</a> with your classmates.</li>
+    </ul>
+  </li>
+</ol>
+
+<p><img src="https://media.giphy.com/media/Xbn2CXq5u2Wc0/giphy.gif" alt="maze" /></p>
+
+<p><em>Additional/Homework Assignment:</em>
+Following <a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html#working-with-files-and-texts">Melanie Walsh’s working with Text Files in the command line tutorial</a>, complete the following steps:</p>
+
+<ol>
+  <li>Select a book from <a href="https://www.gutenberg.org/ebooks/search/">Project Gutenberg</a> and download a text file version using the command line (you can use the <a href="https://www.gnu.org/software/wget/manual/wget.html">wget</a> command or <a href="https://curl.se/docs/manpage.html">curl</a> command).</li>
+  <li>Using the command line, rename your downloaded file to be the title of the book.</li>
+  <li>Count the number of words in your book file and print the result to the screen.</li>
+  <li>Search for a word (would recommend not using “the”) in your book file and print the number of times it appears.</li>
+  <li>Take a 📸 screenshot of your output and send it to the instructor in discord.</li>
+</ol>
+
+<h4 id="more-information">More Information</h4>
+
+<h4 id="in-depth-dive-into-the-command-line-and-shells">In Depth Dive into the Command Line and Shells</h4>
+
+<p>At its base, a shell is simply a macro processor that executes commands. The term macro processor means functionality where text and symbols are expanded to create larger expressions.</p>
+
+<p>A bash shell is both a command interpreter and a programming language. As a command interpreter, the shell provides the user interface to the rich set of utilities for your operating system. The programming language features allow these utilities to be combined. Files containing commands can be created, and become commands themselves. These new commands have the same status as system commands in directories such as /bin, allowing users or groups to establish custom environments to automate their common tasks.</p>
+
+<p>Shells may be used interactively or non-interactively. In interactive mode, they accept input typed from the keyboard. When executing non-interactively, shells execute commands read from a file.</p>
+
+<p>Shells also provide a small set of built-in commands (builtins) implementing functionality impossible or inconvenient to obtain via separate utilities. For example, cd, break, continue, and exec cannot be implemented outside of the shell because they directly manipulate the shell itself. The history, getopts, kill, or pwd builtins, among others, could be implemented in separate utilities, but they are more convenient to use as builtin commands. All of the shell builtins are described in subsequent sections.</p>
+
+<p>While executing commands is essential, most of the power (and complexity) of shells is due to their embedded programming languages. Like any high-level language, the shell provides variables, flow control constructs, quoting, and functions.</p>
+
+<p>Shells offer features geared specifically for interactive use rather than to augment the programming language. These interactive features include job control, command line editing, command history and aliases.</p>
+
+<h2 id="resources">Resources</h2>
+
+<ol>
+  <li>Ian Milligan and James Baker, “Introduction to the Bash Command Line,” <em>The Programming Historian</em> 3 (2014), [https://programminghistorian.org/en/lessons/intro-to-bash]. This is an introduction to the Bash shell, which will serve well enough as an introduction to other shells like Zsh as well.</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>[Bash Basics Part 1 of 8</td>
+          <td>Access and Navigation](https://youtu.be/eH8Z9zeywq0?t=885)</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li><a href="https://www.youtube.com/watch?v=oxuRxtrO2Ag">Beginner’s Guide to the Bash Terminal</a></li>
+  <li><a href="https://www.youtube.com/watch?v=q7-aEspwwEI">The Most Important Thing You’ll Learn in the Command Line</a></li>
+  <li>Go through the CodeAcademy <a href="https://www.codecademy.com/learn/learn-the-command-line">command line course</a>.</li>
+  <li><a href="https://www.youtube.com/watch?v=hwrnmQumtPw">Shell Scripting Tutorial</a></li>
+</ol>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/is310-computing-humanities/materials/getting-started/installation-instructions" class="pagination--pager" title="Getting Up and Running: Installation Instructions 💨
+">Previous</a>
+    
+    
+      <a href="/is310-computing-humanities/materials/getting-started/command-line-cheatsheet" class="pagination--pager" title="Command Line Cheatsheet
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/is310-computing-humanities/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Prof. Zoe LeBlanc. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/is310-computing-humanities/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/is310-computing-humanities/assets/js/lunr/lunr.min.js"></script>
+<script src="/is310-computing-humanities/assets/js/lunr/lunr-store.js"></script>
+<script src="/is310-computing-humanities/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+    window.addEventListener('load', addDarkmodeWidget);
+  }
+  const options = {
+    label: '🌓',
+  }
+  const darkmode = new Darkmode(options);
+  darkmode.showWidget();
+</script> -->
+
+
+  </body>
+</html>

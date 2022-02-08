@@ -1,0 +1,517 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Python At Home Assignment - IS 310 Computing in the Humanities</title>
+<meta name="description" content="Working in pairs or individually, figure out how to use the data types, structures, and methods we discussed to solve these prompts. Save your work in a script, titled lastname_week2.py and upload it to Github before class on Thursday.">
+
+
+  <meta name="author" content="Prof. Zoe LeBlanc">
+  
+  <meta property="article:author" content="Prof. Zoe LeBlanc">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="IS 310 Computing in the Humanities">
+<meta property="og:title" content="Python At Home Assignment">
+<meta property="og:url" content="http://localhost:4001/is310-computing-humanities/materials/intro-python-git/06-python-assignment/">
+
+
+  <meta property="og:description" content="Working in pairs or individually, figure out how to use the data types, structures, and methods we discussed to solve these prompts. Save your work in a script, titled lastname_week2.py and upload it to Github before class on Thursday.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2022-02-07T20:40:57-06:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4001/is310-computing-humanities/materials/intro-python-git/06-python-assignment/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Prof. Zoe LeBlanc",
+      "url": "http://localhost:4001/is310-computing-humanities/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/is310-computing-humanities/feed.xml" type="application/atom+xml" rel="alternate" title="IS 310 Computing in the Humanities Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/is310-computing-humanities/assets/css/main.css">
+<!-- <link rel="stylesheet" href="/is310-computing-humanities/assets/css/main.css" id="theme_source"> -->
+<link rel="shortcut icon" href="/is310-computing-humanities/assets/images/favicon.ico">
+
+<!-- Light mode -->
+<!-- <link rel="stylesheet" href="/is310-computing-humanities/assets/css/main.css"> -->
+
+<!-- Dark mode -->
+<!--  -->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/is310-computing-humanities/">
+          IS 310 Computing in the Humanities
+          <span class="site-subtitle">✨ A course at the intersection of culture and code ✨</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/is310-computing-humanities/schedule/overview/">Schedule</a>
+            </li><li class="masthead__menu-item">
+              <a href="/is310-computing-humanities/assessments/overview">Assessments</a>
+            </li><li class="masthead__menu-item">
+              <a href="/is310-computing-humanities/policies/">Policies</a>
+            </li><li class="masthead__menu-item">
+              <a href="/is310-computing-humanities/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/is310-computing-humanities/materials/getting-started/installation-instructions">Weekly Materials</a>
+            </li></ul>
+        <!--  -->
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Getting Started</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/is310-computing-humanities/materials/getting-started/01-installation-instructions/">Installation Instructions</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/getting-started/02-command-line">Coming Online: Command Line Introduction</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/getting-started/03-command-line-cheatsheet/">Command Line Cheatsheet</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Introduction to Python & Git</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/01-git-github/">Introduction to Git and Github</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/02-beginning-python">Introduction to Python</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/03-python-exercises/">Python In Class Exercises</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/04-python-cheatsheet/">Python Cheatsheet</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/05-python-continued/">Python Fundamentals</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/intro-python-git/06-python-assignment/" class="active">Python At Home Assignment</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">In-Depth Python & Git</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/01-more-python">Advanced Python</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/02-python-assignment">Python Advanced Assignments</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/03-complex-python">Advanced Python: Part 2</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/04-python-classes">Python Classes Cheatsheet</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/05-virtual-environment">Python Virtual Environments</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/advanced-python/07-advanced-git">Advanced Git</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Web Scraping and HTML (More Soon)</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/is310-computing-humanities/materials/webscraping-html/01-intro-webscraping">Introduction to Web Scraping</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Exploratory Data Analysis (More Soon)</span>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Python At Home Assignment">
+    <meta itemprop="description" content="Working in pairs or individually, figure out how to use the data types, structures, and methods we discussed to solve these prompts. Save your work in a script, titled lastname_week2.py and upload it to Github before class on Thursday.">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4001/is310-computing-humanities/materials/intro-python-git/06-python-assignment/" class="u-url" itemprop="url">Python At Home Assignment
+</a>
+          </h1>
+          
+
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>Working in pairs or individually, figure out how to use the data types, structures, and methods we discussed to solve these prompts. Save your work in a script, titled <code class="language-plaintext highlighter-rouge">lastname_week2.py</code> and upload it to Github before class on Thursday.</p>
+
+<ol>
+  <li>Create a Github repository for your work. I would recommend naming it <code class="language-plaintext highlighter-rouge">IS310_assignments</code> or something similar. It will be where you will upload your work for the rest of the semester.</li>
+  <li>Create a data structure to store the table of top DH tools with their year and popularity count (Data from <a href="https://weltliteratur.net/dh-tools-used-in-research/">“DH Tools Used in Research”</a>). Update the data structure to keep a count for overall (that is culminative) popularity of each tool over the five years. Print out the 2015, 2019, and overall values for each tool.</li>
+</ol>
+
+<p>Data:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>2015</th>
+      <th>2016</th>
+      <th>2017</th>
+      <th>2018</th>
+      <th>2019</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Python</td>
+      <td>9</td>
+      <td>22</td>
+      <td>27</td>
+      <td>32</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>8</td>
+      <td>18</td>
+      <td>12</td>
+      <td>6</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Twitter</td>
+      <td>10</td>
+      <td>18</td>
+      <td>26</td>
+      <td>16</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>GitHub</td>
+      <td>2</td>
+      <td>6</td>
+      <td>17</td>
+      <td>5</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Gephi</td>
+      <td>11</td>
+      <td>16</td>
+      <td>14</td>
+      <td>10</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>GeoNames</td>
+      <td>2</td>
+      <td>4</td>
+      <td>3</td>
+      <td>1</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Transkribus</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Excel</td>
+      <td>5</td>
+      <td>9</td>
+      <td>3</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>MySQL</td>
+      <td>0</td>
+      <td>6</td>
+      <td>9</td>
+      <td>5</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/is310-computing-humanities/materials/intro-python-git/05-python-continued/" class="pagination--pager" title="Python Fundamentals 🐍
+">Previous</a>
+    
+    
+      <a href="/is310-computing-humanities/materials/webscraping-html/01-intro-webscraping" class="pagination--pager" title="Introduction to HTML and Web Scraping
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/is310-computing-humanities/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Prof. Zoe LeBlanc. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/is310-computing-humanities/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/is310-computing-humanities/assets/js/lunr/lunr.min.js"></script>
+<script src="/is310-computing-humanities/assets/js/lunr/lunr-store.js"></script>
+<script src="/is310-computing-humanities/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+    window.addEventListener('load', addDarkmodeWidget);
+  }
+  const options = {
+    label: '🌓',
+  }
+  const darkmode = new Darkmode(options);
+  darkmode.showWidget();
+</script> -->
+
+
+  </body>
+</html>

@@ -1,0 +1,100 @@
+# main links
+main:
+  - title: "Schedule"
+    url: /schedule/overview/
+  - title: "Assessments"
+    url: /assessments/overview
+  - title: "Policies"
+    url: /policies/
+  - title: "Blog"
+    url: /blog/
+  - title: "Weekly Materials"
+    url: /materials/getting-started/installation-instructions
+
+assessments:
+  - title: Assessments
+    children:
+      - title: "Assessments"
+        url: /assessments/01-overview
+      - title: "Weekly Assignments"
+        url: /assessments/02-weekly-assessments
+      - title: "Semester Long Project"
+        url: /assessments/03-semester-project
+
+materials:
+  - title: Getting Started
+    children:
+      - title: "Installation Instructions"
+        url: /materials/getting-started/01-installation-instructions/
+      - title: "Coming Online: Command Line Introduction"
+        url: /materials/getting-started/02-command-line
+      - title: "Command Line Cheatsheet"
+        url: /materials/getting-started/03-command-line-cheatsheet/
+  - title: Introduction to Python & Git
+    children:
+      - title: "Introduction to Git and Github"
+        url: /materials/intro-python-git/01-git-github/
+      - title: "Introduction to Python"
+        url: /materials/intro-python-git/02-beginning-python
+      - title: "Python In Class Exercises"
+        url: /materials/intro-python-git/03-python-exercises/
+      - title: "Python Cheatsheet"
+        url: /materials/intro-python-git/04-python-cheatsheet/
+      - title: "Python Fundamentals"
+        url: /materials/intro-python-git/05-python-continued/
+      - title: "Python At Home Assignment"
+        url: /materials/intro-python-git/06-python-assignment/
+  - title: In-Depth Python & Git
+    children:
+      - title: "Advanced Python"
+        url: /materials/advanced-python/01-more-python
+      - title: "Python Advanced Assignments"
+        url: /materials/advanced-python/02-python-assignment
+      - title: "Advanced Python: Part 2"
+        url: /materials/advanced-python/03-complex-python
+      - title: "Python Classes Cheatsheet"
+        url: /materials/advanced-python/04-python-classes
+      - title: "Python Virtual Environments"
+        url: /materials/advanced-python/05-virtual-environment
+      - title: "Advanced Git"
+        url: /materials/advanced-python/07-advanced-git
+  - title: Web Scraping and HTML (More Soon)
+    children:
+      - title: "Introduction to Web Scraping"
+        url: /materials/webscraping-html/01-intro-webscraping
+  - title: Exploratory Data Analysis (More Soon)
+
+
+schedule:
+  - title: Overview
+    children:
+      - title: "Schedule Overview"
+        url: /schedule/overview/
+  - title: January Detailed Activities
+    children:
+      - title: "<b>January 18 🎟</b><br> Introducing Computing in the Humanities"
+        url: /schedule/01-introducing-computing-in-the-humanities/
+      - title: "<b>January 20 🛣</b><br> Starting at The End: Final Projects and Semester Processes"
+        url: /schedule/02-starting-at-the-end-final-projects-and-semester-processes/
+      - title: "<b>January 25 🗂</b><br> Change over Time & Histories of Computing"
+        url: /schedule/03-change-over-time-histories-of-computing/
+      - title: "<b>January 27 ™️</b><br> Version Histories"
+        url: /schedule/04-version-histories/
+  - title: February Detailed Activities
+    children:
+      - title: "<b>February 1 ⚡</b><br> Power Hierarchies & Histories of Data"
+        url: /schedule/05-power-hierachies-and-histories-of-data
+      - title: "<b>February 3 👾</b><br> Programming in the Humanities"
+        url: /schedule/06-programming-in-the-humanities
+      - title:  "<b>February 8 🗃</b><br> Culture as Data & Data Cultures"
+        url:  /schedule/07-culture-as-data-and-data-cultures
+      - title:  "<b>February 10 🧰</b><br> Structuring Data"
+        url: /schedule/08-structuring-data
+      - title:  "<b>February 15 🚨</b><br> Reset & Reflect"
+        url:  /schedule/09-reset-and-reflect
+      - title:  "<b>February 17 🐘</b><br> Culture at Scale & Digital Collections"
+        url: /schedule/10-culture-at-scale-and-digital-collections
+      - title:  "<b>February 22 🕸</b><br> Platforms and Web Culture"
+        url:  /schedule/11-platforms-and-web-cultures
+      - title:  "<b>February 24 🐘</b><br> Culture at Scale & Digital Collections"
+        url: /schedule/10-culture-at-scale-and-digital-collections
