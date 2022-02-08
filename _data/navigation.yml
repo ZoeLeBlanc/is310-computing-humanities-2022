@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Schedule"
-    url: /schedule/00-overview/
+    url: /schedule/00-overview
   - title: "Assessments"
     url: /assessments/01-overview
   - title: "Policies"
@@ -69,7 +69,7 @@ schedule:
   - title: Overview
     children:
       - title: "Schedule Overview"
-        url: /schedule/00-overview/
+        url: /schedule/00-overview
   - title: January Detailed Activities
     children:
       - title: "<b>January 18 🎟</b><br> Introducing Computing in the Humanities"
