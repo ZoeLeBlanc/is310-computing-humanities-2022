@@ -34,7 +34,7 @@
 
 
 
-  <meta property="article:published_time" content="2022-02-08T09:11:43-06:00">
+  <meta property="article:published_time" content="2022-02-10T10:38:51-06:00">
 
 
 
@@ -133,7 +133,7 @@
             </li><li class="masthead__menu-item">
               <a href="/is310-computing-humanities/assessments/01-overview">Assessments</a>
             </li><li class="masthead__menu-item">
-              <a href="/is310-computing-humanities/policies/">Policies</a>
+              <a href="/is310-computing-humanities/policies">Policies</a>
             </li><li class="masthead__menu-item">
               <a href="/is310-computing-humanities/blog/">Blog</a>
             </li><li class="masthead__menu-item">
@@ -196,6 +196,8 @@
           
             <li><a href="/is310-computing-humanities/materials/getting-started/03-command-line-cheatsheet">Command Line Cheatsheet</a></li>
           
+            <li><a href="/is310-computing-humanities/materials/advanced-python/04-markdown-resources">Markdown Resources</a></li>
+          
         </ul>
         
       </li>
@@ -220,6 +222,8 @@
           
             <li><a href="/is310-computing-humanities/materials/intro-python-git/06-python-assignment">Python At Home Assignment</a></li>
           
+            <li><a href="/is310-computing-humanities/materials/getting-started/07-github-workflows">Github Workflows</a></li>
+          
         </ul>
         
       </li>
@@ -238,11 +242,9 @@
           
             <li><a href="/is310-computing-humanities/materials/advanced-python/03-complex-python">Advanced Python: Part 2</a></li>
           
-            <li><a href="/is310-computing-humanities/materials/advanced-python/04-python-classes">Python Classes Cheatsheet</a></li>
+            <li><a href="/is310-computing-humanities/materials/advanced-python/04-virtual-environment">Python Virtual Environments</a></li>
           
-            <li><a href="/is310-computing-humanities/materials/advanced-python/05-virtual-environment">Python Virtual Environments</a></li>
-          
-            <li><a href="/is310-computing-humanities/materials/advanced-python/06-libraries-assignment">Python Libraries Assignment</a></li>
+            <li><a href="/is310-computing-humanities/materials/advanced-python/05-libraries-assignment">Python Libraries Assignment</a></li>
           
             <li><a href="/is310-computing-humanities/materials/advanced-python/07-advanced-git">Advanced Git</a></li>
           
@@ -259,6 +261,8 @@
         <ul>
           
             <li><a href="/is310-computing-humanities/materials/webscraping-html/01-intro-webscraping" class="active">Introduction to Web Scraping</a></li>
+          
+            <li><a href="/is310-computing-humanities/materials/webscraping-html/02-webscraping-assignment">Web Scraping Assignment</a></li>
           
         </ul>
         
@@ -306,7 +310,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#whats-html">What’s HTML?</a></li><li><a href="#introduction-to-web-scraping-in-python">Introduction to Web Scraping in Python</a></li></ul>
+              <ul class="toc__menu"><li><a href="#whats-html">What’s HTML?</a></li><li><a href="#introduction-to-web-scraping-in-python">Introduction to Web Scraping in Python</a><ul><li><a href="#what-is-web-scraping">What is Web Scraping?</a></li><li><a href="#so-how-do-we-scrape-the-web">So how do we scrape the web?</a></li><li><a href="#quick-assignment">Quick Assignment</a></li></ul></li><li><a href="#requests-and-the-web">Requests and the Web</a><ul><li><a href="#what-is-the-web">What is the Web?</a></li></ul></li><li><a href="#what-is-http">What is HTTP?</a><ul><li><a href="#requesting-and-souping-humanist">Requesting and Souping Humanist</a></li></ul></li></ul>
 
             </nav>
           </aside>
@@ -315,35 +319,70 @@
 
 <h2 id="whats-html">What’s HTML?</h2>
 
-<p>“HTML (Hypertext Markup Language) is not a programming language; it is a markup language used to tell your browser how to structure the web pages you visit. It can be as complicated or as simple as the web developer wishes it to be. HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of the content to make it appear or act a certain way. The enclosing tags can make a bit of content into a hyperlink to link to another page on the web, italicize words, and so on.”</p>
+<p>According to the <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#what_is_html">Mozilla website</a>,</p>
+<blockquote>
+  <p>“HTML (Hypertext Markup Language) is not a programming language; it is a markup language used to tell your browser how to structure the web pages you visit. It can be as complicated or as simple as the web developer wishes it to be. HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of the content to make it appear or act a certain way. The enclosing tags can make a bit of content into a hyperlink to link to another page on the web, italicize words, and so on.”</p>
+</blockquote>
 
 <p><em>Wondering what a Markup Language is?</em></p>
 
 <p>From <a href="https://en.wikipedia.org/wiki/Markup_language">handy Wikipedia</a>, “a markup language is a system for annotating a document in a way that is syntactically distinguishable from the text, meaning when the document is processed for display, the markup language is not shown, and is only used to format the text.”</p>
 
 <p><img src="https://image.slidesharecdn.com/2015-08-15-datamanagementsrs-150817155314-lva1-app6891/95/research-data-management-in-the-humanities-and-social-sciences-15-638.jpg" alt="TEI" />
-So for example the popular digital humanities project, TEI (Text Encoding Initiative) is an example of a markup language.</p>
+So for example many digital humanities projects use TEI (Text Encoding Initiative), which is an example of a markup language.</p>
 
-<p>Read through this <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#What_is_HTML">introduction from Mozilla on HTML</a>, if you have any questions or get stuck feel free to Slack the instructor.</p>
+<p><em>So what is HTML, actually?</em></p>
 
-<hr />
+<p>One key thing to understand is that when you visit a website, you are actually looking at a document (not identical but similar to documents like in the Google Docs or Word document sense). The document in this case is an HTML document, but the principle is essentially the same.</p>
 
-<p><em>So what is HTML?</em></p>
+<p>So while in Google Docs, you can write text, in HTML documents, you can also write HTML to help structure how that text appears on the screen.</p>
 
-<p>HTML consists of a series of <strong>tags</strong>. Tags have a name, a series of key/value pairs called <strong>attributes</strong>, and some textual content. Attributes are optional.</p>
+<p>For example, when we write in Markdown, we use <code class="language-plaintext highlighter-rouge">#</code> to indicate that the text is a heading. A similar principle applies to HTML.</p>
 
-<p>Let’s try writing an html file. Create a file in your workspace called <code class="language-plaintext highlighter-rouge">first_page.html</code> (remember to use <code class="language-plaintext highlighter-rouge">touch</code>). Open the file in your editor (VSCode or whatever you’re using) and add the following code:</p>
+<p>But rather than symbols, HTML consists of a series of <strong>tags</strong>. Tags have a name, a series of key/value pairs called <strong>attributes</strong>, and some textual content. Attributes are optional.</p>
+
+<p>Let’s try an example. Say you wanted to create a website. To start off you might write some very basic text:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>My first page
+</code></pre></div></div>
+
+<p>We can actually try rendering this in a webpage by creating a new HTML document. Create a file in your workspace called <code class="language-plaintext highlighter-rouge">first_page.html</code> (remember to use <code class="language-plaintext highlighter-rouge">touch</code>). Open the file in your editor (VSCode or whatever you’re using) and add the text above. Then save it and open the file in your browser. You should see the text we wrote!</p>
+
+<p>Now in that same file, try altering the code to include some HTML tags.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>My first page!<span class="nt">&lt;/p&gt;</span>
 </code></pre></div></div>
 
-<p>Save it and open the file in your Browser (probably Chrome), what do you see? What happened to our element’s tags? Let’s right click on our page and select <code class="language-plaintext highlighter-rouge">inspect</code>.</p>
+<p>Save it and open the file in your Browser, what do you see? Notice anything different? Probably not!</p>
+
+<p>But we added those tags? So how can we see them…</p>
+
+<p>The trick is to inspect your webpage. To do that let’s right click on our page and select <code class="language-plaintext highlighter-rouge">inspect</code>.</p>
 
 <p><img src="/is310-computing-humanities/assets/images/inspect_pg.png" alt="inspect" /></p>
 
-<p>What we’re using is called the Chrome DevTools Console (<a href="https://developers.google.com/web/tools/chrome-devtools/console/">you can find more info here</a> and instructions for <a href="https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Open_the_Inspector">Firefox here</a>). What we’re seeing is called the <strong>source code</strong>.</p>
+<p>What we’re using is called the Developer Tools Console (<a href="https://developers.google.com/web/tools/chrome-devtools/console/">you can find more info on Chrome’s version here</a> and instructions for <a href="https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Open_the_Inspector">Firefox here</a>). What we’re seeing is called the <strong>source code</strong>.</p>
 
-<p>So here’s a simple example, using the HTML &lt;p&gt; tag (p means “paragraph”). This example has just one tag in it: a &lt;p&gt; tag. The source code for a tag has two parts, its opening tag (&lt;p&gt;) and its closing tag (&lt;/p&gt;). In between the opening and closing tag, you see the tag’s contents (in this case, the text says “My first page!”).</p>
+<p>Now we can see that our tags do exist. But what exactly are they doing and why do they look like that?</p>
+
+<p><img src="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started/grumpy-cat-small.png" alt="tags" /></p>
+
+<p>This diagram is from that same Mozilla docs, where they describe the anatomy of an “HTML element”.</p>
+
+<blockquote>
+  <p>The anatomy of our element is:</p>
+
+  <ul>
+    <li>The opening tag: This consists of the name of the element (in this example, p for paragraph), wrapped in opening and closing angle brackets. This opening tag marks where the element begins or starts to take effect. In this example, it precedes the start of the paragraph text.</li>
+    <li>The content: This is the content of the element. In this example, it is the paragraph text.</li>
+    <li>The closing tag: This is the same as the opening tag, except that it includes a forward slash before the element name. This marks where the element ends. Failing to include a closing tag is a common beginner error that can produce peculiar results.
+The element is the opening tag, followed by content, followed by the closing tag.</li>
+  </ul>
+</blockquote>
+
+<p>That’s a lot of information, so let’s break it down further in our example.</p>
+
+<p>In our HTML page, we created an HTML element using the HTML &lt;p&gt; tag (p means “paragraph”). This example has just one tag in it: a &lt;p&gt; tag. The source code for a tag has two parts, its opening tag (&lt;p&gt;) and its closing tag (&lt;/p&gt;). In between the opening and closing tag, you see the tag’s contents (in this case, the text says “My first page!”).</p>
 
 <p>Let’s take a look at some of the more common HTML tags that we can use to create HTML elements <a href="https://www.w3schools.com/tags/ref_byfunc.asp">https://www.w3schools.com/tags/ref_byfunc.asp</a></p>
 
@@ -352,7 +391,27 @@ So for example the popular digital humanities project, TEI (Text Encoding Initia
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h1&gt;</span>My first page!<span class="nt">&lt;/h1&gt;</span>
 </code></pre></div></div>
 
-<p>Remember HTML elements can also have <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#Attributes">attributes</a>. Let’s try using the <code class="language-plaintext highlighter-rouge">anchor</code> tag and <code class="language-plaintext highlighter-rouge">href</code> attribute to create an HTML element that links to <code class="language-plaintext highlighter-rouge">https://cdh.princeton.edu/</code></p>
+<p>Great now what if we wanted to add a link so that you could click on that heading and go to another page (say the iSchool home page <a href="https://ischool.illinois.edu/">https://ischool.illinois.edu/</a>)?</p>
+
+<p>Well then we need to add an <code class="language-plaintext highlighter-rouge">attribute</code>.</p>
+
+<p><img src="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started/grumpy-cat-attribute-small.png" alt="attributes" /></p>
+
+<p>This diagram is also from the Mozilla docs and you can read more about how HTML elements can also have <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#Attributes">attributes here</a>. Some of the guidelines for using attributes are:</p>
+
+<blockquote>
+  <p>Attributes contain extra information about the element that won’t appear in the content. In this example, the class attribute is an identifying name used to target the element with style information.</p>
+
+  <p>An attribute should have:</p>
+
+  <ul>
+    <li>A space between it and the element name. (For an element with more than one attribute, the attributes should be separated by spaces too.)</li>
+    <li>The attribute name, followed by an equal sign.</li>
+    <li>An attribute value, wrapped with opening and closing quote marks.</li>
+  </ul>
+</blockquote>
+
+<p>Let’s try using the <code class="language-plaintext highlighter-rouge">anchor</code> tag and <code class="language-plaintext highlighter-rouge">href</code> attribute to create an HTML element that links to <code class="language-plaintext highlighter-rouge">https://ischool.illinois.edu/</code></p>
 
 <p>You can find a list of HTML attributes here <a href="https://www.w3schools.com/tags/ref_attributes.asp">https://www.w3schools.com/tags/ref_attributes.asp</a></p>
 
@@ -378,19 +437,193 @@ So for example the popular digital humanities project, TEI (Text Encoding Initia
 
 <p>The <code class="language-plaintext highlighter-rouge">&lt;ul&gt;</code> tag (ul stands for <strong>unordered list</strong>) in this example has three other <code class="language-plaintext highlighter-rouge">&lt;li&gt;</code> tags inside of it (li stands for <strong>list item</strong>). The <code class="language-plaintext highlighter-rouge">&lt;ul&gt;</code> tag is said to be the <strong>parent</strong> of the <code class="language-plaintext highlighter-rouge">&lt;li&gt;</code> tags, and the <code class="language-plaintext highlighter-rouge">&lt;li&gt;</code> tags are the <strong>children</strong> of the <code class="language-plaintext highlighter-rouge">&lt;ul&gt;</code> tag. All tags grouped under a particular parent tag are called <strong>siblings.</strong></p>
 
-<p><em>HTML’s shortcomings</em></p>
+<p><a href="https://github.com/aparrish/dmep-python-intro/blob/master/scraping-html.ipynb"><em>HTML’s shortcomings by Alison Parrish</em></a></p>
 
-<p>HTML documents are intended to add <strong>markup</strong> to text to add information that allows browsers to display the text in different ways—e.g., HTML markup might tell the browser to make the font of the text a particular size, or to position it in a particular place on the screen.</p>
+<blockquote>
+  <p>HTML documents are intended to add <strong>markup</strong> to text to add information that allows browsers to display the text in different ways—e.g., HTML markup might tell the browser to make the font of the text a particular size, or to position it in a particular place on the screen.</p>
+</blockquote>
 
-<p>Because the primary purpose of HTML is to change the appearance of text, HTML markup usually does not tell us anything useful about what the text means, or what kind of data it contains. When you look at a web page in the browser, it might appear to contain a list of newspaper articles, or a table with birth rates, or a series of names with associated biographies, or whatever. But that’s information that we get, as humans, from reading the page. There’s (usually) no easy way to extract this information with a computer program.</p>
+<blockquote>
+  <p>Because the primary purpose of HTML is to change the appearance of text, HTML markup usually does not tell us anything useful about what the text means, or what kind of data it contains. When you look at a web page in the browser, it might appear to contain a list of newspaper articles, or a table with birth rates, or a series of names with associated biographies, or whatever. But that’s information that we get, as humans, from reading the page. There’s (usually) no easy way to extract this information with a computer program.</p>
+</blockquote>
 
-<p>HTML is also notoriously messy—web browsers are very forgiving of syntax errors and other irregularities in HTML (like mismatched or unclosed tags). For this reason, we need special libraries to parse HTML into data structures that our Python programs can use, libraries that can make a “good guess” about what the structure of an HTML document is, even when that structure is written incorrectly or inconsistently.</p>
+<blockquote>
+  <p>HTML is also notoriously messy—web browsers are very forgiving of syntax errors and other irregularities in HTML (like mismatched or unclosed tags). For this reason, we need special libraries to parse HTML into data structures that our Python programs can use, libraries that can make a “good guess” about what the structure of an HTML document is, even when that structure is written incorrectly or inconsistently.</p>
+</blockquote>
+
+<p>For more information, read through this <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#What_is_HTML">introduction from Mozilla on HTML</a>, if you have any questions or get stuck feel free to Slack the instructor.</p>
 
 <h2 id="introduction-to-web-scraping-in-python">Introduction to Web Scraping in Python</h2>
 
 <p>Let’s install our required packages. If you haven’t already, check out the instructions for installing a <a href="/is310-computing-humanities/materials/advance-python/05-virtual-environment">virtual environment</a>.</p>
 
-<p>Complete Jeri Wieringa, “Intro to Beautiful Soup,” The Programming Historian 1 (2012), <a href="https://programminghistorian.org/en/lessons/intro-to-beautiful-soup">https://programminghistorian.org/en/lessons/intro-to-beautiful-soup</a>. If you have questions or get stuck, please Slack the instructor.</p>
+<p>We previously discussed Python libraries when we talked about classes and file input and outputs, but let’s dig in a bit deeper.</p>
+
+<ul>
+  <li>Library: There’s a lot of different definitions for this term, but most generally you can think of this as a collection of software that’s directly used by other software. Most often, this will be a generalizable piece of logic that is useful to bundle separately so that other, unrelated pieces of software can use it. Because it’s an informal term in Python and not a specific, technical one, it’s more useful to think about libraries in terms of how code is organized. Used in this way, the concept of “software libraries” spans many different programing languages and development contexts: we have Python libraries, C++ libraries, Javascript libraries, operating system libraries, etc.</li>
+  <li>Let’s consider libraries that we’ve used. The <a href="https://docs.python.org/3/library/">Python Standard Library</a> is the most obvious example which encompasses many different purposes and packages (more on that later), but is unified in that it is included in all Python installations so that Python code that’s written using the Standard Library will run on any compatible Python environment of the expected version. Parts of the Standard Library that we’ve used before include packages like <a href="https://docs.python.org/3/library/pathlib.html">pathlib</a>.</li>
+  <li>There are also third-party libraries that people build in Python, which can be found on The Python Package Index (PyPI) <a href="https://pypi.org/">https://pypi.org/</a>. These are usually less expansive than the Standard Library, but can be useful because they are written for specialized tasks. This week, we’ll take a look at <a href="https://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a>, which is analogous in scope to packages like pathlib. In fact, third party libraries are often organized into a single package. A library like Beautiful Soup can best be thought of in terms of purpose: you want to accomplish the a particular, common task like scraping a website and Beautiful Soup helps accomplish it.</li>
+  <li>Package: A package is a formal term in the Python context. It’s a specific organization of code which all lives in a single directory. Libraries sometimes (often) consist of a single package (e.g. PathLib or BS4), so the term is sometimes (often) used interchangeably. Packages are the basic unit by which we install and use libraries. So when we type <code class="language-plaintext highlighter-rouge">pip3 install beautifulsoup4</code> into the terminal, we’re installing the beautifulsoup4 package.</li>
+</ul>
+
+<p>Here, confusingly, the name of the package on PyPI (beautifulsoup4) doesn’t match the actual Python code package (bs4). Always <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">read the docs</a>!</p>
+
+<p>We use Beautiful Soup in our Python code with code that looks like this:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">bs4</span>
+<span class="n">soup</span> <span class="o">=</span> <span class="n">bs4</span><span class="p">.</span><span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">html_doc</span><span class="p">,</span> <span class="s">'html.parser'</span><span class="p">)</span>
+<span class="c1"># 'bs4' is the package, 'BeautifulSoup' is a class defined inside the package definition
+</span></code></pre></div></div>
+
+<p>or</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+<span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">html_doc</span><span class="p">,</span> <span class="s">'html.parser'</span><span class="p">)</span>
+<span class="c1"># this code is equivalent
+</span></code></pre></div></div>
+
+<p>We can also use the star symbol, which often means “all” or “any”, to import all the modules in the package:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">html_doc</span><span class="p">,</span> <span class="s">'html.parser'</span><span class="p">)</span>
+<span class="c1"># imports * imports all modules in a package
+</span></code></pre></div></div>
+
+<p>In these examples, we can either the <code class="language-plaintext highlighter-rouge">bs4</code> <em>package</em> directly or, using the <code class="language-plaintext highlighter-rouge">from</code> keyword, import <em>modules</em> from with that package.</p>
+
+<p>Incidentally, it’s almost always considered poor practice to use the <code class="language-plaintext highlighter-rouge">from x import *</code> form. We see in the example immediately above that, for people just reading through our code, there’s no obvious connection between the bs4 package and the BeautifulSoup class. It would take some deeper understanding of BeautifulSoup or at least chasing down some its documentation</p>
+
+<h3 id="what-is-web-scraping">What is Web Scraping?</h3>
+
+<p>Web scraping is extracting data from web pages, using the syntax of a web page. It’s great for compiling datasets when you don’t already have them in a database somewhere. A good supplemental resource for web scraping is <a href="https://programminghistorian.org/en/lessons/intro-to-beautiful-soup">Intro to Beautiful Soup by Jeri Wieringa</a> at The Programming Historian or Melanie Walsh’s <a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/04-Data-Collection/02-Web-Scraping-Part1.html#">Chapter on Web Scraping</a></p>
+
+<h3 id="so-how-do-we-scrape-the-web">So how do we scrape the web?</h3>
+
+<p>In Python, there’s more than a few different libraries we could use, but let’s continue to focus on Beautiful Soup. We’ve already installed our required packages, so let’s check that we did it correctly.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">bs4</span>
+<span class="k">print</span><span class="p">(</span><span class="n">bs4</span><span class="p">.</span><span class="n">__version__</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Looks good so now let’s take a look at the page we’ll be scraping, <a href="https://humanist.kdl.kcl.ac.uk/">https://humanist.kdl.kcl.ac.uk/</a>. This is a web archive of a Digital Humanities Listserv that was started in the 1980s and continues to today. Save that page to a file called <code class="language-plaintext highlighter-rouge">humanist_homepage.html</code> in the same directory as this notebook.</p>
+
+<p>Now we can try scraping that page!</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+<span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="s">"humanist_homepage.html"</span><span class="p">),</span> <span class="n">features</span><span class="o">=</span><span class="s">"lxml"</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">soup</span><span class="p">.</span><span class="n">prettify</span><span class="p">())</span>
+</code></pre></div></div>
+
+<p>You can see we now have the full html page in all it’s weirdly organized HTML glory.</p>
+
+<p>Now let’s figure out how to use BeautifulSoup by going to the <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">documentation for the library</a></p>
+
+<p>We can see here that <code class="language-plaintext highlighter-rouge">soup</code> is an instance of a <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/#beautifulsoup">bs4.BeautifulSoup class</a>. This is an object that represents the whole of the document. The other important class we will use is the <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/#tag">Tag class</a>, which represents an html tag. These two classes actually share many of the same methods: we can use <code class="language-plaintext highlighter-rouge">get_text()</code> on either a BeautifulSoup or a Tag to extract just the text that they contain.</p>
+
+<p>We can also use the <code class="language-plaintext highlighter-rouge">find_all()</code> method that they share to search with either the whole document or within the tag. Remember that tags can be nested within each other.</p>
+
+<p>Let’s try and get all the links on our webpage.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">links</span> <span class="o">=</span> <span class="n">soup</span><span class="p">.</span><span class="n">find_all</span><span class="p">(</span><span class="s">'a'</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">link</span> <span class="ow">in</span> <span class="n">links</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">link</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>We can see that we are getting lots of different links here. Everything from the Home link (which is usually just a <code class="language-plaintext highlighter-rouge">/</code> on most websites) to links to all the volumes.</p>
+
+<p>So now we need to decide what we want to keep and what we don’t 🤔. Let’s take a look at the basic structure of the html file. We can do this easily using the development console built into most popular browsers. In Chrome or Firefox, right clicking (or control-clicking) and choosing “Inspect” or “Inspect Element”. We can see that the html is pretty basic, but it does seem like there’s some patterns for the links.</p>
+
+<h3 id="quick-assignment">Quick Assignment</h3>
+
+<p>How could we get just the Volume links? We can use the <code class="language-plaintext highlighter-rouge">find_all()</code> method to get all the links in the document and then use <code class="language-plaintext highlighter-rouge">get_text()</code> to get the text of each link.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">links</span> <span class="o">=</span> <span class="n">soup</span><span class="p">.</span><span class="n">find_all</span><span class="p">(</span><span class="s">'a'</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">link</span> <span class="ow">in</span> <span class="n">links</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">link</span><span class="p">)</span>
+    <span class="c1">## Code goes here
+</span></code></pre></div></div>
+
+<h2 id="requests-and-the-web">Requests and the Web</h2>
+
+<p>We are now scraping a web page 🥳!! But what if we wanted to scrape more than one? Saving each manually would get tiring really quickly!</p>
+
+<p>Instead we can use another Python library called <code class="language-plaintext highlighter-rouge">requests</code> to programmatically get each web page. Try installing and then importing requests.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">requests</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">"https://humanist.kdl.kcl.ac.uk/"</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="n">status_code</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="n">headers</span><span class="p">)</span>
+</code></pre></div></div>
+<p>So what is this information exactly?</p>
+
+<p>Well the first line is the status code of our request and the second line is the headers that are returned with the request. This information is important because this is how we might know if we get an error when we try to request a web page. However, to understand what this means we need a quick introduction into how the web and HTTP works.</p>
+
+<p>If you already know how the Web works then feel free to skip this next section. Otherwise read on!</p>
+
+<h3 id="what-is-the-web">What is the Web?</h3>
+
+<p><a href="https://en.wikipedia.org/wiki/World_Wide_Web"><strong>From Wikipedia:</strong></a>
+“The World Wide Web (WWW), commonly known as the Web, is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as <a href="https://www.example.com/">https://www.example.com/</a>), which may be interlinked by hypertext, and are accessible over the Internet.[1][2] The resources of the WWW are transferred via the Hypertext Transfer Protocol (HTTP) and may be accessed by users by a software application called a web browser and are published by a software application called a web server.”</p>
+
+<p><img src="https://2.bp.blogspot.com/_4l9wMe5bbSk/TMpvwVcMT3I/AAAAAAAAAK4/sCEjRQCkF1o/s1600/Client+Server+communication.GIF" alt="http" /></p>
+
+<p><em>What does this mean exactly?</em></p>
+
+<p>When we type a url for a webpage (say google.com), we’re actually sending an <strong>HTTP request</strong> to a <strong>server</strong> that hosts the actual HTML files and data. If the server decides that our request is ok (200), then it will give us access to the webpage.</p>
+
+<p><img src="https://user-images.githubusercontent.com/2938045/56276896-af93b580-6103-11e9-9885-74981a49a5ae.png" alt="404 page" /></p>
+
+<p>If you’ve ever seen an error message when you go to a webpage saying the page doesn’t exist, that means that you received a 404 error, which is a type of status code you get back from an HTTP request.</p>
+
+<h2 id="what-is-http">What is HTTP?</h2>
+
+<p><strong>Courtesy of <a href="https://jvns.ca/blog/2019/09/12/new-zine-on-http/">Julia Evans’ Zine</a></strong></p>
+
+<p><img src="https://pbs.twimg.com/media/EAiEGSgXsAELERE?format=jpg&amp;name=large" alt="What is HTTP?" /></p>
+
+<p>This comic explains a bit more in depth what is comprised of an HTTP request. We also want to have a sense of what types of status codes we can get back from a request.</p>
+
+<p><img src="https://pbs.twimg.com/media/D-bI-xyWkAAY0Qb?format=jpg&amp;name=large" alt="HTTP Status Codes" /></p>
+
+<p>Finally, in our example we used the <code class="language-plaintext highlighter-rouge">GET</code> method when calling a webpage (using <code class="language-plaintext highlighter-rouge">request.get()</code>), but there’s multiple methods that we can use to send data across the web.</p>
+
+<p><img src="https://pbs.twimg.com/media/EB8dt0CWsAAET4b?format=jpg&amp;name=large" alt="HTTP Request Methods" /></p>
+
+<p><img src="https://pbs.twimg.com/media/ECvlQX1W4AE9EgP?format=jpg&amp;name=large" alt="How to learn more" /></p>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">More information about HTTP from Mozilla Docs</a></p>
+
+<p>If you’re interested in the longer history of the internet checkout this timeline from the Computer History Museum, covering the history from the 1960s to the 1990s <a href="https://www.computerhistory.org/internethistory/">https://www.computerhistory.org/internethistory/</a>.</p>
+
+<h3 id="requesting-and-souping-humanist">Requesting and Souping Humanist</h3>
+
+<p>Alright so now we know how the web works in a broad sense, but let’s jump back into our example and into <a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/04-Data-Collection/02-Web-Scraping-Part1.html#beautifulsoup">this section of the Cultural Analtyics textbook</a>.</p>
+
+<p>Prior to this section, Melanie has this code block that fetches the text of a webpage:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">scrape_screenplay</span><span class="p">(</span><span class="n">url</span><span class="p">):</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+    <span class="n">html_string</span> <span class="o">=</span> <span class="n">response</span><span class="p">.</span><span class="n">text</span>
+    <span class="k">return</span> <span class="n">html_string</span>
+</code></pre></div></div>
+
+<p>Let’s try out <code class="language-plaintext highlighter-rouge">response.text</code> with our code block.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="n">text</span><span class="p">)</span>
+</code></pre></div></div>
+<p>Notice that this looks familiar 🤔! It’s our HTML from the webpage that we had previously downloaded and we can double check by passing it into BeautifulSoup.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="n">text</span><span class="p">,</span> <span class="s">"html.parser"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">soup</span><span class="p">.</span><span class="n">prettify</span><span class="p">())</span>
+</code></pre></div></div>
+
+<p>Wonderful! Now we could for example loop through and scrape the text of each of the Volumes on the Humanist Listserv site.</p>
+
+<p><em>Have any questions or issues? Either post it to Discord or message the instructor.</em></p>
 
         
       </section>
@@ -409,11 +642,12 @@ So for example the popular digital humanities project, TEI (Text Encoding Initia
       
   <nav class="pagination">
     
-      <a href="/is310-computing-humanities/materials/intro-python-git/06-python-assignment" class="pagination--pager" title="Python At Home Assignment
+      <a href="/is310-computing-humanities/materials/getting-started/07-github-workflows" class="pagination--pager" title="Github Workflows
 ">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="/is310-computing-humanities/materials/webscraping-html/02-webscraping-assignment" class="pagination--pager" title="Web Scraping Assignment
+">Next</a>
     
   </nav>
 

@@ -35,28 +35,16 @@ var store = [{
         "url": "/is310-computing-humanities/materials/advanced-python/03-complex-python",
         "teaser": null
       },{
-        "title": "Python Classes Cheatsheet",
-        "excerpt":"Subclassing Previously, we used strings to define an animal. Let’s be more detailed in what an animal is by defining an Animal class. class Animal: def __init__(self, name = None, species = None): self.name = name self.species = species self.speed = 0 self.legs = 0 def get_name(self): return self.name def...","categories": [],
-        "tags": [],
-        "url": "/is310-computing-humanities/materials/advanced-python/python-classes/",
-        "teaser": null
-      },{
         "title": "Python Virtual Environments",
         "excerpt":"If you already have experience with virtual environments and have a preferred setup, feel free to keep using what you have What is virtual environment? This past week we started exploring Python libraries that ship with Python when you install it on your computer, but that still need to be...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/advanced-python/05-virtual-environment",
+        "url": "/is310-computing-humanities/materials/advanced-python/04-virtual-environment",
         "teaser": null
       },{
         "title": "Python Libraries Assignment",
-        "excerpt":"Assignment for next week Choose one of the packages we’ll be looking at later in the class: Pandas https://pandas.pydata.org/ Altair Spacy Scikit-Learn Networkx OR select one you might use in your final project Install it into your virtual environment following instructions Read through some of the documentation. See if you...","categories": [],
+        "excerpt":"Choose one of the packages we’ll be looking at later in the class: Pandas https://pandas.pydata.org/ Altair Spacy Scikit-Learn Networkx OR select one you might use in your final project Install it into your virtual environment following instructions Read through some of the documentation. See if you can find one Class...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/advanced-python/06-libraries-assignment",
-        "teaser": null
-      },{
-        "title": "Advanced Git",
-        "excerpt":" ","categories": [],
-        "tags": [],
-        "url": "/is310-computing-humanities/materials/advanced-python/07-advanced-git",
+        "url": "/is310-computing-humanities/materials/advanced-python/05-libraries-assignment",
         "teaser": null
       },{
         "title": "Getting Up and Running: Installation Instructions 💨 ",
@@ -75,6 +63,12 @@ var store = [{
         "excerpt":"Command Line Cheatsheet for Windows SHORTCUTS Command Description Tab Auto-complete files and folder names Up Arrow Scroll through previous commands Ctrl + A Go to the beginning of the line you are currently typing on Ctrl + E Go to the end of the line you are currently typing on...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/getting-started/03-command-line-cheatsheet",
+        "teaser": null
+      },{
+        "title": "Markdown Resources",
+        "excerpt":"If you are new to using Markdown or have some questions about some syntax we have been using, I highly recommend you take a look at the following resources. Sarah Simpkin, “Getting Started with Markdown,” Programming Historian 4 (2015), https://doi.org/10.46430/phen0046. Then for more depth, you could also check out the...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/advanced-python/04-markdown-resources",
         "teaser": null
       },{
         "title": "Introduction to Git 🌳 and GitHub 📁",
@@ -108,15 +102,27 @@ var store = [{
         "teaser": null
       },{
         "title": "Python At Home Assignment",
-        "excerpt":"Working in pairs or individually, figure out how to use the data types, structures, and methods we discussed to solve these prompts. Save your work in a script, titled lastname_week2.py and upload it to Github before class on Thursday. Create a Github repository for your work. I would recommend naming...","categories": [],
+        "excerpt":"Working in pairs or individually, figure out how to use the data types, structures, and methods we discussed to solve these prompts. Save your work in a script, titled lastname_first_python_assignment.py and upload it to Github. Create a Github repository for your work. I would recommend naming it IS310_assignments or something...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/intro-python-git/06-python-assignment",
         "teaser": null
       },{
+        "title": "Github Workflows",
+        "excerpt":"Authentication For those that are still having issues using Github locally through their terminal, I would highly recommend that you set up ssh authentication. Rather than having to add a personal access token for each repository, SSH is tied to your Github account and authenticates your local computer so that...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/getting-started/07-github-workflows",
+        "teaser": null
+      },{
         "title": "Introduction to HTML and Web Scraping",
-        "excerpt":"What’s HTML? “HTML (Hypertext Markup Language) is not a programming language; it is a markup language used to tell your browser how to structure the web pages you visit. It can be as complicated or as simple as the web developer wishes it to be. HTML consists of a series...","categories": [],
+        "excerpt":"What’s HTML? According to the Mozilla website, “HTML (Hypertext Markup Language) is not a programming language; it is a markup language used to tell your browser how to structure the web pages you visit. It can be as complicated or as simple as the web developer wishes it to be....","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/webscraping-html/01-intro-webscraping",
+        "teaser": null
+      },{
+        "title": "Web Scraping Assignment",
+        "excerpt":"   Finish our first exercise by figuring out to scrape the text from at least five of the volumes on the Humanist Listserv.   Save each volume’s text in a file.   Push up your code and data to your Github repository.  ","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/webscraping-html/02-webscraping-assignment",
         "teaser": null
       },{
         "title": "Draft Post",
@@ -201,5 +207,107 @@ var store = [{
         "excerpt":"Class Activities      Ian Milligan “Welcome to the Web: The Online Community of GeoCities During The Early Years of The World Wide Web” https://ianmilligan.ca/2017/03/14/new-chapter-welcome-to-the-web-the-online-community-of-geocities-during-the-early-years-of-the-world-wide-web/   Introduction to Web Scraping and HTML   Additional Materials      Jeffrey Veen, “A Brief History of HTML” Wired. April 28, 1997 https://www.wired.com/1997/04/a-brief-history-of-html/  ","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/12-markup-and-scrape-off",
+        "teaser": null
+      },{
+        "title": "Crowdsourcing Culture & Managing Metadata 💬",
+        "excerpt":"Class Activities Read Yanni Alexander Loukissas, All Data Are Local; Chapter 3, “Collecting Infrastructures” available on Canvas/Google Drive and explore Digital Public Library of America https://dp.la/ Review Web Scraping and start looking at APIs Additional Materials Hannah Alpert Adams “Machine Reading the Primeros Libros” http://www.digitalhumanities.org/dhq/vol/10/4/000268/000268.html Ryan Cordell, “‘Q i-jtb the...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/13-crowdsourcing-culture-and-managing-metadata",
+        "teaser": null
+      },{
+        "title": "GETting Data 🚦",
+        "excerpt":"Class Activities      “Your Apps Know Where You Were Last Night, and They’re Not Keeping It Secret.” The New York Times, December 10, 2018, sec. Business https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html   Maciej Cegłowski “Haunted by Data” Idle Words October 1 2015 https://idlewords.com/talks/haunted_by_data.htm   Introduction to working with APIs  ","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/14-getting-data",
+        "teaser": null
+      },{
+        "title": "T(r)ending & Cleaning 🏡",
+        "excerpt":"Class Activities DUE Submit your final project proposal Karl W. Broman and Kara H. Woo, “Data Organization in Spreadsheets,” American Statistician 72, no. 1 (2018): 2–10, https://doi.org/10.1080/00031305.2017.1375989 Katie Rawson and Trevor Muñoz, “Against Cleaning”, Curating Menus, 7 July, 2016. http://curatingmenus.org/articles/against-cleaning/ Introduction to Pandas Additional Materials Scott B. Weingart “Argument Clinic”...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/15-trending-and-cleaning",
+        "teaser": null
+      },{
+        "title": "Making a Point 💯",
+        "excerpt":"Class Activities Giorgia Lupi Data Humanism http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold Lincoln Mullen “Isn’t it obvious?” January 10, 2018 https://lincolnmullen.com/blog/isnt-it-obvious/ Matthew Lincoln “Confabulation in the humanities” 21 Mar 2015 https://matthewlincoln.net/2015/03/21/confabulation-in-the-humanities.html Additional Materials Shirley Wu “An Interactive Visualization of Every Line in Hamilton” The Pudding https://pudding.cool/2017/03/hamilton/index.html Explore flowing data https://flowingdata.com/ and listen to http://datastori.es/126-flowingdata-with-nathan-yau/ Explore...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/16-making-a-point",
+        "teaser": null
+      },{
+        "title": "Patterns & Outliers ⚖️",
+        "excerpt":"Class Activities Ted Underwood. “Seven ways humanists are using computers to understand text”. June 4, 2015 https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/ Benjamin Schmidt, “Do Digital Humanists Need to Understand Algorithms?,”Debates in the Digital Humanities 2016 http://dhdebates.gc.cuny.edu/debates/text/99 Matt Daniels “Hip Hop Words” https://pudding.cool/2017/09/hip-hop-words/ Review Pandas and Jupyter Notebooks and Introduction to Text Mining Additional Materials...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/17-patterns-and-outliers",
+        "teaser": null
+      },{
+        "title": "Names and Spells 🔮",
+        "excerpt":"Class Activities      Erin Davis “What physical traits are most tied to gender in literature? Eye roll: Women are all soft thighs and red lips.” The Pudding July 2020 https://pudding.cool/2020/07/gendered-descriptions/ and https://pudding.cool/process/pitching-gendered-descriptions/   Review Introduction to Text Mining and Start Named Entity Recognition  ","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/18-names-and-spells",
+        "teaser": null
+      },{
+        "title": "Models and Machines 🤖",
+        "excerpt":"Class Activities      Ted Underwood “Why and Age of Machine Learning Needs the Humanities” Public Books https://www.publicbooks.org/why-an-age-of-machine-learning-needs-the-humanities/   Maciej Cegłowski. “Deep Fried Data” Idle Words. September 27, 2016. https://idlewords.com/talks/deep_fried_data.htm   Laura B. McGrath “Charisma (Embodiment): a Response to Tess McNulty” https://post45.org/2019/05/charisma-embodiment-a-response-to-tess-mcnulty/   Explore AI Dungeon https://play.aidungeon.io/   Review Introduction to Text Mining and NER  ","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/19-models-and-machines",
+        "teaser": null
+      },{
+        "title": "Mapping & Class(ification) 🌍",
+        "excerpt":"Class Activities Robert Lee, Tristan Ahtone, Margaret Pearce, Kalen Goodluck, Geoff McGhee, Cody Leff, Katherine Lanpher and Taryn Salinas. “Land Grab Universities: A High Country News Investigation” https://www.landgrabu.org/ Optional listen to an interview with the authors https://nothingneverhappens.org/decolonial/landgrabu/ Robert Lee, “How we investigated the land-grant university system” High Country News, March...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/20-mapping-and-classification",
+        "teaser": null
+      },{
+        "title": "Connecting the Dots 🧩",
+        "excerpt":"Class Activities Ruth Ahnert et al., The Network Turn: Changing Perspectives in the Humanities (Cambridge UP, 2021) Chapters 3 and 5 https://www.cambridge.org/core/elements/network-turn/CC38F2EA9F51A6D1AFCB7E005218BBE5 and try out Palladio http://hdlab.stanford.edu/projects/palladio/ (you can use their sample data). Optional listen to the interview with the authors at https://newbooksnetwork.com/the-network-turn-changing-perspectives-in-the-humanities Lauren Klein &amp; Sandeep Soni “How Words...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/21-connecting-the-dots",
+        "teaser": null
+      },{
+        "title": "Networking and Peer Review 🌐",
+        "excerpt":"Class Activities   DUE Project Update Presentations      Project Updates and Peer Feedback   Review Network Analysis Basics  ","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/22-networking-and-peer-review",
+        "teaser": null
+      },{
+        "title": "Preservation: Projects & People 🌅",
+        "excerpt":"Class Activities Explore and read the principles of The Colored Conventions Project https://coloredconventions.org/ Explore “Slavery, Abolition, Emancipation and Freedom Primary Sources from Houghton Library” https://curiosity.lib.harvard.edu/slavery-abolition-emancipation-and-freedom and listen to an interview with the creator, archivist Dorothy Berry https://newbooksnetwork.com/careers-a-discussion-with-dorothy-berry Miriam Posner, “Here and There: Creating DH Community,” in Debates in the Digital...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/23-preservation-projects-and-people",
+        "teaser": null
+      },{
+        "title": "Serving Looks: Websites and Servers 💅",
+        "excerpt":"Class Activities      Introduction to building websites and publishing data visualizations   ","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/24-serving-looks-websites-and-servers",
+        "teaser": null
+      },{
+        "title": "April 21 - Documents and Documentation 📑",
+        "excerpt":"Class Activities Adam Crymble “Chapter 5 The Rise and Fall of the Scholarly Blog” Technology and the Historian Christen, Kim. “Does Information Really Want to be Free? Indigenous Knowledge Systems and the Question of Openness.” International Journal of Communication 6 (2012), 2870–2893. Kathleen Fitzpatrick “Not All Networks: Toward Open, Sustainable...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/25-documents-and-documentation",
+        "teaser": null
+      },{
+        "title": "April 21 - Documents and Documentation 📑",
+        "excerpt":"Class Activities   Introduction to blogging and documentation practices  ","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/26-documents-and-documentation",
+        "teaser": null
+      },{
+        "title": "Sustainability & Society 🚧",
+        "excerpt":"Class Activities Ben Tarnoff “The Data is Ours” https://logicmag.io/scale/the-data-is-ours/ Listen “Why We Need a Democratic Approach to Data w/ Salomé Viljoen” Tech Won’t Save Us https://www.buzzsprout.com/1004689/7279228-why-we-need-a-democratic-approach-to-data-w-salome-viljoen Miriam Postner “What’s Next: The Radical, Unrealized Potential of Digital Humanities” Additional Readings Moya Z. Bailey, “All the Digital Humanists Are White, All the...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/27-sustainability-and-society",
+        "teaser": null
+      },{
+        "title": "Review & Reflect 🧾",
+        "excerpt":"Class Activities      Work on final project and review any subjects  ","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/28-review-and-reflect",
+        "teaser": null
+      },{
+        "title": "Future Horizons & Final Presentations 🌄",
+        "excerpt":"Class Activities      Final presentations and musings on future steps   Final project due before final grades are submitted  ","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/29-future-horizons-and-final-presentations",
         "teaser": null
       }]

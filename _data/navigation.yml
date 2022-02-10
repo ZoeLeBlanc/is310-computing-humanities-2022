@@ -30,6 +30,8 @@ materials:
         url: /materials/getting-started/02-command-line
       - title: "Command Line Cheatsheet"
         url: /materials/getting-started/03-command-line-cheatsheet
+      - title: "Markdown Resources"
+        url: /materials/advanced-python/04-markdown-resources
   - title: Introduction to Python & Git
     children:
       - title: "Introduction to Git and Github"
@@ -44,6 +46,8 @@ materials:
         url: /materials/intro-python-git/05-python-continued
       - title: "Python At Home Assignment"
         url: /materials/intro-python-git/06-python-assignment
+      - title: "Github Workflows"
+        url: /materials/getting-started/07-github-workflows
   - title: In-Depth Python & Git
     children:
       - title: "Advanced Python"
@@ -52,18 +56,18 @@ materials:
         url: /materials/advanced-python/02-python-assignment
       - title: "Advanced Python: Part 2"
         url: /materials/advanced-python/03-complex-python
-      - title: "Python Classes Cheatsheet"
-        url: /materials/advanced-python/04-python-classes
       - title: "Python Virtual Environments"
-        url: /materials/advanced-python/05-virtual-environment
+        url: /materials/advanced-python/04-virtual-environment
       - title: "Python Libraries Assignment"
-        url: /materials/advanced-python/06-libraries-assignment
+        url: /materials/advanced-python/05-libraries-assignment
       - title: "Advanced Git"
         url: /materials/advanced-python/07-advanced-git
   - title: Web Scraping and HTML (More Soon)
     children:
       - title: "Introduction to Web Scraping"
         url: /materials/webscraping-html/01-intro-webscraping
+      - title: "Web Scraping Assignment"
+        url: /materials/webscraping-html/02-webscraping-assignment
   - title: Exploratory Data Analysis (More Soon)
 
 
@@ -98,5 +102,47 @@ schedule:
         url: /schedule/10-culture-at-scale-and-digital-collections
       - title:  "<b>February 22 🕸</b><br> Platforms and Web Culture"
         url:  /schedule/11-platforms-and-web-cultures
-      - title:  "<b>February 24 🐘</b><br> Culture at Scale & Digital Collections"
-        url: /schedule/10-culture-at-scale-and-digital-collections
+      - title:  "<b>February 24 💄</b><br> Markup & Scrape Off"
+        url: /schedule/12-markup-and-scrape-off
+  - title: March Detailed Activities
+    children:
+      - title: "<b>March 1 💬</b><br> Crowdsourcing Culture & Managing Metadata"
+        url: /schedule/13-crowdsourcing-culture-and-managing-metadata
+      - title: "<b>March 3 🚦</b><br> GETting Data"
+        url: /schedule/14-getting-data
+      - title: "<b>March 8 🏡</b><br> T(r)ending & Cleaning"
+        url: /schedule/15-trending-and-cleaning
+      - title: "<b>March 10 💯</b><br> Making a Point"
+        url: /schedule/16-making-a-point
+      - title: "<b>Spring Break 🛑</b><br>No Class March 15 and 17"
+        url: /schedule/00-overview
+      - title: "<b>March 22 ⚖️</b><br> Patterns & Outliers"
+        url: /schedule/17-patterns-and-outliers
+      - title: "<b>March 24 🔮</b><br> Names and Spells"
+        url: /schedule/18-names-and-spells
+      - title: "<b>March 29 🤖</b><br> Models and Machines"
+        url: /schedule/19-models-and-machines
+      - title: "<b>March 31 🌍</b><br> Mapping & Class(ification)"
+        url: /schedule/20-mapping-and-classification
+  - title: April Detailed Activities
+    children:
+      - title: "<b>April 5 🧩</b><br> Connecting the Dots"
+        url: /schedule/21-connecting-the-dots
+      - title: "<b>April 7 🌐</b><br> Networking and Peer Review"
+        url: /schedule/22-networking-and-peer-review
+      - title: "<b>April 12 🌅</b><br> Preservation: Projects & People"
+        url: /schedule/23-preservation-projects-and-people
+      - title: "<b>April 14 💅</b><br> Serving Looks: Websites and Servers"
+        url: /schedule/24-serving-looks-websites-and-servers
+      - title: "<b>April 19 💸</b><br> Prestige & Publicity"
+        url: /schedule/25-prestige-and-publicity
+      - title: "<b>April 21 📑</b><br> Documents and Documentation"
+        url: /schedule/26-documents-and-documentation
+      - title: "<b>April 26 🚧</b><br> Sustainability & Society"
+        url: /schedule/27-sustainability-and-society
+      - title: "<b>April 28 🧾</b><br> Review & Reflect"
+        url: /schedule/28-review-and-reflect
+  - title: May Detailed Activities
+    children:
+      - title: "<b>May 3 🌄</b><br> Future Horizons & Final Presentations"
+        url: /schedule/29-future-horizons-and-final-presentations

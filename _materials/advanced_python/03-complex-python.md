@@ -257,7 +257,7 @@ For the same reason that we can't do `f.write(4)`, we also can't do `"4"+4` (or,
 
 The second new thing here is the newline character "\n", which is technically called a LF or Line Feed. This inserts a line break between characters in a string.
 
-## Putting it Together
+## Assignment: Putting it Together
 
 Here's part of what you did in the command line assignment earlier, but now in Python.
 
