@@ -60,8 +60,6 @@ materials:
         url: /materials/advanced-python/04-virtual-environment
       - title: "Python Libraries Assignment"
         url: /materials/advanced-python/05-libraries-assignment
-      - title: "Advanced Git"
-        url: /materials/advanced-python/07-advanced-git
   - title: Web Scraping and HTML (More Soon)
     children:
       - title: "Introduction to Web Scraping"
