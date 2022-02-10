@@ -1,6 +1,6 @@
 ---
 title: "Python Cheatsheet"
-permalink: /materials/intro-python-git/04-python-cheatsheet
+permalink: /materials/intro-python-git/03-python-cheatsheet
 toc: true
 ---
 

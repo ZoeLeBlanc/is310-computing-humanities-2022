@@ -213,13 +213,13 @@ In Python `=` is used to assign values to a variable, and `==` is used to check 
 
 In your Python interpreter complete the following prompts:
 
-```
+
 1. Google two tools listed in our reading from this week [“Which Dh Tools Are Actually Used In Research?”](https://weltliteratur.net/dh-tools-used-in-research/).
 2. Assign to variables their names and the year they were first released.
 3. Try testing if their names are equal or if they were released in the same year.
 4. Try joining their names together.
 5. Try adding/multiply/dividing their release years.
-```
+
 
 ## Python Data Structures
 
@@ -295,11 +295,11 @@ We can also add items and remove them from the list. Let's take a look at some o
 
 #### Quick Assignment
 
-```
+
 Try out the methods in the documentation for manipulating lists
 1. Find a way to add 'SlaveVoyages' to the end of our `new_list` (hint: there's multiple ways to do this)
 2. Try reversing and sorting our `new_list`, what happens? Try doing the same on `projects`
-```
+
 
 Lists are great. But what if we wanted to store information not just in a sequence, but in a way that let's us keep certain values together?
 
@@ -356,12 +356,13 @@ Just like lists there are many ways to manipulate dictionaries
 
 #### Quick Assignment
 
-```
+
 Try out the methods for manipulating dictionaries.
+
 1. Remove Gephi's founding year from the `tool_2` dictionary
 2. Get all the keys for the `tools` dictionary
 3. Get all the values for the `tool_1` dictionary
-```
+
 
 You can also get even crazier and store lists in dictionaries:
 
@@ -404,6 +405,6 @@ tools[0]
 
 Congratulations 🎉🎉🎉! You've now completed the introduction to Python.
 
-If anything is unclear, please bring questions you have to class or the instructor, and we will be doing an overview of these concepts. Also checkout the [Python Cheatsheet]({{site.baseurl}}/materials/intro-python-git/04-python-cheatsheet)!
+If anything is unclear, please bring questions you have to class or the instructor, and we will be doing an overview of these concepts. Also checkout the [Python Cheatsheet]({{site.baseurl}}/materials/intro-python-git/03-python-cheatsheet)!
 
-If you want to continue with learning and exercises, check out the additional materials [here]({{site.baseurl}}/materials/intro-python-git/05-python-continued) but otherwise we'll cover this in class together.
+Now that you have completed introduction to Python, move on to Python Fundamentals [here]({{site.baseurl}}/materials/intro-python-git/04-python-continued).
