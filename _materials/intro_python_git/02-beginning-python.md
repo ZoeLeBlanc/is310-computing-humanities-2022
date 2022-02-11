@@ -407,4 +407,4 @@ Congratulations 🎉🎉🎉! You've now completed the introduction to Python.
 
 If anything is unclear, please bring questions you have to class or the instructor, and we will be doing an overview of these concepts. Also checkout the [Python Cheatsheet]({{site.baseurl}}/materials/intro-python-git/03-python-cheatsheet)!
 
-Now that you have completed introduction to Python, move on to Python Fundamentals [here]({{site.baseurl}}/materials/intro-python-git/04-python-continued).
+Now that you have completed introduction to Python, move on to Python Fundamentals [here]({{site.baseurl}}/materials/intro-python-git/04-python-fundamentals).

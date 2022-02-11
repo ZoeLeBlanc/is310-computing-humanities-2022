@@ -12,7 +12,7 @@ toc: true
 1. [Introduction/review of the command line (with the instructor, optional)](#command-line-intro)
 2. [Complete command line assignment](#command-line-assignment)
 
-<h2 id="command-line-intro">What is the Command Line and how do we work with it?</h2>
+## What is the Command Line and how do we work with it?
 
 - Command Line might sounds a bit intimidating
 - But ask yourself, how do you find files and manipulate files on your computer? Probably using Windows Explorer or Mac Finder, right?
@@ -32,7 +32,7 @@ According to Shane,
 
 We've already interacted with the command line, terminal, and shell through our installation instructions.
 
-##### Let's do an exercise together
+### Let's do an exercise together
 
 1. Open the [cheatsheet](command-line-cheatsheet). Copying is encouraged in coding, so make sure you use the cheatsheet!
 
@@ -78,9 +78,9 @@ Let's dive futher through the following tutorials developed by [Melanie Walsh](h
 
 - [https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html#command-line-cheatsheet](https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html#command-line-cheatsheet)
 
-<h2 id="command-line-assignment">Command Line Assignment</h2>
+## Command Line Assignment
 
-##### Time to get lost in the Command Line
+### Time to get lost in the Command Line
 
 *In Class Asignment:*
 
@@ -104,7 +104,7 @@ Following [Melanie Walsh's working with Text Files in the command line tutorial]
 4. Search for a word (would recommend not using "the") in your book file and print the number of times it appears.
 5. Take a 📸 screenshot of your output and send it to the instructor in discord.
 
-<h4 id="more-information">More Information</h4>
+### More Information
 
 #### In Depth Dive into the Command Line and Shells
 
@@ -120,7 +120,7 @@ While executing commands is essential, most of the power (and complexity) of she
 
 Shells offer features geared specifically for interactive use rather than to augment the programming language. These interactive features include job control, command line editing, command history and aliases.
 
-## Resources
+### Resources
 
 1. Ian Milligan and James Baker, "Introduction to the Bash Command Line," *The Programming Historian* 3 (2014), [https://programminghistorian.org/en/lessons/intro-to-bash]. This is an introduction to the Bash shell, which will serve well enough as an introduction to other shells like Zsh as well.
 2. [Bash Basics Part 1 of 8 | Access and Navigation](https://youtu.be/eH8Z9zeywq0?t=885)

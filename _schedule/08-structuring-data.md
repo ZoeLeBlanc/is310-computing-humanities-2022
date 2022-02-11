@@ -14,5 +14,5 @@ class_date: 2022-02-10
 
 ## Ready to go faster?
 
-- Start working through more advanced Python concepts in [Python Fundamentals]({{site.baseurl}}/materials/intro-python-git/python-continued)
+- Start working through more advanced Python concepts in [Python Fundamentals]({{site.baseurl}}/materials/intro-python-git/04-python-fundamentals)
 - If you're already ready to jump ahead even further, you can start working on completing on the materials and assignments under [In-Depth Python & Git]({{site.baseurl}}/materials/advanced-python/more-python) or even jump into [Webscraping and HTML]({{site.baseurl}}/materials/web-scraping/intro-web-scraping)

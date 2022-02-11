@@ -83,22 +83,22 @@ var store = [{
         "url": "/is310-computing-humanities/materials/intro-python-git/02-beginning-python",
         "teaser": null
       },{
-        "title": "Python In Class Exercises",
-        "excerpt":"Few guidelines for working in groups Finishing first doesn’t matter, what matters is working together If you know the answer, give others a chance to work it out for themselves If none of you know the answer, try reading the course materials and asking for help for the instructor Exercise...","categories": [],
-        "tags": [],
-        "url": "/is310-computing-humanities/materials/intro-python-git/03-python-exercises",
-        "teaser": null
-      },{
         "title": "Python Cheatsheet",
         "excerpt":"Types and Objects How to test for types in python. Write type! &gt;&gt;&gt; type(True) &lt;class 'bool'&gt; &gt;&gt;&gt; type(1) &lt;class 'int'&gt; &gt;&gt;&gt; dictionary = { \"color\":\"blue\", \"size\":9090 } &gt;&gt;&gt; type(dictionary) &lt;class 'dict'&gt; &gt;&gt;&gt; atuple = ( \"blue\", 9090 ) &gt;&gt;&gt; type(atuple) &lt;class 'tuple'&gt; &gt;&gt;&gt; reindeer = [\"dasher\", \"dancer\", \"prancer\", \"vixen\", \"olive\"]...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/intro-python-git/04-python-cheatsheet",
+        "url": "/is310-computing-humanities/materials/intro-python-git/03-python-cheatsheet",
         "teaser": null
       },{
         "title": "Python Fundamentals 🐍",
-        "excerpt":"FIRST EXERCISE (in breakout rooms) Work together to figure how to use the data types, structures, and methods we discussed to solve these prompts: Get everyone’s first names in the group. Create a data structure to hold one name and then add each person’s name to the data structure. Whose...","categories": [],
+        "excerpt":"Python interpreter is great, but why might we not want to write all our code in the interpreter? What happens every time you quit? SOLUTION: Open your terminal directory in Visual Studio Code or your favorite code editor, and create a new file: touch first_script.py You should see this file...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/intro-python-git/05-python-continued",
+        "url": "/is310-computing-humanities/materials/intro-python-git/04-python-fundamentals",
+        "teaser": null
+      },{
+        "title": "Python In Class Exercises",
+        "excerpt":"Few guidelines for working in groups Finishing first doesn’t matter, what matters is working together If you know the answer, give others a chance to work it out for themselves If none of you know the answer, try reading the course materials and asking for help for the instructor Exercise...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/intro-python-git/05-python-exercises",
         "teaser": null
       },{
         "title": "Python At Home Assignment",
@@ -120,7 +120,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Web Scraping Assignment",
-        "excerpt":"   Finish our first exercise by figuring out to scrape the text from at least five of the volumes on the Humanist Listserv.   Save each volume’s text in a file.   Push up your code and data to your Github repository.  ","categories": [],
+        "excerpt":"First Assignment Finish our first exercise by figuring out to scrape the text from at least five of the volumes on the Humanist Listserv. Save each volume’s text in a file. Push up your code and data to your Github repository. Second Assignment Building from Melanie Walsh’s example in https://melaniewalsh.github.io/Intro-Cultural-Analytics/04-Data-Collection/02-Web-Scraping-Part1.html#why-do-we-need-to-scrape-at-all,...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/webscraping-html/02-webscraping-assignment",
         "teaser": null
@@ -186,7 +186,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Reset & Reflect 🚨",
-        "excerpt":"Class Activities This session differs from the original syllabus so that we can focus on catching up on some of the coding concepts for the final project. Readings will be moved to subsequent weeks. The goal for this class session is to get us far through Python and Git as...","categories": [],
+        "excerpt":"Class Activities This session differs from the original syllabus so that we can focus on catching up on some of the coding concepts for the final project. Readings will be moved to subsequent weeks. Prior to class, please complete Introduction to Python if you haven’t already, and start on Python...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/09-reset-and-reflect",
         "teaser": null
