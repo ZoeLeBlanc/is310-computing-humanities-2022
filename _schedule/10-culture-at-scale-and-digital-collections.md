@@ -8,7 +8,7 @@ class_date: 2022-02-17
 ## Class Activities
 
 - Read Adam Crymble “Chapter 2: The Archival Revisionism of Mass Digitization” *Technology and the Historian* (available through the library and uploaded to Google Drive/Canvas) and explore [Newspaper Navigator](https://news-navigator.labs.loc.gov/search) from the Library of Congress.
-- Complete remaining sections from the [Introduction to Python and Git]({{site.baseurl}}/intro-python-git/04-python-fundamentals) and [Advanced Python]({{site.baseurl}}/advanced-python/03-complex-python) materials.
+- Complete remaining sections from the [Introduction to Python and Git]({{site.baseurl}}/materials/intro-python-git/04-python-fundamentals) and [Advanced Python]({{site.baseurl}}/materials/advanced-python/03-complex-python) materials.
 
 
 ## Additional Materials

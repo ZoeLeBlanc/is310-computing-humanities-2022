@@ -16,15 +16,15 @@ Discuss:
 Review:
 
 - Try out each other's command line mazes
-- [Git and Github]({{site.baseurl}}/materials/getting-started/git-github)
+- [Git and Github]({{site.baseurl}}materials/intro-python-git/01-git-github)
 
 ## Assignments due
 
-- [Command line exercise 1 and 2]({{site.baseurl}}/week1/coming-online#command-line-assignment)  
+- [Command line exercise 1 and 2]({{site.baseurl}}/materials/getting-started/02-command-line#command-line-assignment)  
 
 
 ## Ready to go faster?
 
-- [Let's start with Python]({{site.baseurl}}/materials/intro-python-git/beginning-python)
-- [Jump to next week's assignment]({{site.baseurl}}/materials/intro-python-git/python-assignment)
-- [Finished that? Here's another assignment]({{site.baseurl}}/materials/advanced-python/python-assignment)
+- [Let's start with Python]({{site.baseurl}}/materials/intro-python-git/02-beginning-python)
+- [Jump to next week's assignment]({{site.baseurl}}/materials/intro-python-git/06-python-assignment)
+- [Finished that? Here's another assignment]({{site.baseurl}}/materials/advanced-python/02-python-assignment)

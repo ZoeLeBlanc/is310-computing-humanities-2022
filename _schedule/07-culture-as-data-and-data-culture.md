@@ -18,7 +18,7 @@ class_date: 2022-02-08
 
 ## Assignments Due
 
-- [Github exercise]({{site.baseurl}}/materials/intro-python-git/git-github#git--github-assignment)
+- [Github exercise]({{site.baseurl}}/materials/intro-python-git/01-git-github#git--github-assignment)
   
 ## Additional Materials
 

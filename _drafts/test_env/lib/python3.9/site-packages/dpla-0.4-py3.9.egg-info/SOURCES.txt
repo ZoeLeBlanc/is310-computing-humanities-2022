@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+dpla/__init__.py
+dpla/api.py
+dpla/settings.py
+dpla.egg-info/PKG-INFO
+dpla.egg-info/SOURCES.txt
+dpla.egg-info/dependency_links.txt
+dpla.egg-info/requires.txt
+dpla.egg-info/top_level.txt

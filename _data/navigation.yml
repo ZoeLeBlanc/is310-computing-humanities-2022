@@ -20,6 +20,8 @@ assessments:
         url: /assessments/02-weekly-assessments
       - title: "Semester Long Project"
         url: /assessments/03-semester-project
+      - title: "Project Proposal Guidelines"
+        url: /assessments/04-project-proposal
 
 materials:
   - title: Getting Started
@@ -48,7 +50,7 @@ materials:
         url: /materials/intro-python-git/06-python-assignment
       - title: "Github Workflows"
         url: /materials/getting-started/07-github-workflows
-  - title: In-Depth Python & Git
+  - title: In-Depth Python
     children:
       - title: "Advanced Python"
         url: /materials/advanced-python/01-more-python
@@ -60,12 +62,14 @@ materials:
         url: /materials/advanced-python/04-virtual-environment
       - title: "Python Libraries Assignment"
         url: /materials/advanced-python/05-libraries-assignment
-  - title: Web Scraping and HTML (More Soon)
+  - title: Getting Data
     children:
       - title: "Introduction to Web Scraping"
         url: /materials/webscraping-html/01-intro-webscraping
       - title: "Web Scraping Assignment"
         url: /materials/webscraping-html/02-webscraping-assignment
+      - title: "File Formats"
+        url: /materials/getting-data/03-file-formats/
   - title: Exploratory Data Analysis (More Soon)
 
 

@@ -17,6 +17,12 @@ var store = [{
         "url": "/is310-computing-humanities/assessments/03-semester-project",
         "teaser": null
       },{
+        "title": "Propject Proposal Guidelines",
+        "excerpt":"Format Upload to Github as a markdown file in your IS310-final-project repository Those working in groups can select one member’s repository and then work as collaborators on that repository. Individuals should aim for 2-3 “pages” double spaced Groups should add an additional 1-2 “pages” per participant (though this is a...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/assessments/04-project-proposal",
+        "teaser": null
+      },{
         "title": "Advanced Python",
         "excerpt":"Data Flow Computers read code line by line, top to bottom of a script. But what if you want to have code run not in sequential order, or you want your code to do something depending on a value, or you want to reuse your code and run it multiple...","categories": [],
         "tags": [],
@@ -123,6 +129,12 @@ var store = [{
         "excerpt":"First Assignment Finish our first exercise by figuring out to scrape the text from at least five of the volumes on the Humanist Listserv. Save each volume’s text in a file. Push up your code and data to your Github repository. Second Assignment Building from Melanie Walsh’s example in https://melaniewalsh.github.io/Intro-Cultural-Analytics/04-Data-Collection/02-Web-Scraping-Part1.html#why-do-we-need-to-scrape-at-all,...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/webscraping-html/02-webscraping-assignment",
+        "teaser": null
+      },{
+        "title": "File Formats",
+        "excerpt":"⚡️ This lesson has been adapted from Shane Lin's CodeLab syllabus https://github.com/scholarslab/CodeLab We covered some basic file input and output in Python previously. It’s pretty easy to work with text data, either all at once or line by line. To review, we can read some text from a file like...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/getting-data/03-file-formats",
         "teaser": null
       },{
         "title": "Draft Post",

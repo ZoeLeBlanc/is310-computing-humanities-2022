@@ -18,7 +18,7 @@ sidebar:
 
 This overview gives a top level view of the topics for each of our meetings. You can either use the side navigation or click on a topic to jump to that section.
 
-|   Tuesday Topic | Thursday Topic | 
+|   Tuesday Topic | Thursday Topic |
 | -----------------: | --------------: |
 |[January 18 - Introducing Computing in the Humanities 🎟]({{site.baseurl}}/schedule/01-introducing-computing-in-the-humanities) |[January 20 - Starting at The End: Final Projects and Semester Processes 🛣]({{site.baseurl}}/schedule/02-starting-at-the-end-final-projects-and-semester-processes)|
 |[January 25 - Change over Time & Histories of Computing 🗂]({{site.baseurl}}/schedule/03-change-over-time-histories-of-computing)|[January 27 -  Version Histories ™️]({{site.baseurl}}/schedule/04-version-histories)|
@@ -36,3 +36,19 @@ This overview gives a top level view of the topics for each of our meetings. You
 |[April 19 - Prestige & Publicity 💸]({{site.baseurl}}/schedule/25-prestige-and-publicity)|[April 21 - Documents and Documentation 📑]({{site.baseurl}}/schedule/26-documents-and-documentation)|
 |[April 26 - Sustainability & Society 🚧]({{site.baseurl}}/schedule/27-sustainability-and-society)|[April 28 - Review & Reflect 🧾]({{site.baseurl}}/schedule/28-review-and-reflect)|
 |[May 3 - Future Horizons & Final Presentations 🌄]({{site.baseurl}}/schedule/29-future-horizons-and-final-presentations)||
+
+## Assignment Schedule
+
+*Assignments will be added throughout the semester depending on how much material we get through.*
+
+|Assignment | Due Date (Subject to Change) |
+| -----------------: | --------------: |
+| [Command Line Assignment]({{site.baseurl}}/materials/getting-started/02-command-line#command-line-assignment) | [February 3]({{site.baseurl}}/schedule/06-programming-in-the-humanities#assignments-due)|
+| [Github Repository Assignment]({{site.baseurl}}/materials/intro-python-git/01-git-github#git--github-assignment) | [February 8]({{site.baseurl}}/schedule/07-culture-as-data-and-data-cultures)|
+| [Introduction to Python Assignment]({{site.baseurl}}/materials/intro-python-git/06-python-assignment) | [February 22]({{site.baseurl}}/schedule/11-platforms-and-web-cultures)|
+| [Advanced Python Assignment]({{site.baseurl}}/materials/advanced-python/02-python-assignment)| [February 24]({{site.baseurl}}/schedule/12-markup-and-scrape-off)|
+| [Python Libraries Assignment]({{site.baseurl}}/05-libraries-assignment) | [March 1]({{site.baseurl}}/schedule/13-crowdsourcing-culture-and-managing-metadata)|
+| [Web Scraping Assignment]({{site.baseurl}}/materials/webscraping-html/02-webscraping-assignment) | [March 8]({{site.baseurl}}/schedule/15-trending-and-cleaning)|
+| API Assignment (to be posted) | [March 10]({{site.baseurl}}/schedule/16-making-a-point)|
+
+
