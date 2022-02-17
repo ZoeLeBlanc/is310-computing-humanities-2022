@@ -27,7 +27,7 @@ BONUS:
 
 Using the DH Tools data from last week, rewrite your code so that we could add a few more entries in a new script called `dh_tools.py`.
 
-1. Download and open the [`tools_dh_proceedings.csv`]({{site.baseurl}}/assets/files/assets/files/tools_dh_proceedings.csv) file and get the next top ten tools, based on 2019 ratings.
+1. Download and open the [`tools_dh_proceedings.csv`]({{site.baseurl}}/assets/files/tools_dh_proceedings.csv) file and get the next top ten tools, based on 2019 ratings.
 
 2. Remember to add functionality to calculate the total field for each new tool.
 

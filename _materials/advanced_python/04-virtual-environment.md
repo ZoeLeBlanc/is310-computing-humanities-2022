@@ -18,7 +18,7 @@ The solution for this problem is to create a virtual environment, a self-contain
 
 Prior to installing our virtual environment, let's make sure that you have the latest version of `pip`, which stands for "Python Installs Packages." Pip comes built-in to Python, but run this code to ensure you have the right version.
 
-![install pip]({{site.baseurl}}/assets/images/pip_install.png)
+![install pip]({{site.baseurl}}/assets/images/install_pip.png)
 
 If you get any errors, you can check if you have pip installed [https://stackoverflow.com/questions/40868345/checking-whether-the-pip-is-installed](https://stackoverflow.com/questions/40868345/checking-whether-the-pip-is-installed)
 
