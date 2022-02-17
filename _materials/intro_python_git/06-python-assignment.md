@@ -6,7 +6,7 @@ classes: wide
 
 Working in pairs or individually, figure out how to use the data types, structures, and methods we discussed to solve these prompts. Save your work in a script, titled `lastname_first_python_assignment.py` and upload it to Github. 
 
-1. Create a Github repository for your work. I would recommend naming it `IS310_assignments` or something similar. It will be where you will upload your work for the rest of the semester.
+1. ~~Create a Github repository for your work.~~ Rather than creating a new Github repository (although you still can do that approach), I would instead recommend creating a folder in your `IS310-final-project` repository to hold all your assignments. I would recommend naming it `IS310_assignments` or something similar. It will be where you will upload your work for the rest of the semester.
 2. Create a data structure to store the table of top DH tools with their year and popularity count (Data from ["DH Tools Used in Research"](https://weltliteratur.net/dh-tools-used-in-research/)). Update the data structure to keep a count for overall (that is culminative) popularity of each tool over the five years. Print out the 2015, 2019, and overall values for each tool.
 
 Data:

@@ -23,6 +23,12 @@ var store = [{
         "url": "/is310-computing-humanities/assessments/04-project-proposal",
         "teaser": null
       },{
+        "title": "Curating Blog Posts",
+        "excerpt":"Goals While this course is not a writing coure per se, we do read a lot of different written materials (book chapters, articles, blog posts, etc…) and we do want a chance to reflect and synthesize our reading experience beyond seminar discussions. So to that end, we have an assignment...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/assessments/05-blog-posts",
+        "teaser": null
+      },{
         "title": "Advanced Python",
         "excerpt":"Data Flow Computers read code line by line, top to bottom of a script. But what if you want to have code run not in sequential order, or you want your code to do something depending on a value, or you want to reuse your code and run it multiple...","categories": [],
         "tags": [],
@@ -51,6 +57,24 @@ var store = [{
         "excerpt":"Choose one of the packages we’ll be looking at later in the class: Pandas https://pandas.pydata.org/ Altair Spacy Scikit-Learn Networkx OR select one you might use in your final project Install it into your virtual environment following instructions Read through some of the documentation. See if you can find one Class...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/advanced-python/05-libraries-assignment",
+        "teaser": null
+      },{
+        "title": "Introduction to HTML and Web Scraping",
+        "excerpt":"What’s HTML? According to the Mozilla website, “HTML (Hypertext Markup Language) is not a programming language; it is a markup language used to tell your browser how to structure the web pages you visit. It can be as complicated or as simple as the web developer wishes it to be....","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/getting-data/01-intro-webscraping",
+        "teaser": null
+      },{
+        "title": "Web Scraping Assignment",
+        "excerpt":"First Assignment Finish our first exercise by figuring out to scrape the text from at least five of the volumes on the Humanist Listserv. Save each volume’s text in a file. Push up your code and data to your Github repository. Second Assignment Building from Melanie Walsh’s example in https://melaniewalsh.github.io/Intro-Cultural-Analytics/04-Data-Collection/02-Web-Scraping-Part1.html#why-do-we-need-to-scrape-at-all,...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/getting-data/02-webscraping-assignment",
+        "teaser": null
+      },{
+        "title": "File Formats",
+        "excerpt":"⚡️ This lesson has been adapted from Shane Lin's CodeLab syllabus https://github.com/scholarslab/CodeLab We covered some basic file input and output in Python previously. It’s pretty easy to work with text data, either all at once or line by line. To review, we can read some text from a file like...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/getting-data/03-file-formats",
         "teaser": null
       },{
         "title": "Getting Up and Running: Installation Instructions 💨 ",
@@ -117,24 +141,6 @@ var store = [{
         "excerpt":"Authentication For those that are still having issues using Github locally through their terminal, I would highly recommend that you set up ssh authentication. Rather than having to add a personal access token for each repository, SSH is tied to your Github account and authenticates your local computer so that...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/getting-started/07-github-workflows",
-        "teaser": null
-      },{
-        "title": "Introduction to HTML and Web Scraping",
-        "excerpt":"What’s HTML? According to the Mozilla website, “HTML (Hypertext Markup Language) is not a programming language; it is a markup language used to tell your browser how to structure the web pages you visit. It can be as complicated or as simple as the web developer wishes it to be....","categories": [],
-        "tags": [],
-        "url": "/is310-computing-humanities/materials/webscraping-html/01-intro-webscraping",
-        "teaser": null
-      },{
-        "title": "Web Scraping Assignment",
-        "excerpt":"First Assignment Finish our first exercise by figuring out to scrape the text from at least five of the volumes on the Humanist Listserv. Save each volume’s text in a file. Push up your code and data to your Github repository. Second Assignment Building from Melanie Walsh’s example in https://melaniewalsh.github.io/Intro-Cultural-Analytics/04-Data-Collection/02-Web-Scraping-Part1.html#why-do-we-need-to-scrape-at-all,...","categories": [],
-        "tags": [],
-        "url": "/is310-computing-humanities/materials/webscraping-html/02-webscraping-assignment",
-        "teaser": null
-      },{
-        "title": "File Formats",
-        "excerpt":"⚡️ This lesson has been adapted from Shane Lin's CodeLab syllabus https://github.com/scholarslab/CodeLab We covered some basic file input and output in Python previously. It’s pretty easy to work with text data, either all at once or line by line. To review, we can read some text from a file like...","categories": [],
-        "tags": [],
-        "url": "/is310-computing-humanities/materials/getting-data/03-file-formats",
         "teaser": null
       },{
         "title": "Draft Post",

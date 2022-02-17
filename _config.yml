@@ -242,6 +242,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - html-proofer
   # - jekyll-spaceship
 
 # mimic GitHub Pages with --safe

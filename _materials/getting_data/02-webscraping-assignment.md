@@ -1,6 +1,6 @@
 ---
 title: "Web Scraping Assignment"
-permalink: /materials/webscraping-html/02-webscraping-assignment
+permalink: /materials/getting-data/02-webscraping-assignment
 toc: true
 ---
 

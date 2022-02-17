@@ -1,6 +1,6 @@
 ---
 title: "Introduction to HTML and Web Scraping"
-permalink: /materials/webscraping-html/01-intro-webscraping
+permalink: /materials/getting-data/01-intro-webscraping
 toc: true
 ---
 

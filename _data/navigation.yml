@@ -18,6 +18,8 @@ assessments:
         url: /assessments/01-overview
       - title: "Weekly Assignments"
         url: /assessments/02-weekly-assessments
+      - title: "Curating Blog Posts"
+        url: /assessments/05-blog-posts
       - title: "Semester Long Project"
         url: /assessments/03-semester-project
       - title: "Project Proposal Guidelines"
@@ -65,9 +67,9 @@ materials:
   - title: Getting Data
     children:
       - title: "Introduction to Web Scraping"
-        url: /materials/webscraping-html/01-intro-webscraping
+        url: /materials/getting-data/01-intro-webscraping
       - title: "Web Scraping Assignment"
-        url: /materials/webscraping-html/02-webscraping-assignment
+        url: /materials/getting-data/02-webscraping-assignment
       - title: "File Formats"
         url: /materials/getting-data/03-file-formats/
   - title: Exploratory Data Analysis (More Soon)

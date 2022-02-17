@@ -24,6 +24,8 @@ For submitting you initial project topic, please follow the format below and pas
 <h2 id="project-proposal">Project Proposal 10% 🎨</h2> 
 <h3>DUE MARCH 8, 2022</h3>
 
+For more detailed information, see [the project proposal guidelines]({{site.baseurl}}/assessments/04-project-proposal).
+
 Your initial project proposal should be a combination of outlining your proposed focus for the final project (what are your initial project goals, what are you trying to create or study, and why this topic?), outlining the work you propose to undertake (how will you tackle this project and why have you organized it as such? What methods and data do you plan to use and how will you communicate your results?), and explaining your initial goals of this project in relation to the readings and topics we have discussed in class (what are the scholarly goals of your project and how would you situate your project in relation to research in computing in the humanities? Who are your audiences and what scholarship does your research draw upon and further?).
 The proposal should be 2-3 pages double spaced and can contain tables, graphs, bullet points, or any other format that will help you outline the goals and plan for this project. Ultimately, this proposal should lay the groundwork for your project and will serve as your blueprint for the next few weeks of research.
 
