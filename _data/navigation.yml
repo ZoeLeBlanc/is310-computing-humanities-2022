@@ -71,7 +71,7 @@ materials:
       - title: "Web Scraping Assignment"
         url: /materials/getting-data/02-webscraping-assignment
       - title: "File Formats"
-        url: /materials/getting-data/03-file-formats/
+        url: /materials/getting-data/03-file-formats
   - title: Exploratory Data Analysis (More Soon)
 
 
