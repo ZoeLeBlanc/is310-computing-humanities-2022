@@ -172,7 +172,7 @@ one + two
 
 You should see `3.0` as your answer. We just added the data in variable `one` and `two` together.
 
-What would happend if we added variables `var` and `three` togther?
+What would happen if we added variables `var` and `three` together?
 
 ```python
 var + three

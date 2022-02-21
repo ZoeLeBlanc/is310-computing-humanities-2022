@@ -11,7 +11,7 @@ toc_sticky: true
   - Those working in groups can select one member's repository and then work as collaborators on that repository.
 - Individuals should aim for 2-3 "pages" double spaced
   - Groups should add an additional 1-2 "pages" per participant (though this is a general guideline -- not a firm rule)
-- Citations are encouraged, and you may use your prefered citation style, but it must be consistent through out the proposal
+- Citations are encouraged, and you may use your preferred citation style, but it must be consistent through out the proposal
 - This is not an essay assignment. Bullet points and numbered lists are allowed, as are tables, diagrams, and graphs. 
 - Overall goal for this proposal is to outline, as coherently and thoughtfully as possible, what you plan to focus on for your final project, why you want to focus on this topic, and how you plan to go about doing so.
 
@@ -31,7 +31,7 @@ toc_sticky: true
     - if you are asking a research question (i.e. taking a more data-driven approach), explain how you plan to turn your topic into a question that can be answered with data
   - Detail how you will get data for this project. Do you have access to existing data? Or do you need to collect data?
   - Explain what methods you think you will use and why
-- Detailed Workplan
+- Detailed Work Plan
   - List how you plan to breakdown the tasks required to complete the work over the remainder of the semester
     - For those working in groups, also detail how the work will be split between members
   - Also include any areas where you need to do further research or unsure about how you will complete the tasks

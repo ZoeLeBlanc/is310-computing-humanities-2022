@@ -43,7 +43,7 @@ with open('file.txt', "r") as infile:
     text += 43210 #this line results in "TypeError: must be str, not int"
 ```
 
-The "12345" in the text file is, after all, text. Underneath it all, it's being represented by a text encoding, which means that if you look under the hood, "12345" isn't actually 12345. These days, this kind of text is usually UTF-8/ASCII encoded numbers, which means "12345" is actually 049 050 051 052 053. To turn the text "12345" into the number 12345 in Python, we have to explicity tell Python to make this conversion.
+The "12345" in the text file is, after all, text. Underneath it all, it's being represented by a text encoding, which means that if you look under the hood, "12345" isn't actually 12345. These days, this kind of text is usually UTF-8/ASCII encoded numbers, which means "12345" is actually 049 050 051 052 053. To turn the text "12345" into the number 12345 in Python, we have to explicitly tell Python to make this conversion.
 
 ```python
 with open('file.txt', "r") as infile:
@@ -93,9 +93,9 @@ So how do we get by this? We can wrap individual elements in quotes and that wor
  print(text)
 ```
 
-But all these rules are starting to add up. It's getting kind of complicated. We don't want to spend our time writing out the special logic to distinguish between real quotations marks and commas and fake ones. And what if we didn't think of some nonobvious, uncommon edge case? Happily, this whole exercise is a pretty common problem and there are a few standard ways to do it.
+But all these rules are starting to add up. It's getting kind of complicated. We don't want to spend our time writing out the special logic to distinguish between real quotations marks and commas and fake ones. And what if we didn't think of some non-obvious, uncommon edge case? Happily, this whole exercise is a pretty common problem and there are a few standard ways to do it.
 
-We can impart supertextual meaning to text data (like the structure of a list) using data formats, which are standard ways to write out and read data, that typically have standard software tools to accomplish those tasks.
+We can impart super-textual meaning to text data (like the structure of a list) using data formats, which are standard ways to write out and read data, that typically have standard software tools to accomplish those tasks.
 
 ## CSV
 
@@ -169,7 +169,7 @@ with open('dh_tools.csv', 'w', newline='') as csvfile:
     writer.writerow(beautifulsoup)
 ```
 
-This produces the same kind of CSV file. Note that the field names are consistent, so I just used the keys for `hathitrust`. We'd have to do this a bit differently if the data wasn't structured homogenously.
+This produces the same kind of CSV file. Note that the field names are consistent, so I just used the keys for `hathitrust`. We'd have to do this a bit differently if the data wasn't structured homogeneously.
 
 To read CSV files, we can use analogous Reader and DictReader objects in the csv module:
 

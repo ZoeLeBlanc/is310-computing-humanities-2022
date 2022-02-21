@@ -267,9 +267,9 @@ jane = jane.replace("man","person").replace("wife","partner")
 print(jane)
 ```
 
-Let's say that we want to "modernize" every classic book on Project Guttenberg. The first step is to write a program to read a single book in, replace the words, and then write it back out to a file.
+Let's say that we want to "modernize" every classic book on Project Gutenberg. The first step is to write a program to read a single book in, replace the words, and then write it back out to a file.
 
-I've pushed the Guttenberg version of Pride and Prejudice to this directory [here]({{site.baseurl}}/assets/files/PrideandPrejudice.txt) and the skeleton of the code needed to convert the text:
+I've pushed the Gutenberg version of Pride and Prejudice to this directory [here]({{site.baseurl}}/assets/files/PrideandPrejudice.txt) and the skeleton of the code needed to convert the text:
 
 ```python
 filename = "pg42671.txt"

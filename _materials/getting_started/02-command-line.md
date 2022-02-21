@@ -74,7 +74,7 @@ mkdir ~/workspace
 6. `cd` back up to the `cli` directory.
 7. Remove the `practice` directory and all of its contents.
 
-Let's dive futher through the following tutorials developed by [Melanie Walsh](https://melaniewalsh.org/):
+Let's dive further through the following tutorials developed by [Melanie Walsh](https://melaniewalsh.org/):
 
 - [https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html#command-line-cheatsheet](https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html#command-line-cheatsheet)
 
@@ -82,7 +82,7 @@ Let's dive futher through the following tutorials developed by [Melanie Walsh](h
 
 ### Time to get lost in the Command Line
 
-*In Class Asignment:*
+*In Class Assignment:*
 
 1. First, using the command line commands and your terminal create a series of nested directories and files.
 

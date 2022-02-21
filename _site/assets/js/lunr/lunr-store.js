@@ -24,7 +24,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Curating Blog Posts",
-        "excerpt":"Goals While this course is not a writing coure per se, we do read a lot of different written materials (book chapters, articles, blog posts, etc…) and we do want a chance to reflect and synthesize our reading experience beyond seminar discussions. So to that end, we have an assignment...","categories": [],
+        "excerpt":"Goals While this course is not a writing course per se, we do read a lot of different written materials (book chapters, articles, blog posts, etc…) and we do want a chance to reflect and synthesize our reading experience beyond seminar discussions. So to that end, we have an assignment...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/assessments/05-blog-posts",
         "teaser": null
@@ -132,7 +132,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Python At Home Assignment",
-        "excerpt":"Working in pairs or individually, figure out how to use the data types, structures, and methods we discussed to solve these prompts. Save your work in a script, titled lastname_first_python_assignment.py and upload it to Github. Create a Github repository for your work. I would recommend naming it IS310_assignments or something...","categories": [],
+        "excerpt":"Working in pairs or individually, figure out how to use the data types, structures, and methods we discussed to solve these prompts. Save your work in a script, titled lastname_first_python_assignment.py and upload it to Github. Create a Github repository for your work. Rather than creating a new Github repository (although...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/intro-python-git/06-python-assignment",
         "teaser": null

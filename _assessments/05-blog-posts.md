@@ -7,7 +7,7 @@ toc_sticky: true
 
 ## Goals
 
-While this course is not a writing coure per se, we do read a lot of different written materials (book chapters, articles, blog posts, etc...) and we do want a chance to reflect and synthesize our reading experience beyond seminar discussions. So to that end, we have an assignment where you can curate one of our seminar meeting's as a blog post.
+While this course is not a writing course per se, we do read a lot of different written materials (book chapters, articles, blog posts, etc...) and we do want a chance to reflect and synthesize our reading experience beyond seminar discussions. So to that end, we have an assignment where you can curate one of our seminar meeting's as a blog post.
 
 This post can be as long as you want it to be, and must be at least two paragraphs. In your post, rather than trying to summarize our full meeting, you should instead focus on curating and reflecting on your experiences with the materials. For example, if you were blogging in our week about humanities data, you might reflect on how the readings and discussions helped you understand what makes this type of data different from others, and quote some of your peers' annotations to help contextualize your thoughts. You might also include outside materials that you feel are relevant to that week.
 

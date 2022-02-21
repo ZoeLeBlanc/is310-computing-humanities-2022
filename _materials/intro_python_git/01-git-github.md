@@ -15,9 +15,9 @@ For a brief overview, read and follow along [https://melaniewalsh.github.io/Intr
 2. Clone that repository to your local computer following [https://shane-et-al.github.io/git_slab/#creatingcloning-a-repository](https://shane-et-al.github.io/git_slab/#creatingcloning-a-repository).
 3. Enter your repository and add in a new file using `touch` and `echo` commands.
 4. Save your file and commit your changes using `git add` and `git commit`.
-5. Try getting your file onto Github using mergin and pushing your changes using `git push`.
+5. Try getting your file onto Github using merging and pushing your changes using `git push`.
 
-*Feel free to use the git cheetsheat from Github [https://education.github.com/git-cheat-sheet-education.pdf](https://education.github.com/git-cheat-sheet-education.pdf)*
+*Feel free to use the git cheatsheat from Github [https://education.github.com/git-cheat-sheet-education.pdf](https://education.github.com/git-cheat-sheet-education.pdf)*
 
 ## Git & Github Assignment
 
@@ -49,4 +49,4 @@ Third and last, using this section from [Synchronization, *Git for Humanists*](h
 
 7. How do we commit our changes?
 8. How do we push our changes to Github?
-9. How do we see our chages on Github?
+9. How do we see our changes on Github?

@@ -287,7 +287,7 @@ If you're interested in the longer history of the internet checkout this timelin
 
 ### Requesting and Souping Humanist
 
-Alright so now we know how the web works in a broad sense, but let's jump back into our example and into [this section of the Cultural Analtyics textbook](https://melaniewalsh.github.io/Intro-Cultural-Analytics/04-Data-Collection/02-Web-Scraping-Part1.html#beautifulsoup).
+Alright so now we know how the web works in a broad sense, but let's jump back into our example and into [this section of the Cultural Analytics textbook](https://melaniewalsh.github.io/Intro-Cultural-Analytics/04-Data-Collection/02-Web-Scraping-Part1.html#beautifulsoup).
 
 Prior to this section, Melanie has this code block that fetches the text of a webpage:
 

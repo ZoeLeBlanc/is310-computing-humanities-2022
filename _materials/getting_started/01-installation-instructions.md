@@ -24,7 +24,7 @@ We'll be discussing what exactly Github is in class, but you can always check ou
 
 To create your account, simply [https://github.com/join](https://github.com/join) and create a new username. Once you have your account, **please share your username with the instructor so I can add you to our course repository**. In terms of selecting a username, I would recommend choosing something that you plan to use professionally, unless for some reason you want to keep your activity for the course anonymous (totally your choice!).
 
-GitHub provides additional documentation on [signing up for an account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account). You'll be using a [free personal account](https://github.com/pricing) to work with GitHub. Most of our work will be in public respositories, but if you are doing research that you would like to be kept private, you will also be able to set up private repositories under this account.
+GitHub provides additional documentation on [signing up for an account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account). You'll be using a [free personal account](https://github.com/pricing) to work with GitHub. Most of our work will be in public repositories, but if you are doing research that you would like to be kept private, you will also be able to set up private repositories under this account.
 
 <h4 id="writing-code">Installing some way of writing code</h4>
 
@@ -42,7 +42,7 @@ To work locally, I recommend that you download two things: a code editor and a t
 
 For the code editor, I highly recommend that you download and use Visual Studio Code (VS Code) [https://code.visualstudio.com/](https://code.visualstudio.com/). You should be able to use the link above to download VS Code for Windows, Mac, and Linux.
 
-Another benefit of getting used to VS Code is that you can use it in the browser for any Github repository by chaning `.com` to `.dev`. So for example if you took the link to our reposition, `https://github.com/ZoeLeBlanc/is310-computing-humanities` and switched it to `https://github.dev/ZoeLeBlanc/is310-computing-humanities`, you would see the VS Code version of our repository in the browser.
+Another benefit of getting used to VS Code is that you can use it in the browser for any Github repository by changing `.com` to `.dev`. So for example if you took the link to our reposition, `https://github.com/ZoeLeBlanc/is310-computing-humanities` and switched it to `https://github.dev/ZoeLeBlanc/is310-computing-humanities`, you would see the VS Code version of our repository in the browser.
 
 ##### Terminals
 
@@ -168,7 +168,7 @@ Now we'll tell our computer to use Homebrew by adding a line to our ~/.zshrc fil
 open ~/.zshrc
 ```
 
-This should open your file in a text editor. Sdd the following line to the bottom of the file, and then press save and exit:
+This should open your file in a text editor. Add the following line to the bottom of the file, and then press save and exit:
 
 ```sh
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
