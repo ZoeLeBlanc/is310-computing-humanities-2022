@@ -8,7 +8,7 @@ So far we've learned how to store data in different data types (integers, string
 
 Now that we've started to learn the range of Python syntax, we can start putting it all together. One of the main ways we can do that is with `Classes`.
 
-Let's take a look at code from Week 2's assignment.
+Let's take a look at code from the Advance Python Part 1.
 
 ```python
 def make_tool_dict(name, value_2015):

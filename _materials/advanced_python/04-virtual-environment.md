@@ -38,3 +38,51 @@ Try installing the package Beautiful Soup
 pip3 install beautifulsoup4
 ```
 
+## Virtual Environments in VS Code
+
+<div class="notice--info">⚡️ This information has been adapted from <a href="https://techinscribed.com/python-virtual-environment-in-vscode/">https://techinscribed.com/python-virtual-environment-in-vscode/</a></div>
+
+While you can use the built-in venv module with any IDE, since I've recommended that you use VS Code, I wanted to share instructions specific to that editor.
+
+Rather than only using venv, I would recommend using `virtualenv` instead since VS Code struggles to find virtual environments in the same directory as the project.
+
+To do that first we need to install `virtualenv`, which you'll do globally like so:
+
+```sh
+pip3 install virtualenv
+```
+
+Then make sure you're in to the home directory of your computer:
+
+```sh
+cd ~
+```
+
+Then create a directory for all your virtual environments:
+
+```sh
+mkdir .virtualenvs
+cd .virtualenvs
+```
+
+And finally create a new virtual environment:
+
+```sh
+virtualenv is310-venv
+```
+
+Now we follow similar steps to above where we activate our virtual environment:
+
+```sh
+source is310-venv/bin/activate
+```
+
+And then try installing libraries:
+
+```sh
+pip3 install beautifulsoup4
+```
+
+The key difference here is that any time you want to activate your virtual environment, you need to do it from the home directory and specifically in the `.virtualenvs` folder.
+
+*Have any additional questions? Either ask them in our Discord or message the instructor*
