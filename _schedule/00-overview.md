@@ -48,7 +48,7 @@ This overview gives a top level view of the topics for each of our meetings. You
 | [Introduction to Python Assignment]({{site.baseurl}}/materials/intro-python-git/06-python-assignment) | [February 22]({{site.baseurl}}/schedule/11-platforms-and-web-cultures)|
 | [Advanced Python Assignment]({{site.baseurl}}/materials/advanced-python/02-python-assignment)| [February 24]({{site.baseurl}}/schedule/12-markup-and-scrape-off)|
 | [Python Libraries Assignment]({{site.baseurl}}/05-libraries-assignment) | [March 1]({{site.baseurl}}/schedule/13-crowdsourcing-culture-and-managing-metadata)|
-| [Web Scraping Assignment]({{site.baseurl}}/materials/webscraping-html/02-webscraping-assignment) | [March 8]({{site.baseurl}}/schedule/15-trending-and-cleaning)|
+| [Web Scraping Assignment]({{site.baseurl}}/materials/getting-data/02-webscraping-assignment) | [March 8]({{site.baseurl}}/schedule/15-trending-and-cleaning)|
 | API Assignment (to be posted) | [March 10]({{site.baseurl}}/schedule/16-making-a-point)|
 
 
