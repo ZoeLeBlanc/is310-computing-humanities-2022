@@ -159,7 +159,7 @@ While this function is somewhat similar to our `DHTool` class, we've also added 
 
 The first method `add_authors` takes two arguments, `self` and `authors`. Just like in the `__init__` method, `self` represents the class instance and authors is a list of authors. In the `__init__` method, we define the authors attribute on `self` as an empty list. Then in our `add_authors` method we extend this initial empty list, adding the new authors to the list.
 
-What would happen if we decided to add an additional author of Python from the ![list of core contributors](https://devguide.python.org/developers/)?
+What would happen if we decided to add an additional author of Python from the [list of core contributors](https://devguide.python.org/developers/)?
 
 ```python
 a_tool.add_authors("Joannah Nanjekye")
