@@ -1,6 +1,6 @@
 ---
 title: "Python Virtual Environments"
-permalink: /materials/advanced-python/04-virtual-environment
+permalink: /materials/advanced-python/05-virtual-environment
 toc: true
 ---
 

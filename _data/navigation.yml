@@ -56,14 +56,16 @@ materials:
     children:
       - title: "Advanced Python"
         url: /materials/advanced-python/01-more-python
-      - title: "Python Advanced Assignments"
-        url: /materials/advanced-python/02-python-assignment
+      - title: "In Class Exercise"
+        url: /materials/advanced-python/02-inclass-exercise
       - title: "Advanced Python: Part 2"
         url: /materials/advanced-python/03-complex-python
+      - title: "Python Advanced Assignments"
+        url: /materials/advanced-python/04-python-assignment
       - title: "Python Virtual Environments"
-        url: /materials/advanced-python/04-virtual-environment
+        url: /materials/advanced-python/05-virtual-environment
       - title: "Python Libraries Assignment"
-        url: /materials/advanced-python/05-libraries-assignment
+        url: /materials/advanced-python/06-libraries-assignment
   - title: Getting Data
     children:
       - title: "Introduction to Web Scraping"

@@ -35,10 +35,10 @@ var store = [{
         "url": "/is310-computing-humanities/materials/advanced-python/01-more-python",
         "teaser": null
       },{
-        "title": "Python Advanced Assignments",
-        "excerpt":"Working in pairs or small groups, one person types and the other(s) tell them what to write. Assignment 1 This is the first few lines from Project Gutenberg version of Jane Austen, which you can find here. “The Project Gutenberg EBook of Pride and Prejudice, by Jane Austen This eBook...","categories": [],
+        "title": "Advanced Python In-Class Exercise",
+        "excerpt":"In class, we discussed different forms of control flow in Python. We also looked at how to use functions and how to use loops, as well as conditionals. To test out our understanding, we’re going to update our first script to try out these concepts. Here’s some sample code from...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/advanced-python/02-python-assignment",
+        "url": "/is310-computing-humanities/materials/advanced-python/02-inclass-exercise",
         "teaser": null
       },{
         "title": "Advanced Python: Part 2",
@@ -47,16 +47,22 @@ var store = [{
         "url": "/is310-computing-humanities/materials/advanced-python/03-complex-python",
         "teaser": null
       },{
+        "title": "Python Advanced Assignments",
+        "excerpt":"Working in pairs or small groups, one person types and the other(s) tell them what to write. Assignment 1 This is the first few lines from Project Gutenberg version of Jane Austen, which you can find here. The Project Gutenberg EBook of Pride and Prejudice, by Jane Austen This eBook...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/advanced-python/04-python-assignment",
+        "teaser": null
+      },{
         "title": "Python Virtual Environments",
         "excerpt":"If you already have experience with virtual environments and have a preferred setup, feel free to keep using what you have What is virtual environment? This past week we started exploring Python libraries that ship with Python when you install it on your computer, but that still need to be...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/advanced-python/04-virtual-environment",
+        "url": "/is310-computing-humanities/materials/advanced-python/05-virtual-environment",
         "teaser": null
       },{
         "title": "Python Libraries Assignment",
         "excerpt":"Choose one of the packages we’ll be looking at later in the class: Pandas https://pandas.pydata.org/ Altair Spacy Scikit-Learn Networkx OR select one you might use in your final project Install it into your virtual environment following instructions Read through some of the documentation. See if you can find one Class...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/materials/advanced-python/05-libraries-assignment",
+        "url": "/is310-computing-humanities/materials/advanced-python/06-libraries-assignment",
         "teaser": null
       },{
         "title": "Introduction to HTML and Web Scraping",
@@ -222,7 +228,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Markup & Scrape Off 💄",
-        "excerpt":"Class Activities      Ian Milligan “Welcome to the Web: The Online Community of GeoCities During The Early Years of The World Wide Web” https://ianmilligan.ca/2017/03/14/new-chapter-welcome-to-the-web-the-online-community-of-geocities-during-the-early-years-of-the-world-wide-web/   Introduction to Web Scraping and HTML   Additional Materials      Jeffrey Veen, “A Brief History of HTML” Wired. April 28, 1997 https://www.wired.com/1997/04/a-brief-history-of-html/  ","categories": [],
+        "excerpt":"Class Activities Ian Milligan “Welcome to the Web: The Online Community of GeoCities During The Early Years of The World Wide Web” https://ianmilligan.ca/2017/03/14/new-chapter-welcome-to-the-web-the-online-community-of-geocities-during-the-early-years-of-the-world-wide-web/ Introduction to Web Scraping and HTML Fill out the mid-semester survey available here https://forms.gle/SUFThTzy6WtvMRCD7 For those new to Python, be sure to review the Advanced Python Part...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/12-markup-and-scrape-off",
         "teaser": null

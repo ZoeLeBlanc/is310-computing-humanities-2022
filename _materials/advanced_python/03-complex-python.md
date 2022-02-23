@@ -193,7 +193,7 @@ def get_tool_info(self):
 
 So you're probably wondering when to use classes? Mostly we won't be delving into code complicated enough to require to write your own classes, but you will be using lots of code that is based on this pattern. That's because the class is the primary way that Python organizes its standard library and the wider ecosystem of external libraries.
 
-Let's dig into the Python documentation to understand more! [Here's the Python Standard Library](https://docs.python.org/3/library/). We've already been using this documentation, but let's scroll down to the [Pathlib module](https://docs.python.org/3/library/pathlib.html).
+Let's dig into the Python documentation to understand more! [Here's the Python Standard Library](https://docs.python.org/3/library/). 
 
 ## Imports are Important
 
@@ -257,7 +257,7 @@ For the same reason that we can't do `f.write(4)`, we also can't do `"4"+4` (or,
 
 The second new thing here is the newline character "\n", which is technically called a LF or Line Feed. This inserts a line break between characters in a string.
 
-## Assignment: Putting it Together
+## Quick Assignment: Putting it Together
 
 Here's part of what you did in the command line assignment earlier, but now in Python.
 
