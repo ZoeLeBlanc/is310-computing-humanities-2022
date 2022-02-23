@@ -14,5 +14,5 @@ Prior to class, please complete [Introduction to Python]({{site.baseurl}}/materi
 ## Ready To Go Faster?
 
 1. Complete and push up the [Intro to Python Assignment]({{site.baseurl}}/materials/intro-python-git/06-python-assignment). If you have issues with Github or git, checkout the [Github Workflows page]({{site.baseurl}}/materials/intro-python-git/07-github-workflows).
-2. Complete and push up the first [Advanced Python Assignment]({{site.baseurl}}/materials/advanced-python/02-python-assignment).
-3. If you have completed all of that, then make sure you read through [Advanced Python: Part 2]({{site.baseurl}}/materials/advanced-python/03-complex-python) and the instructions for setting up a virtual environment and then you can complete the [Python libraries assignment]({{site.baseurl}}/materials/advanced-python/05-libraries-assignment).
+2. Complete and push up the first [Advanced Python Assignment]({{site.baseurl}}/materials/advanced-python/04-python-assignment).
+3. If you have completed all of that, then make sure you read through [Advanced Python: Part 2]({{site.baseurl}}/materials/advanced-python/03-complex-python) and the instructions for setting up a virtual environment and then you can complete the [Python libraries assignment]({{site.baseurl}}/materials/advanced-python/06-libraries-assignment).

@@ -27,4 +27,4 @@ Review:
 
 - [Let's start with Python]({{site.baseurl}}/materials/intro-python-git/02-beginning-python)
 - [Jump to next week's assignment]({{site.baseurl}}/materials/intro-python-git/06-python-assignment)
-- [Finished that? Here's another assignment]({{site.baseurl}}/materials/advanced-python/02-python-assignment)
+- [Finished that? Here's another assignment]({{site.baseurl}}/materials/advanced-python/04-python-assignment)
