@@ -48,7 +48,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Python Advanced Assignments",
-        "excerpt":"Working in pairs or small groups, one person types and the other(s) tell them what to write. Assignment 1 This is the first few lines from Project Gutenberg version of Jane Austen, which you can find here. The Project Gutenberg EBook of Pride and Prejudice, by Jane Austen This eBook...","categories": [],
+        "excerpt":"Working in pairs or small groups, one person types and the other(s) tell them what to write. Assignment 1 This is the first few lines from Project Gutenberg version of Jane Austen, which you can find here. \"The Project Gutenberg EBook of Pride and Prejudice, by Jane Austen This eBook...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/advanced-python/04-python-assignment",
         "teaser": null
@@ -228,7 +228,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Markup & Scrape Off 💄",
-        "excerpt":"Class Activities Ian Milligan “Welcome to the Web: The Online Community of GeoCities During The Early Years of The World Wide Web” https://ianmilligan.ca/2017/03/14/new-chapter-welcome-to-the-web-the-online-community-of-geocities-during-the-early-years-of-the-world-wide-web/ Introduction to Web Scraping and HTML Fill out the mid-semester survey available here https://forms.gle/SUFThTzy6WtvMRCD7 For those new to Python, be sure to review the Advanced Python Part...","categories": [],
+        "excerpt":"Class Activities Ian Milligan “Welcome to the Web: The Online Community of GeoCities During The Early Years of The World Wide Web” https://ianmilligan.ca/2017/03/14/new-chapter-welcome-to-the-web-the-online-community-of-geocities-during-the-early-years-of-the-world-wide-web/ web version no longer available at that link. Now access PDF here https://uwspace.uwaterloo.ca/handle/10012/11859. I’ll also upload it to Canvas and Google Drive folder. Remember you can do...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/12-markup-and-scrape-off",
         "teaser": null

@@ -11,25 +11,40 @@ Now that we've started to learn the range of Python syntax, we can start putting
 Let's take a look at code from the Advance Python Part 1.
 
 ```python
-def make_tool_dict(name, value_2015):
+def make_tool_dict(tool_name, value_2015):
     return {
+        "name":tool_name,
         "2015":value_2015 ,
-        "name":name,
     }
 
 dh_tools= {
-    "tool1": make_tool_dict("Python",9),
-    "creator1": "Guido van Rossum"
+    "tool": make_tool_dict("Python",9),
+    "creator": "Guido van Rossum"
 }
 ```
 
-This code snippet contains a **function** called make_tool_dict that returns a **dictionary** with the name and value from 2015 for a DH tool. We call this function inside of the dh_tools **variable**.
+This code snippet contains a **function** called make_tool_dict that returns a **dictionary** with the name and value from 2015 for a DH tool. We call this function inside of the dh_tools **variable**. 
 
-Right now this code works well if we just have one script, but what if we wanted to build upon this code to add more fields and information about the tools, and maybe even reuse this code in multiple files? Then we might want to consider rewriting the code into a **class**.
+If we added a print statement in our script, this would be the output in the terminal:
+
+```python
+{
+    'tool': 
+        {
+            'name': 'Python', 
+            '2015': 9
+        }, 
+    'creator': 'Guido van Rossum'
+}
+```
+
+Right now this code works well if we just have our existing spreadsheet about these tools, but what if we wanted to build upon this initial research to add more fields and information about the tools, and also maybe even reuse this code in multiple scripts? Then we might want to consider rewriting the code into a **class**.
 
 While dictionaries are great for describing complex data within a single object, a class is really useful to encapsulate both data and functions in a single cohesive unit.
 
-A class is a particular type of **objects**. We can create ("instantiate") an object of a class and store it as a variable. A variable therefore contains (technically, contains a reference to) an *instance* of a class.
+A class is a particular type of **object**. We can create ("instantiate") an object of a class and store it as a variable. A variable therefore contains (technically, contains a reference to) an *instance* of a class.
+
+Sounds complex but let's break it down...
 
 We've already used a lot of built-in classes. Strings, lists, dictionaries are all classes. We can have Python tell us what kind of class it is using the built-in function `type()`.
 
@@ -50,11 +65,11 @@ Here's how you define a simple class that does nothing.
 
 ```python
 # Define a class
-class noop:
+class Blank:
     pass  # Pass means "Move along, please. Nothing to see here."
 
 # Create an instance of the class and invoke it
-noop()
+Blank()
 ```
 
 To first define a class, we need to use the keyword `class` followed by the name of the class (which can be anything!) and then a semi colon. All the logic of the class is indented (just like with functions, loops, and conditionals) and then we call the class similar to a function, using its name and parentheses to pass arguments to the class.
@@ -77,6 +92,8 @@ a_tool.tool_name
 So similar to our initial `make_dh_tool` function, we are creating a way to store data about DH tools. However, in this example we've created a class that has an initial method (which is really just a function!) that takes the argument we pass and assigns it to something called `self`.
 
 Self references the class **instance** that is created when you call a class, which is why `self` is the first argument to ***any*** function defined in a class. You can read more about [class scope here](https://docs.python.org/3/tutorial/classes.html#python-scopes-and-namespaces).
+
+Let's try making a more complex version of our DH tool class.
 
 ```python
 class DHTool:
@@ -193,22 +210,68 @@ def get_tool_info(self):
 
 So you're probably wondering when to use classes? Mostly we won't be delving into code complicated enough to require to write your own classes, but you will be using lots of code that is based on this pattern. That's because the class is the primary way that Python organizes its standard library and the wider ecosystem of external libraries.
 
-Let's dig into the Python documentation to understand more! [Here's the Python Standard Library](https://docs.python.org/3/library/). 
+Let's dig into the Python documentation to understand more! [Here's the Python Standard Library](https://docs.python.org/3/library/). We've already been using this documentation, but let's scroll down to the [Pathlib module](https://docs.python.org/3/library/pathlib.html).
+
+First take a look at the [source code!](https://github.com/python/cpython/blob/3.8/Lib/pathlib.py) Notice how it's organized, and try and find the documentation for the `class Path` (*hint* use control F)
+
+Let's take a look at the methods in the `class Path` [https://docs.python.org/3/library/pathlib.html#methods](https://docs.python.org/3/library/pathlib.html#methods). How would we would print out the current working directory using pathlib? 
+
+Let's try importing in `Pathlib` into our script.
 
 ## Imports are Important
 
-We can easily bring classes into other code using the `import` keyword, which does some voodoo to allow us to use classes defined in other files. This is how we can use parts of the Python Standard Library that aren't directly built into the base language ([Random](https://docs.python.org/3/library/random.html) is an example that we've encountered before). It's also how we use modules written by other programmers from the larger Python community. More on that next week!
+We can easily bring classes into other code using the `import` keyword, which does some magic to allow us to use classes defined in other files. This is how we can use parts of the Python Standard Library that aren't directly built into the base language. It's also how we use modules written by other programmers from the larger Python community. 
 
 We can also use `import` to import our own classes. It gets complicated if we have to specify the path, so for now it's easier to open the Python interpreter inside the same directory to import.
 
 ## File Input and Output
 
-File IO is easy in Python using the [`open` built-in function](https://docs.python.org/3/library/functions.html#open).
+To use pathlib, we needed to import the `pathlib` module. Pathlib is useful not just for printing out working directories, it can also let us load in files. 
+
+Up to know you've had to hand enter data but in Python you can use various libraries to manipulate and read in data.
+
+Let's try it out with Pathlib by passing in our DH tools csv path to the `Path` class.
+
+Because of how my site is organized the file path for `tools_dh_proceedings.csv` is in my assets and then files folder. You'll need to change the path to your version so that your computer knows what exact file you mean.
+
+```python
+from pathlib import Path
+
+file = Path('../assets/files/tools_dh_proceedings.csv')
+print(file, type(file))
+```
+
+If you run this code you should see the exact file path of your spreadsheet and then the type of the object, either `<class 'pathlib.PosixPath'>` or `<class 'pathlib.WindowsPath'>`. Not to get too complicated but this is because the `Path` class is a subclass of the `PosixPath` class (not really going to get into subclassing but think of it as building classes on top of one another - like lego or jenga). 
+
+We can also look at the methods built-in to the `Path` class. One in particular is useful for us `read_text` which reads in the contents of a file and returns it as a string. Read more about it here [https://docs.python.org/3/library/pathlib.html#pathlib.Path.read_text](https://docs.python.org/3/library/pathlib.html#pathlib.Path.read_text) and test it out in your script.
+
+```python
+from pathlib import Path
+
+file = Path('../assets/files/tools_dh_proceedings.csv')
+print(file, type(file))
+
+print(file.read_text())
+```
+
+You should now see the entirety of our csv file in your terminal. If you try saving that to a variable and checking the type you should see that it's a string.
+
+So now we can simply manipulate that string so that we don't have to hand enter the data.
+
+### Quick Assignment
+
+Try seeing if you can use the `read_text` method to read in the contents of the csv file and store it in a variable. And then use that data in your existing DH tools code.
+
+----
+
+So far we've been using Pathlib to work with files, but there are number of libraries and even some methods built into Python for reading in and writing files.
+
+For example we could use the [`open` built-in function in Python](https://docs.python.org/3/library/functions.html#open).
 
 To open a file for reading (input), we just do:
 
 ```python
-input_file = open("text.txt","r")
+input_file = open("tools_dh_proceedings.csv","r")
 text = input_file.read()
 print(text)
 input_file.close()
@@ -218,44 +281,63 @@ Here, we use the `open` function to open a file in mode "r" (read). `open` retur
 
 At the end, we can close the file to save some memory, but even if we don't do it explicitly, Python will eventually catch on to the fact that it isn't being used anymore and do it for us. This isn't a huge concern unless you're opening thousands of files or the files you're opening are very, very large.
 
-One convenient way to read files is to combine the file object with a for loop to read text files line by line.
-
-```python
-input_file = open("text.txt","r")
-for line in input_file:
-    print(line.upper())
-input_file.close()
-```
-
-This will loop through the file, line by line, until it's closed.
-
 Often, you'll see file handling used with the `with` keyword:
 
 ```python
-with open("text.txt","r") as input_file:
-    for line in input_file:
-        print(line.upper())
+with open("tools_dh_proceedings.csv","r") as input_file:
+    print(input_file.read())
 ```
 
 This is functionally the same as our last example. The only difference is that the file is automatically closed at the end of the block. You can use whichever convention you like, but keep both in mind because they're both pretty common in the wild.
 
-## File Output
+### File Output
 
-File output is very similar. We just use mode 'w', which overwrites the file specified. We can also use 'x' (which only works for new files) or 'a' (which appends data at the end of the file). Read the [`open` docs](https://docs.python.org/3/library/functions.html#open) for all the details.
+File output is very similar. We just use mode `w`, which overwrites the file specified. We can also use `x` (which only works for new files) or `a` (which appends data at the end of the file). Read the [`open` docs](https://docs.python.org/3/library/functions.html#open) for all the details and also take a look at this table.
+
+|Character| Mode |Description|
+|-|-|-|
+|`r`|Read (default)| Open a file for read only|
+|`w` |Write |Open a file for write only (overwrite) and will also create a new file if it doesn't exist|
+|`a` |Append |Open a file for write only (append)|
+|`r+` |Read+ |Write open a file for both reading and writing|
+|`x` |Create |Create a new file|
+
+
+To understand file output, let's try working with a file that doesn't exist. Try pasting this code in your script.
 
 ```python
-f = open("text.txt","w")
+f = open("new_text.txt","w")
 for i in range(0,100):
     f.write(str(i**2)+"\n")
 ```
 
+Once you run it, you should see a new file in your directory called `new_text.txt`, which should be a text file, containing a list of numbers. We created those numbers using the built-in `range` function and the `write` method.
+
 Here, there's something just a little tricky. `i` and `i**2` are  integers, but the file object in this case expects a string. If we try to use `f.write(i**2)` instead, we'll get an error: `TypeError: write() argument must be str, not int`.
 
-To get around this, we can convert from int to string using the built-in `str` class constructor `str()` to create a new string that's the *string representation* of the integer we pass in. So even though the inteher 4 and the string "4" look the same, they're different objects and different ways to represent data.
+To get around this, we can convert from int to string using the built-in `str` class constructor `str()` to create a new string that's the *string representation* of the integer we pass in. So even though the integer 4 and the string "4" look the same, they're different objects and different ways to represent data.
 
 For the same reason that we can't do `f.write(4)`, we also can't do `"4"+4` (or, for that matter, `4+"4"`). We have to explicitly tell python whether we want it to treat each value as an integer or a string. `"4"+str(4)` produces "44" while `int("4")+4` returns 8.
 
 The second new thing here is the newline character "\n", which is technically called a LF or Line Feed. This inserts a line break between characters in a string.
+
+### Reading CSVs
+
+While we can use the `open` method or Pathlib for working with text files, but usually for CSVs (aka spreadsheets), we need a Python library with a little more functionality. One of the most common ones is the [`csv` module](https://docs.python.org/3/library/csv.html). Just like with Pathlib, we first to import `csv` and then we can still use `open` to open our spreadsheet.
+
+But now we use the built-in methods of `csv` library to manipulate our file.
+
+```python
+import csv
+
+with open("tools_dh_proceedings.csv","r") as input_file:
+    csv_reader = csv.reader(input_file)
+    for row in csv_reader:
+        print(row)
+```
+
+Try out this code and see what the difference is between the `csv.reader` and `read_text` methods we've tried out.
+
 
 ## Quick Assignment: Putting it Together
 
@@ -272,7 +354,7 @@ Let's say that we want to "modernize" every classic book on Project Gutenberg. T
 I've pushed the Gutenberg version of Pride and Prejudice to this directory [here]({{site.baseurl}}/assets/files/PrideandPrejudice.txt) and the skeleton of the code needed to convert the text:
 
 ```python
-filename = "pg42671.txt"
+filename = "PrideandPrejudice.txt"
 
 ### input code to read file goes here
 
