@@ -7,9 +7,11 @@ class_date: 2022-03-22
 
 ## Class Activities
 
-- Ted Underwood. “Seven ways humanists are using computers to understand text”. June 4, 2015 <https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/>
-- Benjamin Schmidt, “Do Digital Humanists Need to Understand Algorithms?,”Debates in the Digital Humanities 2016 <http://dhdebates.gc.cuny.edu/debates/text/99>
+- Giorgia Lupi *Data Humanism* <http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold>
+- Lincoln Mullen “Isn’t it obvious?” January 10, 2018 <https://lincolnmullen.com/blog/isnt-it-obvious/>
+- Matthew Lincoln “Confabulation in the humanities” 21 Mar 2015 <https://matthewlincoln.net/2015/03/21/confabulation-in-the-humanities.html>
 - Matt Daniels "Hip Hop Words" <https://pudding.cool/2017/09/hip-hop-words/>
+
 - Review Pandas and Jupyter Notebooks and Introduction to Text Mining
 
 ## Additional Materials 

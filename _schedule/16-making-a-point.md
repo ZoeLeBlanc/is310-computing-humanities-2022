@@ -7,10 +7,9 @@ class_date: 2022-03-10
 
 ## Class Activities
 
-- Giorgia Lupi *Data Humanism* <http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold>
-- Lincoln Mullen “Isn’t it obvious?” January 10, 2018 <https://lincolnmullen.com/blog/isnt-it-obvious/>
-- Matthew Lincoln “Confabulation in the humanities” 21 Mar 2015 <https://matthewlincoln.net/2015/03/21/confabulation-in-the-humanities.html>
-- We will go over both the introduction to APIS and Jupyter Notebooks.
+- Katie Rawson and Trevor Muñoz, “Against Cleaning”, Curating Menus, 7 July, 2016. <http://curatingmenus.org/articles/against-cleaning/>
+- Karl W. Broman and Kara H. Woo, “Data Organization in Spreadsheets,” American Statistician 72, no. 1 (2018): 2–10, <https://doi.org/10.1080/00031305.2017.1375989>
+- We will go over both the introduction to APIS and discuss Jupyter Notebooks.
 
 ## Additional Materials
 
