@@ -10,6 +10,7 @@ class_date: 2022-03-10
 - Giorgia Lupi *Data Humanism* <http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold>
 - Lincoln Mullen “Isn’t it obvious?” January 10, 2018 <https://lincolnmullen.com/blog/isnt-it-obvious/>
 - Matthew Lincoln “Confabulation in the humanities” 21 Mar 2015 <https://matthewlincoln.net/2015/03/21/confabulation-in-the-humanities.html>
+- We will go over both the introduction to APIS and Jupyter Notebooks.
 
 ## Additional Materials
 

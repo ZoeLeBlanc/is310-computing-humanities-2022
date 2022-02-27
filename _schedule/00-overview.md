@@ -46,9 +46,10 @@ This overview gives a top level view of the topics for each of our meetings. You
 | [Command Line Assignment]({{site.baseurl}}/materials/getting-started/02-command-line#command-line-assignment) | [February 3]({{site.baseurl}}/schedule/06-programming-in-the-humanities#assignments-due)|
 | [Github Repository Assignment]({{site.baseurl}}/materials/intro-python-git/01-git-github#git--github-assignment) | [February 8]({{site.baseurl}}/schedule/07-culture-as-data-and-data-cultures)|
 | [Introduction to Python Assignment]({{site.baseurl}}/materials/intro-python-git/06-python-assignment) | [February 22]({{site.baseurl}}/schedule/11-platforms-and-web-cultures)|
-| [Advanced Python Assignment]({{site.baseurl}}/materials/advanced-python/04-python-assignment)| [March 1]({{site.baseurl}}/schedule/13-crowdsourcing-culture-and-managing-metadata)|
-| [Python Libraries Assignment]({{site.baseurl}}/05-libraries-assignment) | [March 3]({{site.baseurl}}/schedule/14-getting-data)|
+| [Advanced Python Assignment]({{site.baseurl}}/materials/advanced-python/04-python-assignment)| ~~March 1~~ [March 3]({{site.baseurl}}/schedule/14-getting-data)|
+| [Python Libraries Assignment]({{site.baseurl}}/05-libraries-assignment) | ~~March 3~~ Now Optional|
 | [Web Scraping Assignment]({{site.baseurl}}/materials/getting-data/02-webscraping-assignment) | [March 8]({{site.baseurl}}/schedule/15-trending-and-cleaning)|
 | API Assignment (to be posted) | [March 10]({{site.baseurl}}/schedule/16-making-a-point)|
+| Jupyter and Pandas Assignment | [March 22]({{site.baseurl}}/schedule/17-patterns-and-outliers)|
 
 

@@ -11,7 +11,8 @@ class_date: 2022-03-08
 
 - Karl W. Broman and Kara H. Woo, “Data Organization in Spreadsheets,” American Statistician 72, no. 1 (2018): 2–10, <https://doi.org/10.1080/00031305.2017.1375989>
 - Katie Rawson and Trevor Muñoz, “Against Cleaning”, Curating Menus, 7 July, 2016. <http://curatingmenus.org/articles/against-cleaning/> 
-- Introduction to Pandas
+- ~~Introduction to Pandas~~
+- We will be reviewing the Intro to Web Scraping Assignment.
 
 
 ## Additional Materials

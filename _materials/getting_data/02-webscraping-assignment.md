@@ -10,7 +10,7 @@ toc: true
 2. Save each volume's text in a file.
 3. Push up your code and data to your Github repository.
 
-## Second Assignment
+## Bonus Assignment OPTIONAL
 
 Building from Melanie Walsh's example in <https://melaniewalsh.github.io/Intro-Cultural-Analytics/04-Data-Collection/02-Web-Scraping-Part1.html#why-do-we-need-to-scrape-at-all>, try using `requests` and `BeautifulSoup` to get the data from the Pudding Movie Dialogue article we read.
 

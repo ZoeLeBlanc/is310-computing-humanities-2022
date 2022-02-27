@@ -8,7 +8,9 @@ class_date: 2022-03-01
 ## Class Activities
 
 - Read Yanni Alexander Loukissas, *All Data Are Local*; Chapter 3, “Collecting Infrastructures” available on Canvas/Google Drive and explore Digital Public Library of America <https://dp.la/>
-- Review Web Scraping and start looking at APIs
+- ~~Review Web Scraping and start looking at APIs~~
+- Finish reading and reviewing [Advanced Python Part 2]({{site.baseurl}}/materials/advanced-python/03-complex-python). Come to class with any questions.
+- No assignment due.
 
 ## Additional Materials
 

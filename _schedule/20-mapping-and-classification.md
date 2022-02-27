@@ -11,6 +11,7 @@ class_date: 2022-03-31
   - Optional listen to an interview with the authors <https://nothingneverhappens.org/decolonial/landgrabu/>
 - Robert Lee, “How we investigated the land-grant university system” High Country News, March 30, 2020 <https://www.hcn.org/articles/indigenous-affairs-education-how-we-investigated-the-land-grant-university-system>
 - Explore Geography of the Post by Cameron Blevins and Jason Heppler <http://cameronblevins.org/gotp/>
+- Review Intro to NER
 
 ## Additional Materials
 

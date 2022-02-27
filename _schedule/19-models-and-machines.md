@@ -11,4 +11,4 @@ class_date: 2022-03-29
 - Maciej Cegłowski. “Deep Fried Data” Idle Words. September 27, 2016. <https://idlewords.com/talks/deep_fried_data.htm>
 - Laura B. McGrath "Charisma (Embodiment): a Response to Tess McNulty" <https://post45.org/2019/05/charisma-embodiment-a-response-to-tess-mcnulty/>
 - Explore AI Dungeon <https://play.aidungeon.io/> 
-- Review Introduction to Text Mining and NER
+- Review Introduction to Text Mining and and start NER
