@@ -32,10 +32,14 @@ Using the DH Tools data from last week, rewrite your code so that we could add a
    
 2. Read in the csv file using the Python [`csv` module](https://docs.python.org/3/library/csv.html). This is a little trickier than working with text files because the csv file is a comma-separated value file. For more information on how to do that check out our [introduction to file formats]({{site.baseurl}}/materials/getting-data/03-file-formats) and this tutorial <https://realpython.com/python-csv/>.
 
-3. Now try and recreate the functionality from our first script, but instead of just printing everything out try and get the top ten tools based on the 2019 ratings. Remember to add functionality to calculate the total field for each new tool.
+3. Now try and recreate the functionality from our first script ~~but instead of just printing everything out try and get the top ten tools based on the 2019 ratings~~. Try printing out again the 2015, 2019, and overall counts for each tool.
 
-4. Figure out a way to output all the information for a tool if you input their name. Remember to use for loops and conditions!
+4. Now let's try reworking your code into a function. 
+   - First step is write a function that takes your DH tools data and a tool name.
+   - Then in your function print out *only* the data for that particular tool. 
 
-5. Finally, create a secondary function to input any year and return the top tool.
+**BONUS** Using the built-in input method, let a user input a tool name from the terminal, and then have your function print out the data for that tool.
+
+~~5. Finally, create a secondary function to input any year and return the top tool.~~
 
 Once you're finished, upload your scripts to your Github assignments folder or repository, and post a link in our `#coding-assignments` channel on Discord. 
