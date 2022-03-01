@@ -84,4 +84,4 @@ for key, value in tools.items():
 
 1. Try altering the for loop above to print out the overall total for each tool.
 2. Try altering the for loop above to only print out values for 2015 or 2019.
-3. Try turning the for loop into a function that takes our `tools` dictionary, as well as tool's name as input and returns each tool's overall total. Feel free to either directly enter the tool name in your script, or experiment with the `input` method so that you can interactively enter the tool name from your terminal.
+3. Try turning the for loop into a function that takes our `tools` dictionary, as well as tool's name as input and returns each tool's overall total.
