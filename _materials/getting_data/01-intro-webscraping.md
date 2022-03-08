@@ -195,7 +195,7 @@ Now we can try scraping that page!
 
 ```python
 from bs4 import BeautifulSoup
-soup = BeautifulSoup(open("humanist_homepage.html"), features="lxml")
+soup = BeautifulSoup(open("humanist_homepage.html"), features="html.parser")
 
 print(soup.prettify())
 ```
