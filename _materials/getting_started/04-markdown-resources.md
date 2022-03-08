@@ -11,7 +11,7 @@ Under the Document heading <https://en.wikipedia.org/wiki/List_of_file_formats#D
 The one we'll be using for writing documents in this course is called Markdown or MD. Markdown files end with `.md` extension and can be written in your text editor of choice. Also there are specific writing tools that can be used to write Markdown files, like [Ulysses](https://ulysses.app/) for Macs or [Ghostwriter](https://wereturtle.github.io/ghostwriter/) for Windows. Also if you use the popular tool, Notion.so it also exports to Markdown.
 
 As some background for what Markdown is exactly,
-> Markdown is a lightweight markup language for creating formatted text using a plain-text editor. John Gruber and Aaron Swartz created Markdown in 2004 as a markup language that is appealing to human readers in its source code form.
+> Markdown is a lightweight markup language for creating formatted text using a plain-text editor. John Gruber and Aaron Swartz created Markdown in 2004 as a markup language that is appealing to human readers in its source code form. From Wikipedia page <https://en.wikipedia.org/wiki/Markdown>
 
 The big difference from writing in something like Word or Google Docs is that Markdown is a plain text format and that you don't use buttons to format your text. Instead, you directly format it with Markdown.
 
