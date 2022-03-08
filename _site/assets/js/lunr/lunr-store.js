@@ -102,7 +102,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Markdown Resources",
-        "excerpt":"If you are new to using Markdown or have some questions about some syntax we have been using, I highly recommend you take a look at the following resources. Sarah Simpkin, “Getting Started with Markdown,” Programming Historian 4 (2015), https://doi.org/10.46430/phen0046. Then for more depth, you could also check out the...","categories": [],
+        "excerpt":"Usually when we create files, we notice that they have a few characters after a ., like .doc or .csv or .txt.. That’s what is known as a file extension and it tells computers the file format, as well as which applications and programs can interact with that file. To...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/advanced-python/04-markdown-resources",
         "teaser": null
