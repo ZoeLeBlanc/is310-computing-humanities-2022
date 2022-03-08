@@ -32,11 +32,30 @@ Now we'll install `venv` (follow instructions) [https://docs.python.org/3/librar
 python3 -m venv is310-venv
 ```
 
-Try installing the package Beautiful Soup
+Now you need to activate your virtual environment.
+
+```sh
+source is310-venv/bin/activate
+```
+The source command is specific to virtual environments and is essentially telling your terminal to run all your subsequent commands in the virtual environment.
+
+Depending on how you have your terminal configured you'll see the name of your environment in the terminal.
+
+Now try installing the package Beautiful Soup
 
 ```sh
 pip3 install beautifulsoup4
 ```
+
+You can test if it worked by starting your python interpreter with the `python3` command and running the following code:
+
+```shell
+import bs4
+bs4.__version__
+```
+Which should show the version of Beautiful Soup you have installed.
+
+You can double check that this installation worked by opening up your current directory in your code editor and looking through the folders of your virtual environment. Under `lib`, you should see a folder called `python_version/site-packages` and that will show you all the Python libraries you have installed.
 
 ## Virtual Environments in VS Code
 

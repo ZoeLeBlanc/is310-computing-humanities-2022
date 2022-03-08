@@ -9,7 +9,7 @@ toc_sticky: true
 
 - Upload to Github as a markdown file in your IS310-final-project repository
   - Those working in groups can select one member's repository and then work as collaborators on that repository.
-- Individuals should aim for 2-3 "pages" double spaced
+- Individuals should aim for ~~2-3 "pages" double spaced~~ 500-750 words.
   - Groups should add an additional 1-2 "pages" per participant (though this is a general guideline -- not a firm rule)
 - Citations are encouraged, and you may use your preferred citation style, but it must be consistent through out the proposal
 - This is not an essay assignment. Bullet points and numbered lists are allowed, as are tables, diagrams, and graphs. 
