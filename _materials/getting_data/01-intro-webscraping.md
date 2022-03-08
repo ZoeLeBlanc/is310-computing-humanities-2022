@@ -3,6 +3,8 @@ title: "Introduction to HTML and Web Scraping"
 permalink: /materials/getting-data/01-intro-webscraping
 toc: true
 ---
+<div class="notice--info">⚡️ The files from our class session on March 8, 2022 are available for download <a href="{{site.baseurl}}/assets/files/first_page.html" download>first_page.html</a> and <a href="{{site.baseurl}}/assets/files/scraping.py" download>scraping.py</a></div>
+
 
 ![https://media.giphy.com/media/bF2M6el0vi2qc/giphy.gif](https://media.giphy.com/media/bF2M6el0vi2qc/giphy.gif)
 

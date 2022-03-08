@@ -18,7 +18,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Propject Proposal Guidelines",
-        "excerpt":"Format Upload to Github as a markdown file in your IS310-final-project repository Those working in groups can select one member’s repository and then work as collaborators on that repository. Individuals should aim for 2-3 “pages” double spaced Groups should add an additional 1-2 “pages” per participant (though this is a...","categories": [],
+        "excerpt":"Format Upload to Github as a markdown file in your IS310-final-project repository Those working in groups can select one member’s repository and then work as collaborators on that repository. Individuals should aim for 2-3 “pages” double spaced 500-750 words. Groups should add an additional 1-2 “pages” per participant (though this...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/assessments/04-project-proposal",
         "teaser": null
@@ -66,13 +66,13 @@ var store = [{
         "teaser": null
       },{
         "title": "Introduction to HTML and Web Scraping",
-        "excerpt":"What’s HTML? According to the Mozilla website, “HTML (Hypertext Markup Language) is not a programming language; it is a markup language used to tell your browser how to structure the web pages you visit. It can be as complicated or as simple as the web developer wishes it to be....","categories": [],
+        "excerpt":"⚡️ The files from our class session on March 8, 2022 are available for download first_page.html and scraping.py What’s HTML? According to the Mozilla website, “HTML (Hypertext Markup Language) is not a programming language; it is a markup language used to tell your browser how to structure the web pages...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/getting-data/01-intro-webscraping",
         "teaser": null
       },{
         "title": "Web Scraping Assignment",
-        "excerpt":"First Assignment Finish our first exercise by figuring out to scrape the text from at least five of the volumes on the Humanist Listserv. Save each volume’s text in a file. Push up your code and data to your Github repository. Second Assignment Building from Melanie Walsh’s example in https://melaniewalsh.github.io/Intro-Cultural-Analytics/04-Data-Collection/02-Web-Scraping-Part1.html#why-do-we-need-to-scrape-at-all,...","categories": [],
+        "excerpt":"First Assignment Finish our first exercise by figuring out to scrape the text from at least five of the volumes on the Humanist Listserv. Save each volume’s text in a file. Push up your code and data to your Github repository. Bonus Assignment OPTIONAL Building from Melanie Walsh’s example in...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/getting-data/02-webscraping-assignment",
         "teaser": null
@@ -234,43 +234,43 @@ var store = [{
         "teaser": null
       },{
         "title": "Crowdsourcing Culture & Managing Metadata 💬",
-        "excerpt":"Class Activities Read Yanni Alexander Loukissas, All Data Are Local; Chapter 3, “Collecting Infrastructures” available on Canvas/Google Drive and explore Digital Public Library of America https://dp.la/ Review Web Scraping and start looking at APIs Additional Materials Hannah Alpert Adams “Machine Reading the Primeros Libros” http://www.digitalhumanities.org/dhq/vol/10/4/000268/000268.html Ryan Cordell, “‘Q i-jtb the...","categories": [],
+        "excerpt":"Class Activities Read Yanni Alexander Loukissas, All Data Are Local; Chapter 3, “Collecting Infrastructures” available on Canvas/Google Drive and explore Digital Public Library of America https://dp.la/ Review Web Scraping and start looking at APIs Finish reading and reviewing Advanced Python Part 2. Come to class with any questions. No assignment...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/13-crowdsourcing-culture-and-managing-metadata",
         "teaser": null
       },{
         "title": "GETting Data 🚦",
-        "excerpt":"Class Activities      “Your Apps Know Where You Were Last Night, and They’re Not Keeping It Secret.” The New York Times, December 10, 2018, sec. Business https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html   Maciej Cegłowski “Haunted by Data” Idle Words October 1 2015 https://idlewords.com/talks/haunted_by_data.htm   Introduction to working with APIs  ","categories": [],
+        "excerpt":"Class Activities “Your Apps Know Where You Were Last Night, and They’re Not Keeping It Secret.” The New York Times, December 10, 2018, sec. Business https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html If you are having trouble accessing the article, than please sign up for educational access to the New York Times https://nytimesineducation.com/access-nyt/. Kudos to Caroline...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/14-getting-data",
         "teaser": null
       },{
         "title": "T(r)ending & Cleaning 🏡",
-        "excerpt":"Class Activities DUE Submit your final project proposal Karl W. Broman and Kara H. Woo, “Data Organization in Spreadsheets,” American Statistician 72, no. 1 (2018): 2–10, https://doi.org/10.1080/00031305.2017.1375989 Katie Rawson and Trevor Muñoz, “Against Cleaning”, Curating Menus, 7 July, 2016. http://curatingmenus.org/articles/against-cleaning/ Introduction to Pandas Additional Materials Scott B. Weingart “Argument Clinic”...","categories": [],
+        "excerpt":"Class Activities DUE Submit your final project proposal Karl W. Broman and Kara H. Woo, “Data Organization in Spreadsheets,” American Statistician 72, no. 1 (2018): 2–10, https://doi.org/10.1080/00031305.2017.1375989 Katie Rawson and Trevor Muñoz, “Against Cleaning”, Curating Menus, 7 July, 2016. http://curatingmenus.org/articles/against-cleaning/ Introduction to Pandas All of the above is moved to...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/15-trending-and-cleaning",
         "teaser": null
       },{
         "title": "Making a Point 💯",
-        "excerpt":"Class Activities Giorgia Lupi Data Humanism http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold Lincoln Mullen “Isn’t it obvious?” January 10, 2018 https://lincolnmullen.com/blog/isnt-it-obvious/ Matthew Lincoln “Confabulation in the humanities” 21 Mar 2015 https://matthewlincoln.net/2015/03/21/confabulation-in-the-humanities.html Additional Materials Shirley Wu “An Interactive Visualization of Every Line in Hamilton” The Pudding https://pudding.cool/2017/03/hamilton/index.html Explore flowing data https://flowingdata.com/ and listen to http://datastori.es/126-flowingdata-with-nathan-yau/ Explore...","categories": [],
+        "excerpt":"Class Activities Katie Rawson and Trevor Muñoz, “Against Cleaning”, Curating Menus, 7 July, 2016. http://curatingmenus.org/articles/against-cleaning/ Karl W. Broman and Kara H. Woo, “Data Organization in Spreadsheets,” American Statistician 72, no. 1 (2018): 2–10, https://doi.org/10.1080/00031305.2017.1375989 We will go over both the introduction to APIS and discuss Jupyter Notebooks. Additional Materials Shirley...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/16-making-a-point",
         "teaser": null
       },{
         "title": "Patterns & Outliers ⚖️",
-        "excerpt":"Class Activities Ted Underwood. “Seven ways humanists are using computers to understand text”. June 4, 2015 https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/ Benjamin Schmidt, “Do Digital Humanists Need to Understand Algorithms?,”Debates in the Digital Humanities 2016 http://dhdebates.gc.cuny.edu/debates/text/99 Matt Daniels “Hip Hop Words” https://pudding.cool/2017/09/hip-hop-words/ Review Pandas and Jupyter Notebooks and Introduction to Text Mining Additional Materials...","categories": [],
+        "excerpt":"Class Activities Giorgia Lupi Data Humanism http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold Lincoln Mullen “Isn’t it obvious?” January 10, 2018 https://lincolnmullen.com/blog/isnt-it-obvious/ Matthew Lincoln “Confabulation in the humanities” 21 Mar 2015 https://matthewlincoln.net/2015/03/21/confabulation-in-the-humanities.html Matt Daniels “Hip Hop Words” https://pudding.cool/2017/09/hip-hop-words/ Review Pandas and Jupyter Notebooks and Introduction to Text Mining Additional Materials Ted Underwood, David Bamman, and Sabrina...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/17-patterns-and-outliers",
         "teaser": null
       },{
         "title": "Names and Spells 🔮",
-        "excerpt":"Class Activities      Erin Davis “What physical traits are most tied to gender in literature? Eye roll: Women are all soft thighs and red lips.” The Pudding July 2020 https://pudding.cool/2020/07/gendered-descriptions/ and https://pudding.cool/process/pitching-gendered-descriptions/   Review Introduction to Text Mining and Start Named Entity Recognition  ","categories": [],
+        "excerpt":"Class Activities Erin Davis “What physical traits are most tied to gender in literature? Eye roll: Women are all soft thighs and red lips.” The Pudding July 2020 https://pudding.cool/2020/07/gendered-descriptions/ and https://pudding.cool/process/pitching-gendered-descriptions/ Ted Underwood. “Seven ways humanists are using computers to understand text”. June 4, 2015 https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/ Benjamin Schmidt, “Do Digital...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/18-names-and-spells",
         "teaser": null
       },{
         "title": "Models and Machines 🤖",
-        "excerpt":"Class Activities      Ted Underwood “Why and Age of Machine Learning Needs the Humanities” Public Books https://www.publicbooks.org/why-an-age-of-machine-learning-needs-the-humanities/   Maciej Cegłowski. “Deep Fried Data” Idle Words. September 27, 2016. https://idlewords.com/talks/deep_fried_data.htm   Laura B. McGrath “Charisma (Embodiment): a Response to Tess McNulty” https://post45.org/2019/05/charisma-embodiment-a-response-to-tess-mcnulty/   Explore AI Dungeon https://play.aidungeon.io/   Review Introduction to Text Mining and NER  ","categories": [],
+        "excerpt":"Class Activities Ted Underwood “Why and Age of Machine Learning Needs the Humanities” Public Books https://www.publicbooks.org/why-an-age-of-machine-learning-needs-the-humanities/ Maciej Cegłowski. “Deep Fried Data” Idle Words. September 27, 2016. https://idlewords.com/talks/deep_fried_data.htm Laura B. McGrath “Charisma (Embodiment): a Response to Tess McNulty” https://post45.org/2019/05/charisma-embodiment-a-response-to-tess-mcnulty/ Explore AI Dungeon https://play.aidungeon.io/ Review Introduction to Text Mining and and start...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/19-models-and-machines",
         "teaser": null
