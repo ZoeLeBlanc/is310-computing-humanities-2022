@@ -72,7 +72,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Web Scraping Assignment",
-        "excerpt":"First Assignment Finish our first exercise by figuring out to scrape the text from at least five of the volumes on the Humanist Listserv. Save each volume’s text in a file. Push up your code and data to your Github repository. Bonus Assignment OPTIONAL Building from Melanie Walsh’s example in...","categories": [],
+        "excerpt":"First In-Class Assignment On Tuesday we finished class by trying out the requests library with beautifulsoup to do webscraping. Today in breakout groups, we will be working on trying out web scraping of the humanist listserv. In your group, one person should share screen and create a new file called...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/getting-data/02-webscraping-assignment",
         "teaser": null
@@ -102,7 +102,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Notebook Assignment",
-        "excerpt":" ","categories": [],
+        "excerpt":"First Assignment In class, we worked on getting the text from the Humanist listserv through web scraping. The final piece of this assignment is to take the data from the plain text files and save it to a dataframe in Pandas. Going forward we’ll be using this dataset to do...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/getting-data/07-notebook-assignment",
         "teaser": null
@@ -276,13 +276,13 @@ var store = [{
         "teaser": null
       },{
         "title": "Making a Point 💯",
-        "excerpt":"Class Activities Katie Rawson and Trevor Muñoz, “Against Cleaning”, Curating Menus, 7 July, 2016. http://curatingmenus.org/articles/against-cleaning/ Karl W. Broman and Kara H. Woo, “Data Organization in Spreadsheets,” American Statistician 72, no. 1 (2018): 2–10, https://doi.org/10.1080/00031305.2017.1375989 We will go over both the introduction to APIS and discuss Jupyter Notebooks. Additional Materials Shirley...","categories": [],
+        "excerpt":"Class Activities Katie Rawson and Trevor Muñoz, “Against Cleaning”, Curating Menus, 7 July, 2016. http://curatingmenus.org/articles/against-cleaning/ Karl W. Broman and Kara H. Woo, “Data Organization in Spreadsheets,” American Statistician 72, no. 1 (2018): 2–10, https://doi.org/10.1080/00031305.2017.1375989 We will go over both the introduction to APIS and discuss Jupyter Notebooks. Complete the in...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/16-making-a-point",
         "teaser": null
       },{
         "title": "Patterns & Outliers ⚖️",
-        "excerpt":"Class Activities Giorgia Lupi Data Humanism http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold Lincoln Mullen “Isn’t it obvious?” January 10, 2018 https://lincolnmullen.com/blog/isnt-it-obvious/ Matthew Lincoln “Confabulation in the humanities” 21 Mar 2015 https://matthewlincoln.net/2015/03/21/confabulation-in-the-humanities.html Matt Daniels “Hip Hop Words” https://pudding.cool/2017/09/hip-hop-words/ Review Pandas and Jupyter Notebooks and Introduction to Text Mining Additional Materials Ted Underwood, David Bamman, and Sabrina...","categories": [],
+        "excerpt":"Class Activities Giorgia Lupi Data Humanism http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold Lincoln Mullen “Isn’t it obvious?” January 10, 2018 https://lincolnmullen.com/blog/isnt-it-obvious/ Matthew Lincoln “Confabulation in the humanities” 21 Mar 2015 https://matthewlincoln.net/2015/03/21/confabulation-in-the-humanities.html Review Introduction to Pandas and Jupyter Notebooks and associated assignments. Also answer any questions about the Introudction to APIs. Additional Materials Matt Daniels “Hip...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/17-patterns-and-outliers",
         "teaser": null

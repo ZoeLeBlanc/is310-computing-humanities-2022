@@ -80,6 +80,8 @@ materials:
         url: /materials/getting-data/05-api-assignment
       - title: "Introduction to Notebooks and Pandas"
         url: /materials/getting-data/06-intro-notebooks
+      - title: "Notebooks Assignment"
+        url: /materials/getting-data/07-notebook-assignment
   - title: Exploratory Data Analysis (More Soon)
 
 

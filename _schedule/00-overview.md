@@ -49,7 +49,7 @@ This overview gives a top level view of the topics for each of our meetings. You
 | [Advanced Python Assignment]({{site.baseurl}}/materials/advanced-python/04-python-assignment)| ~~March 1~~ [March 8]({{site.baseurl}}/schedule/14-getting-data)|
 | [Python Libraries Assignment]({{site.baseurl}}/05-libraries-assignment) | ~~March 3~~ Now Optional|
 | [Web Scraping Assignment]({{site.baseurl}}/materials/getting-data/02-webscraping-assignment) | ~~March 8~~ [March 22]({{site.baseurl}}/schedule/15-trending-and-cleaning)|
-| API Assignment (to be posted) | [March 22]({{site.baseurl}}/schedule/16-making-a-point)|
+| [API Assignment]({{site.baseurl}}/materials/getting-data/05-api-assignment) | ~~March 22~~ Now Optional (Highly recommend for those behind on annotations or planning to work with APIs) ({{site.baseurl}}/schedule/16-making-a-point)|
 | Jupyter and Pandas Assignment | ~~March 22~~ [March 24]({{site.baseurl}}/schedule/17-patterns-and-outliers)|
 
 
