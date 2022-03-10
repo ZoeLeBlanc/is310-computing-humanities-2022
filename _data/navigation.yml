@@ -74,6 +74,12 @@ materials:
         url: /materials/getting-data/02-webscraping-assignment
       - title: "File Formats"
         url: /materials/getting-data/03-file-formats
+      - title: "Introduction to APIs"
+        url: /materials/getting-data/04-intro-apis
+      - title: "API Assignment"
+        url: /materials/getting-data/05-api-assignment
+      - title: "Introduction to Notebooks and Pandas"
+        url: /materials/getting-data/06-intro-notebooks
   - title: Exploratory Data Analysis (More Soon)
 
 

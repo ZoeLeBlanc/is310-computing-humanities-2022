@@ -83,6 +83,30 @@ var store = [{
         "url": "/is310-computing-humanities/materials/getting-data/03-file-formats",
         "teaser": null
       },{
+        "title": "Introduction to Application Programming Interfaces (APIs)",
+        "excerpt":"In class, we have mentioned and discussed APIs a few times (remember our discussion about Goodreads and Digital Public Library of America?). And now it’s time to dig in and try working with them 🥳. So what exactly is an API? API stands for Application Programming Interface.What does that mean...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/getting-data/04-intro-apis",
+        "teaser": null
+      },{
+        "title": "API Assignment",
+        "excerpt":"Reminder this is an optional assignment. But recommend completing it if you plan to work with APIs in your final project. Create a new script called first_apis.py. Now select an API from one of the following resources: https://github.com/chanonroy/cool-apis https://github.com/public-apis/public-apis https://apilist.fun/ One of my personal favorites is SWAPI (the Star Wars...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/getting-data/05-api-assignment",
+        "teaser": null
+      },{
+        "title": "Introduction to Jupyter Notebooks and Pandas",
+        "excerpt":"So far when we’ve been writing Python code, we’ve either been using the Python interpreter in the terminal or saving a Python script. However, there’s a third way to write Python code that’s very popular in Digital Humanities - that is Jupyter notebooks. So what is a Jupyter notebook? The...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/getting-data/06-intro-notebooks",
+        "teaser": null
+      },{
+        "title": "Notebook Assignment",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/getting-data/07-notebook-assignment",
+        "teaser": null
+      },{
         "title": "Getting Up and Running: Installation Instructions 💨 ",
         "excerpt":"Goals for the Week Sign up Github Account Installing some way of writing and running code Installing some way of working with Python and HTML/CSS/JS Installation for Windows Installation for Mac Creating a Github Account While we’ll be sharing a lot of materials via Canvas and Google Drive, we’ll also...","categories": [],
         "tags": [],
