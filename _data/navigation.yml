@@ -130,25 +130,25 @@ schedule:
         url: /schedule/16-making-a-point
       - title: "<b>Spring Break 🛑</b><br>No Class March 15 and 17"
         url: /schedule/00-overview
-      - title: "<b>March 22 ⚖️</b><br> Patterns & Outliers"
+      - title: "<b>March 22 📊</b><br> Arguing with Data"
         url: /schedule/17-patterns-and-outliers
-      - title: "<b>March 24 🔮</b><br> Names and Spells"
+      - title: "<b>March 24 📚</b><br> Notebooks and Frames"
         url: /schedule/18-names-and-spells
-      - title: "<b>March 29 🤖</b><br> Models and Machines"
+      - title: "<b>March 29 ⚖️</b><br> Revised Patterns and Outliers"
         url: /schedule/19-models-and-machines
-      - title: "<b>March 31 🌍</b><br> Mapping & Class(ification)"
+      - title: "<b>March 31 🕵🏽‍♀️</b><br> Exploratory Data"
         url: /schedule/20-mapping-and-classification
   - title: April Detailed Activities
     children:
-      - title: "<b>April 5 🧩</b><br> Connecting the Dots"
+      - title: "<b>April 5 🤖</b><br> Revised Models and Machines"
         url: /schedule/21-connecting-the-dots
       - title: "<b>April 7 🌐</b><br> Networking and Peer Review"
         url: /schedule/22-networking-and-peer-review
-      - title: "<b>April 12 🌅</b><br> Preservation: Projects & People"
+      - title: "<b>April 12 🌐</b><br> Networking and Peer Review Continued"
         url: /schedule/23-preservation-projects-and-people
-      - title: "<b>April 14 💅</b><br> Serving Looks: Websites and Servers"
+      - title: "<b>April 14 🔮</b><br> Revised Names and Spells"
         url: /schedule/24-serving-looks-websites-and-servers
-      - title: "<b>April 19 💸</b><br> Prestige & Publicity"
+      - title: "<b>April 19 🧩</b><br> Connecting the Dots"
         url: /schedule/25-prestige-and-publicity
       - title: "<b>April 21 📑</b><br> Documents and Documentation"
         url: /schedule/26-documents-and-documentation

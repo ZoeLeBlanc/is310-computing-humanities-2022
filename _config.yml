@@ -243,6 +243,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - html-proofer
+  - jekyll-redirect-from
   # - jekyll-spaceship
 
 # mimic GitHub Pages with --safe

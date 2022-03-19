@@ -10,4 +10,3 @@ class_date: 2022-04-07
 **DUE Project Update Presentations**
 
 - Project Updates and Peer Feedback
-- Review Network Analysis Basics

@@ -1,15 +1,17 @@
 ---
-title: "April 21 - Documents and Documentation 📑"
-permalink: /schedule/25-documents-and-documentation
+title: "~~April 21 - Documents and Documentation 📑~~ <br> Connecting the Dots 🧩"
+redirect_from: /schedule/25-documents-and-documentation
+permalink: /schedule/25-connecting-the-dots
 toc: true
 class_date: 2022-04-21
 ---
 
 ## Class Activities
 
-- Adam Crymble “Chapter 5 The Rise and Fall of the Scholarly Blog” Technology and the Historian
-- Christen, Kim. “Does Information Really Want to be Free? Indigenous Knowledge Systems and the Question of Openness.” International Journal of Communication 6 (2012), 2870–2893.
-- Kathleen Fitzpatrick "Not All Networks: Toward Open, Sustainable Research Communities", Reassembling Scholarly Communications: Histories, Infrastructures, and Global Politics of Open Access, Martin Paul Eve, Jonathan Gray
+- Review NER and NLP
+- Lauren Klein & Sandeep Soni “How Words Lead To Justice”  <https://www.publicbooks.org/how-words-lead-to-justice/>
+- Ruth Ahnert et al., *The Network Turn: Changing Perspectives in the Humanities* (Cambridge UP, 2021) Chapter 3 <https://www.cambridge.org/core/elements/network-turn/CC38F2EA9F51A6D1AFCB7E005218BBE5> and try out Palladio <http://hdlab.stanford.edu/projects/palladio/> (you can use their sample data).
+  - Optional listen to the interview with the authors at <https://newbooksnetwork.com/the-network-turn-changing-perspectives-in-the-humanities>
 
 ## Additional Materials
 

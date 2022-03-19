@@ -281,74 +281,74 @@ var store = [{
         "url": "/is310-computing-humanities/schedule/16-making-a-point",
         "teaser": null
       },{
-        "title": "Patterns & Outliers ⚖️",
-        "excerpt":"Class Activities Giorgia Lupi Data Humanism http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold Lincoln Mullen “Isn’t it obvious?” January 10, 2018 https://lincolnmullen.com/blog/isnt-it-obvious/ Matthew Lincoln “Confabulation in the humanities” 21 Mar 2015 https://matthewlincoln.net/2015/03/21/confabulation-in-the-humanities.html Review Introduction to Pandas and Jupyter Notebooks and associated assignments. Also answer any questions about the Introudction to APIs. Additional Materials Matt Daniels “Hip...","categories": [],
+        "title": "~~Patterns & Outliers ⚖️~~ <br> Arguing with Data 📊",
+        "excerpt":"Class Activities Review Web Scraping and answer any questions from the coding assignment Discuss how we make arguments with data and how that shapes the data we collect Giorgia Lupi Data Humanism http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold Lincoln Mullen “Isn’t it obvious?” January 10, 2018 https://lincolnmullen.com/blog/isnt-it-obvious/ Matthew Lincoln “Confabulation in the humanities” 21 Mar...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/schedule/17-patterns-and-outliers",
+        "url": "/is310-computing-humanities/schedule/17-arguing-with-data",
         "teaser": null
       },{
-        "title": "Names and Spells 🔮",
-        "excerpt":"Class Activities Erin Davis “What physical traits are most tied to gender in literature? Eye roll: Women are all soft thighs and red lips.” The Pudding July 2020 https://pudding.cool/2020/07/gendered-descriptions/ and https://pudding.cool/process/pitching-gendered-descriptions/ Ted Underwood. “Seven ways humanists are using computers to understand text”. June 4, 2015 https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/ Benjamin Schmidt, “Do Digital...","categories": [],
+        "title": "~~Names and Spells 🔮~~ <br> Notebooks and Frames 📚",
+        "excerpt":"Class Activities Prior to class finish reading the Introduction to APIs, and then in class work in groups on that assignment and the Introduction to Pandas and Jupyter Notebooks. Might be worth also reviewing your notes from The Pudding’s Film Dialogue article Erin Davis “What physical traits are most tied...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/schedule/18-names-and-spells",
+        "url": "/is310-computing-humanities/schedule/18-notebooks-and-frames",
         "teaser": null
       },{
-        "title": "Models and Machines 🤖",
-        "excerpt":"Class Activities Ted Underwood “Why and Age of Machine Learning Needs the Humanities” Public Books https://www.publicbooks.org/why-an-age-of-machine-learning-needs-the-humanities/ Maciej Cegłowski. “Deep Fried Data” Idle Words. September 27, 2016. https://idlewords.com/talks/deep_fried_data.htm Laura B. McGrath “Charisma (Embodiment): a Response to Tess McNulty” https://post45.org/2019/05/charisma-embodiment-a-response-to-tess-mcnulty/ Explore AI Dungeon https://play.aidungeon.io/ Review Introduction to Text Mining and and start...","categories": [],
+        "title": "~~Models and Machines 🤖~~ <br> Revised Patterns and Outliers ⚖️",
+        "excerpt":"Class Activities Review Introduction to Pandas and Notebooks, along with APIS Erin Davis “What physical traits are most tied to gender in literature? Eye roll: Women are all soft thighs and red lips.” The Pudding July 2020 https://pudding.cool/2020/07/gendered-descriptions/ and https://pudding.cool/process/pitching-gendered-descriptions/ Ted Underwood. “Seven ways humanists are using computers to understand...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/schedule/19-models-and-machines",
+        "url": "/is310-computing-humanities/schedule/19-revised-patterns-and-outliers",
         "teaser": null
       },{
-        "title": "Mapping & Class(ification) 🌍",
-        "excerpt":"Class Activities Robert Lee, Tristan Ahtone, Margaret Pearce, Kalen Goodluck, Geoff McGhee, Cody Leff, Katherine Lanpher and Taryn Salinas. “Land Grab Universities: A High Country News Investigation” https://www.landgrabu.org/ Optional listen to an interview with the authors https://nothingneverhappens.org/decolonial/landgrabu/ Robert Lee, “How we investigated the land-grant university system” High Country News, March...","categories": [],
+        "title": "~~Mapping & Class(ification) 🌍~~ Exploratory Data 🕵🏽‍♀️",
+        "excerpt":"Class Activities Prior to class read through the introduction to text mining and data visualization (link to be posted). Robert Lee, Tristan Ahtone, Margaret Pearce, Kalen Goodluck, Geoff McGhee, Cody Leff, Katherine Lanpher and Taryn Salinas. “Land Grab Universities: A High Country News Investigation” https://www.landgrabu.org/ Optional listen to an interview...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/schedule/20-mapping-and-classification",
+        "url": "/is310-computing-humanities/schedule/20-exploratory-data",
         "teaser": null
       },{
-        "title": "Connecting the Dots 🧩",
-        "excerpt":"Class Activities Ruth Ahnert et al., The Network Turn: Changing Perspectives in the Humanities (Cambridge UP, 2021) Chapters 3 and 5 https://www.cambridge.org/core/elements/network-turn/CC38F2EA9F51A6D1AFCB7E005218BBE5 and try out Palladio http://hdlab.stanford.edu/projects/palladio/ (you can use their sample data). Optional listen to the interview with the authors at https://newbooksnetwork.com/the-network-turn-changing-perspectives-in-the-humanities Lauren Klein &amp; Sandeep Soni “How Words...","categories": [],
+        "title": "~~Connecting the Dots 🧩~~ <br> Revised Models and Machines 🤖",
+        "excerpt":"Class Activities Benjamin Schmidt, “Do Digital Humanists Need to Understand Algorithms?,”Debates in the Digital Humanities 2016 http://dhdebates.gc.cuny.edu/debates/text/99 Moved to additional readings Ted Underwood “Why and Age of Machine Learning Needs the Humanities” Public Books https://www.publicbooks.org/why-an-age-of-machine-learning-needs-the-humanities/ Maciej Cegłowski. “Deep Fried Data” Idle Words. September 27, 2016. https://idlewords.com/talks/deep_fried_data.htm Laura B. McGrath “Charisma...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/schedule/21-connecting-the-dots",
+        "url": "/is310-computing-humanities/schedule/21-revised-models-and-machines",
         "teaser": null
       },{
         "title": "Networking and Peer Review 🌐",
-        "excerpt":"Class Activities   DUE Project Update Presentations      Project Updates and Peer Feedback   Review Network Analysis Basics  ","categories": [],
+        "excerpt":"Class Activities   DUE Project Update Presentations      Project Updates and Peer Feedback  ","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/22-networking-and-peer-review",
         "teaser": null
       },{
-        "title": "Preservation: Projects & People 🌅",
-        "excerpt":"Class Activities Explore and read the principles of The Colored Conventions Project https://coloredconventions.org/ Explore “Slavery, Abolition, Emancipation and Freedom Primary Sources from Houghton Library” https://curiosity.lib.harvard.edu/slavery-abolition-emancipation-and-freedom and listen to an interview with the creator, archivist Dorothy Berry https://newbooksnetwork.com/careers-a-discussion-with-dorothy-berry Miriam Posner, “Here and There: Creating DH Community,” in Debates in the Digital...","categories": [],
+        "title": "~~Preservation: Projects & People 🌅~~ <br> Networking and Peer Review Continued 🌐",
+        "excerpt":"Class Activities Continue project updates and peer feedback Time permitting begin NER and NLP Explore and read the principles of The Colored Conventions Project https://coloredconventions.org/ Explore “Slavery, Abolition, Emancipation and Freedom Primary Sources from Houghton Library” https://curiosity.lib.harvard.edu/slavery-abolition-emancipation-and-freedom and listen to an interview with the creator, archivist Dorothy Berry https://newbooksnetwork.com/careers-a-discussion-with-dorothy-berry Miriam...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/schedule/23-preservation-projects-and-people",
+        "url": "/is310-computing-humanities/schedule/23-networking-and-peer-review-continued",
         "teaser": null
       },{
-        "title": "Serving Looks: Websites and Servers 💅",
-        "excerpt":"Class Activities      Introduction to building websites and publishing data visualizations   ","categories": [],
+        "title": "~~Serving Looks: Websites and Servers 💅~~ <br> Revised Names and Spells 🔮",
+        "excerpt":"Class Activities      Skallerup Bessette, Lee and Quinn Dombrowski. “DSC Multilingual Mystery 2: Beware, Lee and Quinn!”. February 27, 2020. https://datasittersclub.github.io/site/dscm2.html        Read through the Introduction to NER and NLP (link to be posted soon).       Introduction to building websites and publishing data visualizations   ","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/schedule/24-serving-looks-websites-and-servers",
+        "url": "/is310-computing-humanities/schedule/24-revised-names-and-spells",
+        "teaser": null
+      },{
+        "title": "~~April 21 - Documents and Documentation 📑~~ <br> Connecting the Dots 🧩",
+        "excerpt":"Class Activities Review NER and NLP Lauren Klein &amp; Sandeep Soni “How Words Lead To Justice” https://www.publicbooks.org/how-words-lead-to-justice/ Ruth Ahnert et al., The Network Turn: Changing Perspectives in the Humanities (Cambridge UP, 2021) Chapter 3 https://www.cambridge.org/core/elements/network-turn/CC38F2EA9F51A6D1AFCB7E005218BBE5 and try out Palladio http://hdlab.stanford.edu/projects/palladio/ (you can use their sample data). Optional listen to the...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/schedule/25-connecting-the-dots",
         "teaser": null
       },{
         "title": "April 21 - Documents and Documentation 📑",
-        "excerpt":"Class Activities Adam Crymble “Chapter 5 The Rise and Fall of the Scholarly Blog” Technology and the Historian Christen, Kim. “Does Information Really Want to be Free? Indigenous Knowledge Systems and the Question of Openness.” International Journal of Communication 6 (2012), 2870–2893. Kathleen Fitzpatrick “Not All Networks: Toward Open, Sustainable...","categories": [],
-        "tags": [],
-        "url": "/is310-computing-humanities/schedule/25-documents-and-documentation",
-        "teaser": null
-      },{
-        "title": "April 21 - Documents and Documentation 📑",
-        "excerpt":"Class Activities   Introduction to blogging and documentation practices  ","categories": [],
+        "excerpt":"Class Activities      Read the introduction to Networks (link to be posted soon).   Ruth Ahnert et al., The Network Turn: Changing Perspectives in the Humanities (Cambridge UP, 2021) Chapter 5 https://www.cambridge.org/core/elements/network-turn/CC38F2EA9F51A6D1AFCB7E005218BBE5   Introduction to blogging and documentation practices   ","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/26-documents-and-documentation",
         "teaser": null
       },{
         "title": "Sustainability & Society 🚧",
-        "excerpt":"Class Activities Ben Tarnoff “The Data is Ours” https://logicmag.io/scale/the-data-is-ours/ Listen “Why We Need a Democratic Approach to Data w/ Salomé Viljoen” Tech Won’t Save Us https://www.buzzsprout.com/1004689/7279228-why-we-need-a-democratic-approach-to-data-w-salome-viljoen Miriam Postner “What’s Next: The Radical, Unrealized Potential of Digital Humanities” Additional Readings Moya Z. Bailey, “All the Digital Humanists Are White, All the...","categories": [],
+        "excerpt":"Class Activities Review the introduction to networks Robert Lee, Tristan Ahtone, Margaret Pearce, Kalen Goodluck, Geoff McGhee, Cody Leff, Katherine Lanpher and Taryn Salinas. “Land Grab Universities: A High Country News Investigation” https://www.landgrabu.org/ Explore and read the principles of The Colored Conventions Project https://coloredconventions.org/ Ben Tarnoff “The Data is Ours”...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/27-sustainability-and-society",
         "teaser": null
       },{
         "title": "Review & Reflect 🧾",
-        "excerpt":"Class Activities      Work on final project and review any subjects  ","categories": [],
+        "excerpt":"Class Activities Work on final project and review any remaining subjects Additional Materials Adam Crymble “Chapter 5 The Rise and Fall of the Scholarly Blog” Technology and the Historian Christen, Kim. “Does Information Really Want to be Free? Indigenous Knowledge Systems and the Question of Openness.” International Journal of Communication...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/28-review-and-reflect",
         "teaser": null
