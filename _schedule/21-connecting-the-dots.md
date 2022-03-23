@@ -15,8 +15,6 @@ class_date: 2022-04-05
 - Explore AI Dungeon <https://play.aidungeon.io/>
 - Review Introduction to Text Mining 
 
-
-
 ## Additional Materials:
 
 - Benjamin Schmidt, “Do Digital Humanists Need to Understand Algorithms?,”Debates in the Digital Humanities 2016 <http://dhdebates.gc.cuny.edu/debates/text/99>
