@@ -29,6 +29,12 @@ var store = [{
         "url": "/is310-computing-humanities/assessments/05-blog-posts",
         "teaser": null
       },{
+        "title": "Final Project Rubric",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/assessments/06-final-project-rubric",
+        "teaser": null
+      },{
         "title": "Advanced Python",
         "excerpt":"Data Flow Computers read code line by line, top to bottom of a script. But what if you want to have code run not in sequential order, or you want your code to do something depending on a value, or you want to reuse your code and run it multiple...","categories": [],
         "tags": [],
@@ -89,8 +95,8 @@ var store = [{
         "url": "/is310-computing-humanities/materials/getting-data/04-intro-apis",
         "teaser": null
       },{
-        "title": "API Assignment",
-        "excerpt":"Reminder this is an optional assignment. But recommend completing it if you plan to work with APIs in your final project. Create a new script called first_apis.py. Now select an API from one of the following resources: https://github.com/chanonroy/cool-apis https://github.com/public-apis/public-apis https://apilist.fun/ One of my personal favorites is SWAPI (the Star Wars...","categories": [],
+        "title": "In-Class Notebook and API Assignment",
+        "excerpt":"Reminder this is an optional assignment. But recommend completing it if you plan to work with APIs in your final project. ⚡️ Rather than make this assignment optional, we will now try it out in class collectively. You **do not** need to turn this in but rather should focus on...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/getting-data/05-api-assignment",
         "teaser": null

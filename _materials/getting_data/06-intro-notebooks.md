@@ -6,7 +6,7 @@ toc: true
 
 So far when we've been writing Python code, we've either been using the Python interpreter in the terminal or saving a Python script. However, there's a third way to write Python code that's very popular in Digital Humanities - that is [Jupyter notebooks](https://jupyter.org/index.html).
 
-*So what is a Jupyter notebook?*
+### *So what is a Jupyter notebook?*
 
 > The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
 
@@ -126,7 +126,6 @@ Jupyter notebooks will autosave your notebook, but it's good to save it before l
 
 To exit the notebook, you can either press the `Quit` button on the main page or type `Ctrl`+`c` in the terminal and selecting `yes` to quitting the notebook.
 
----
 
 ## Data in Jupyter Notebooks
 
@@ -380,6 +379,7 @@ In case you get stuck, you can see all this code in my Jupyter Notebook on our G
 ### Advanced Pandas Resources
 
 Pandas built in calculation methods [https://pandas.pydata.org/pandas-docs/stable/user_guide/computation.html#id1](https://pandas.pydata.org/pandas-docs/stable/user_guide/computation.html#id1)
+
 | Pandas method | Explanation |
 |:----------:|:----------:|
 |`.count()`| Number of non-NA observations|
