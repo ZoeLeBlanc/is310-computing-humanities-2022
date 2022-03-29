@@ -13,7 +13,7 @@ The final piece of this assignment is to take the data from the plain text files
 If you feel comfortable with assignment, feel free to go ahead and use either scripts, notebooks, or a combination of both.
 
 
-1. With our existing code, we have access to each of the html and text from each of the plain text volumes. Do we want to keep the html? Or do we just want the text? (*hint* try googling for the `get_text()` method in Beautiful Soup)
+1. With our existing code (available <a href="{{site.baseurl}}/assets/files/humanist_scraping.py" download> here</a>), we have access to each of the html and text from each of the emails of the first volume. Try reworking your code to work with this url `https://humanist.kdl.kcl.ac.uk/Archives/Converted_Text/` to get all the volumes without having to scrape each volume individually. Think about what data you want to get and what you don't need to keep. Do we want to keep the html? Or do we just want the text? (*hint* try googling for the`get_text()` or `.text` methods in Beautiful Soup)
 2. Now that we have the data from the webpage, we need to decide what other metadata we want to include with it. What information can we get from the `url` variable? How would you get the years for each volume? (*hint* checkout the `split()` method in Python)
 3. Finally we have all the data we want to store, so now we have to decide how to persist it? If we have metadata and data for each volume what data structure would be best suited? A list or a dictionary? What about a list of dictionaries? How would we add data from each volume to a variable that lived outside of the two for loops?
 4. Say we got our metadata and data saved to a new variable, the final piece is to save this to a new dataframe. Read this Stack Overflow answer for how to save our variable to a dataframe [https://stackoverflow.com/questions/20638006/convert-list-of-dictionaries-to-a-pandas-dataframe/53831756#53831756](https://stackoverflow.com/questions/20638006/convert-list-of-dictionaries-to-a-pandas-dataframe/53831756#53831756). Try and find the reference to `from_records()`, `from_dict()`, and `orient=columns` in the answer, and try to save our variable to new a dataframe called `humanist_vols`.
@@ -27,7 +27,7 @@ What does this do to our data? You can read about the `to_csv()` method here [ht
 
 ## Second Assignment
 
-Let's take a deeper dive into the datasets underlying *The Pudding* "Film Dialogue" article [https://pudding.cool/2017/03/film-dialogue/](https://pudding.cool/2017/03/film-dialogue/).
+Let's take a deeper dive into the datasets underlying *The Pudding* "Film Dialogue" article [https://pudding.cool/2017/03/film-dialogue/](https://pudding.cool/2017/03/film-dialogue/). So far we have worked with the film scripts and now we will bringing in additional data from the *The Pudding* website.
 
 1. Create a new jupyter notebook and read in the three datasets from the Github repository [https://github.com/matthewfdaniels/scripts/](https://github.com/matthewfdaniels/scripts/). Take a look at the documentation in the repository and discuss what you think each file contains.
 2. Once you've loaded in the data into the notebook, discuss what data you think the columns contain and check if there's any missing data.
