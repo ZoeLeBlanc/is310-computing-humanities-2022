@@ -82,7 +82,10 @@ materials:
         url: /materials/getting-data/06-intro-notebooks
       - title: "Notebooks Assignment"
         url: /materials/getting-data/07-notebook-assignment
-  - title: Exploratory Data Analysis (More Soon)
+  - title: Exploratory Data Analysis
+    children: 
+      - title: "Introduction to EDA"
+        url: /materials/exploratory-data-analysis/01-intro-eda
 
 
 schedule:

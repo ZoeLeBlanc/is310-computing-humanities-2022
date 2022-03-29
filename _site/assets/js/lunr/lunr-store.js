@@ -71,6 +71,12 @@ var store = [{
         "url": "/is310-computing-humanities/materials/advanced-python/06-libraries-assignment",
         "teaser": null
       },{
+        "title": "Introduction to Exploratory Data Analysis",
+        "excerpt":"Cleaning and Preparing (Text) Data for Exploratory Analyses Before undertaking any type of data analysis ( whether humanities or exploratory), we need to both understand our data (think producing a data biography) and often clean it. So what does it mean to clean data? The term cleaning data refers to...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/exploratory-data-analysis/01-intro-eda",
+        "teaser": null
+      },{
         "title": "Introduction to HTML and Web Scraping",
         "excerpt":"⚡️ The files from our class session on March 8, 2022 are available for download first_page.html and scraping.py What’s HTML? According to the Mozilla website, “HTML (Hypertext Markup Language) is not a programming language; it is a markup language used to tell your browser how to structure the web pages...","categories": [],
         "tags": [],
