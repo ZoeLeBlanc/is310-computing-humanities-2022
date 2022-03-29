@@ -38,3 +38,19 @@ Let's take a deeper dive into the datasets underlying *The Pudding* "Film Dialog
 To answer these questions you'll need to merge, aggregate, and calculate some basic stats for these datasets.
 
 *As a bonus, try creating a plot of visualize the answer to each of these questions.*
+
+## Submitting Assignments
+
+When you're ready to submit your assignment, you will need to push it up to Github.
+
+Because we are now working with larger datasets we may hit the Github Large Files limitiation. To prevent us pushing up our data, we can use something called a `.gitignore` file. This is a file that tells Github which files to ignore when pushing our data.
+
+1. First step is create the `.gitignore` file. You can use either `touch` or `ni` to create the file (for Mac and Windows respectively). You should create the file in your IS310-final-project directory.
+2. Then once you've created the file, you can add the following to the file:
+
+```sh
+*.csv
+/ipynb_checkpoints
+```
+Save that file and try `git status` in your terminal. You should no longer see those files as listed. 
+3. Now you can push your data to Github. Details on Github Workflows available [here in case you forgot]({{site.baseurl}}/materials/intro-python-git/07-github-workflows).
