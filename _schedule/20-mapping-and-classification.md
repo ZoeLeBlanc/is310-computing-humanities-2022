@@ -8,7 +8,9 @@ class_date: 2022-03-31
 
 ## Class Activities
 
+**CLASS CANCELED**
 
+- Either individually or in groups, read through the [Introduction to Exploratory Data Analysis]({{site.baseurl}}/materials/exploratory-data-analysis/01-intro-eda). Instructor will also post video walkthrough of the material either Friday or Saturday (will notify on discord once available).
 
 - ~~Prior to class read through the introduction to text mining and data visualization (link to be posted).~~
 
