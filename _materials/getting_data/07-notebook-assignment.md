@@ -29,7 +29,7 @@ What does this do to our data? You can read about the `to_csv()` method here [ht
 
 Let's take a deeper dive into the datasets underlying *The Pudding* "Film Dialogue" article [https://pudding.cool/2017/03/film-dialogue/](https://pudding.cool/2017/03/film-dialogue/). So far we have worked with the film scripts and now we will bringing in additional data from the *The Pudding* website.
 
-1. Create a new jupyter notebook and read in the three datasets from the Github repository [https://github.com/matthewfdaniels/scripts/](https://github.com/matthewfdaniels/scripts/). Take a look at the documentation in the repository and discuss what you think each file contains.
+1. Create a new Jupyter notebook and read in the three datasets from the Github repository [https://github.com/matthewfdaniels/scripts/](https://github.com/matthewfdaniels/scripts/). Take a look at the documentation in the repository and discuss what you think each file contains.
 2. Once you've loaded in the data into the notebook, discuss what data you think the columns contain and check if there's any missing data.
 3. Try to answer the following questions:
    1. How could we tell if the amount of dialogue was increasing over time in movies? How might this influence the assessment about the breakdown of gender dialogue?
@@ -43,7 +43,7 @@ To answer these questions you'll need to merge, aggregate, and calculate some ba
 
 When you're ready to submit your assignment, you will need to push it up to Github.
 
-Because we are now working with larger datasets we may hit the Github Large Files limitiation. To prevent us pushing up our data, we can use something called a `.gitignore` file. This is a file that tells Github which files to ignore when pushing our data.
+Because we are now working with larger datasets we may hit the Github Large Files limitation. To prevent us pushing up our data, we can use something called a `.gitignore` file. This is a file that tells Github which files to ignore when pushing our data.
 
 1. First step is create the `.gitignore` file. You can use either `touch` or `ni` to create the file (for Mac and Windows respectively). You should create the file in your IS310-final-project directory.
 2. Then once you've created the file, you can add the following to the file:

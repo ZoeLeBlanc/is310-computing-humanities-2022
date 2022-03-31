@@ -395,7 +395,7 @@ Pandas built in calculation methods [https://pandas.pydata.org/pandas-docs/stabl
 You can use these methods on both DataFrame and Series, as well as grouped DataFrame.
 
 ---
-Pandas documentation for using groupby [https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html]
+Pandas documentation for using groupby [https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html)
 
 ![pandas groupby]({{site.baseurl}}/assets/images/pandas_groupby.png)
 

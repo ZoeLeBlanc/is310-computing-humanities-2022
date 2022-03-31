@@ -24,6 +24,8 @@ assessments:
         url: /assessments/03-semester-project
       - title: "Project Proposal Guidelines"
         url: /assessments/04-project-proposal
+      - title: Project Update Presentation Guidelines
+        url: /assessments/06-project-update-presentation-guidelines
 
 materials:
   - title: Getting Started
@@ -86,6 +88,8 @@ materials:
     children: 
       - title: "Introduction to EDA"
         url: /materials/exploratory-data-analysis/01-intro-eda
+      - title: "EDA In-Class Exercise"
+        url: /materials/exploratory-data-analysis/02-eda-inclass-exercise
 
 
 schedule:
@@ -145,9 +149,9 @@ schedule:
     children:
       - title: "<b>April 5 🤖</b><br> Revised Models and Machines"
         url: /schedule/21-connecting-the-dots
-      - title: "<b>April 7 🌐</b><br> Networking and Peer Review"
+      - title: "<b>April 7 ⚒️</b><br> Text Mining"
         url: /schedule/22-networking-and-peer-review
-      - title: "<b>April 12 🌐</b><br> Networking and Peer Review Continued"
+      - title: "<b>April 12 🎨</b><br> Painting A Picture"
         url: /schedule/23-preservation-projects-and-people
       - title: "<b>April 14 🔮</b><br> Revised Names and Spells"
         url: /schedule/24-serving-looks-websites-and-servers

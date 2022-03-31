@@ -8,7 +8,11 @@ class_date: 2022-03-31
 
 ## Class Activities
 
-- Prior to class read through the introduction to text mining and data visualization (link to be posted).
+**CLASS CANCELED**
+
+- Either individually or in groups, read through the [Introduction to Exploratory Data Analysis]({{site.baseurl}}/materials/exploratory-data-analysis/01-intro-eda). Instructor will also post video walkthrough of the material either Friday or Saturday (will notify on discord once available).
+
+- ~~Prior to class read through the introduction to text mining and data visualization (link to be posted).~~
 
 - ~~Robert Lee, Tristan Ahtone, Margaret Pearce, Kalen Goodluck, Geoff McGhee, Cody Leff, Katherine Lanpher and Taryn Salinas. “Land Grab Universities: A High Country News Investigation” <https://www.landgrabu.org/>~~
   - ~~Optional listen to an interview with the authors <https://nothingneverhappens.org/decolonial/landgrabu/>~~

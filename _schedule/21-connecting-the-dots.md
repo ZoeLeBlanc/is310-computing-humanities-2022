@@ -13,9 +13,9 @@ class_date: 2022-04-05
 - Maciej Cegłowski. “Deep Fried Data” Idle Words. September 27, 2016. <https://idlewords.com/talks/deep_fried_data.htm>
 - Laura B. McGrath "Charisma (Embodiment): a Response to Tess McNulty" <https://post45.org/2019/05/charisma-embodiment-a-response-to-tess-mcnulty/>
 - Explore AI Dungeon <https://play.aidungeon.io/>
-- Review Introduction to Text Mining 
+- Review Introduction to EDA
 
-## Additional Materials:
+## Additional Materials
 
 - Benjamin Schmidt, “Do Digital Humanists Need to Understand Algorithms?,”Debates in the Digital Humanities 2016 <http://dhdebates.gc.cuny.edu/debates/text/99>
 - Tressie McMillon Cottom “More Scale, More Questions: Observations from Sociology” <https://dhdebates.gc.cuny.edu/read/untitled/section/55e48b34-543a-41f7-97c9-8c8643bf8844>

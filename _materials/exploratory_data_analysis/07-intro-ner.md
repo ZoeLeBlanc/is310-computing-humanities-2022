@@ -1,0 +1,2 @@
+- spacy and nlp
+- ner

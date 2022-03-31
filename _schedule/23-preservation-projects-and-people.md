@@ -1,15 +1,17 @@
 ---
-title: "~~Preservation: Projects & People 🌅~~ <br> Networking and Peer Review Continued 🌐"
+title: "~~Preservation: Projects & People 🌅~~ <br> Painting A Picture 🎨"
 redirect_from: /schedule/23-preservation-projects-and-people
-permalink: /schedule/23-networking-and-peer-review-continued
+permalink: /schedule/23-painting-a-picture
 toc: true
 class_date: 2022-04-12
 ---
 
 ## Class Activities
 
-- Continue project updates and peer feedback
-- Time permitting begin NER and NLP
+**VIDEO of Project Update Presentation DUE**
+
+- Discuss in class the [Advanced Data Visualization section]({{site.baseurl}}/materials/exploratory-data-analysis/05-advanced-data-visualization).
+- Review and continue work on the [text mining assignment]({{site.baseurl}}/materials/exploratory-data-analysis/04-text-mining-assignment)
 
 
 - ~~Explore and read the principles of The Colored Conventions Project <https://coloredconventions.org/>~~

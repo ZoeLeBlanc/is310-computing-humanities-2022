@@ -29,6 +29,12 @@ var store = [{
         "url": "/is310-computing-humanities/assessments/05-blog-posts",
         "teaser": null
       },{
+        "title": "Project Update Presentation Guidelines",
+        "excerpt":"Detailed Guidelines The second stage of your semester long project is worth 5%, and involves sharing and reflecting on your progress with your final project. You will explain how much you have completed from the initial write-up. Because we are a bit behind schedule, rather than presenting in-class you will...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/assessments/06-project-update-presentation-guidelines",
+        "teaser": null
+      },{
         "title": "Final Project Rubric",
         "excerpt":" ","categories": [],
         "tags": [],
@@ -72,9 +78,21 @@ var store = [{
         "teaser": null
       },{
         "title": "Introduction to Exploratory Data Analysis",
-        "excerpt":"Cleaning and Preparing (Text) Data for Exploratory Analyses Before undertaking any type of data analysis ( whether humanities or exploratory), we need to both understand our data (think producing a data biography) and often clean it. So what does it mean to clean data? The term cleaning data refers to...","categories": [],
+        "excerpt":"Cleaning and Preparing (Text) Data for Exploratory Analyses We will be working with our Pudding Film Dialogue datasets today. First let’s review some of the concepts we have already covered in our Introduction to Notebooks. How do we read in our film scripts dataset? How would we sort the values...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/exploratory-data-analysis/01-intro-eda",
+        "teaser": null
+      },{
+        "title": "EDA In-Class Exercise",
+        "excerpt":"In Breakout Groups, you will first make sure that everyone has completed the Notebook Assignment and if everyone has yet to complete the assignment, then you will collectively work together to help them answer any questions they have so that they can complete the assignment. Feel free to share code...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/exploratory-data-analysis/02-eda-inclass-exercise",
+        "teaser": null
+      },{
+        "title": "Advanced Data Visualization",
+        "excerpt":"Data Visualization in Python and Pandas Up to now we’ve been using Pandas built in plot methods to display our data. While this is helpful for quick analyses, you’ll likely want more options for both how you visualize the data and interact with it. In Python, there are a number...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/exploratory-data-analysis/03-advanced-data-visualization",
         "teaser": null
       },{
         "title": "Introduction to HTML and Web Scraping",
@@ -312,7 +330,7 @@ var store = [{
         "teaser": null
       },{
         "title": "~~Mapping & Class(ification) 🌍~~ Exploratory Data 🕵🏽‍♀️",
-        "excerpt":"Class Activities Prior to class read through the introduction to text mining and data visualization (link to be posted). Robert Lee, Tristan Ahtone, Margaret Pearce, Kalen Goodluck, Geoff McGhee, Cody Leff, Katherine Lanpher and Taryn Salinas. “Land Grab Universities: A High Country News Investigation” https://www.landgrabu.org/ Optional listen to an interview...","categories": [],
+        "excerpt":"Class Activities CLASS CANCELED Either individually or in groups, read through the Introduction to Exploratory Data Analysis. Instructor will also post video walkthrough of the material either Friday or Saturday (will notify on discord once available). Prior to class read through the introduction to text mining and data visualization (link...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/20-exploratory-data",
         "teaser": null
@@ -323,16 +341,16 @@ var store = [{
         "url": "/is310-computing-humanities/schedule/21-revised-models-and-machines",
         "teaser": null
       },{
-        "title": "Networking and Peer Review 🌐",
-        "excerpt":"Class Activities   DUE Project Update Presentations      Project Updates and Peer Feedback  ","categories": [],
+        "title": "Text Mining ⚒️",
+        "excerpt":"Class Activities   DUE Project Update Presentations   - Project Updates and Peer Feedback      Read through the Introduction to Text Mining prior to class and come with any questions you have.  ","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/22-networking-and-peer-review",
         "teaser": null
       },{
-        "title": "~~Preservation: Projects & People 🌅~~ <br> Networking and Peer Review Continued 🌐",
-        "excerpt":"Class Activities Continue project updates and peer feedback Time permitting begin NER and NLP Explore and read the principles of The Colored Conventions Project https://coloredconventions.org/ Explore “Slavery, Abolition, Emancipation and Freedom Primary Sources from Houghton Library” https://curiosity.lib.harvard.edu/slavery-abolition-emancipation-and-freedom and listen to an interview with the creator, archivist Dorothy Berry https://newbooksnetwork.com/careers-a-discussion-with-dorothy-berry Miriam...","categories": [],
+        "title": "~~Preservation: Projects & People 🌅~~ <br> Painting A Picture 🎨",
+        "excerpt":"Class Activities VIDEO of Project Update Presentation DUE Discuss in class the Advanced Data Visualization section. Review and continue work on the text mining assignment Explore and read the principles of The Colored Conventions Project https://coloredconventions.org/ Explore “Slavery, Abolition, Emancipation and Freedom Primary Sources from Houghton Library” https://curiosity.lib.harvard.edu/slavery-abolition-emancipation-and-freedom and listen...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/schedule/23-networking-and-peer-review-continued",
+        "url": "/is310-computing-humanities/schedule/23-painting-a-picture",
         "teaser": null
       },{
         "title": "~~Serving Looks: Websites and Servers 💅~~ <br> Revised Names and Spells 🔮",

@@ -31,8 +31,8 @@ This overview gives a top level view of the topics for each of our meetings. You
 |{::nomarkdown}<td colspan="2">March 15 and 17 - Spring Break 🛑</td>{:/}|
 |[March 22 - Arguing with Data 📊]({{site.baseurl}}/schedule/17-patterns-and-outliers)|[March 24 - Notebooks and Frames 📚]({{site.baseurl}}/schedule/18-names-and-spells)|
 |[March 29 - Revised Patterns and Outliers ⚖️]({{site.baseurl}}/schedule/19-models-and-machines)|[March 31 - Exploratory Data 🕵🏽‍♀️]({{site.baseurl}}/schedule/20-mapping-and-classification)|
-|[April 5 - Revised Models and Machines 🤖]({{site.baseurl}}/schedule/21-connecting-the-dots)|[April 7 - Networking and Peer Review 🌐]({{site.baseurl}}/schedule/22-networking-and-peer-review)|
-|[April 12 - Networking and Peer Review Continued 🌐]({{site.baseurl}}/schedule/23-preservation-projects-and-people)|[April 14 - Revised Names and Spells 🔮]({{site.baseurl}}/schedule/24-serving-looks-websites-and-servers)|
+|[April 5 - Revised Models and Machines 🤖]({{site.baseurl}}/schedule/21-connecting-the-dots)|[April 7 - Text Mining ⚒️]({{site.baseurl}}/schedule/22-text-mining)|
+|[April 12 - Painting A Picture 🎨]({{site.baseurl}}/schedule/23-preservation-projects-and-people)|[April 14 - Revised Names and Spells 🔮]({{site.baseurl}}/schedule/24-serving-looks-websites-and-servers)|
 |[April 19 - Connecting the Dots 🧩]({{site.baseurl}}/schedule/25-prestige-and-publicity)|[April 21 - Documents and Documentation 📑]({{site.baseurl}}/schedule/26-documents-and-documentation)|
 |[April 26 - Sustainability & Society 🚧]({{site.baseurl}}/schedule/27-sustainability-and-society)|[April 28 - Review & Reflect 🧾]({{site.baseurl}}/schedule/28-review-and-reflect)|
 |[May 3 - Future Horizons & Final Presentations 🌄]({{site.baseurl}}/schedule/29-future-horizons-and-final-presentations)||
@@ -50,8 +50,8 @@ This overview gives a top level view of the topics for each of our meetings. You
 | [Python Libraries Assignment]({{site.baseurl}}/05-libraries-assignment) | ~~March 3~~ Now Optional|
 | [Web Scraping Assignment]({{site.baseurl}}/materials/getting-data/02-webscraping-assignment) | ~~March 8~~ [March 22]({{site.baseurl}}/schedule/15-trending-and-cleaning)|
 | [API Assignment]({{site.baseurl}}/materials/getting-data/05-api-assignment) | ~~March 22~~ Now Optional <br> (Highly recommend for those behind on <br> annotations or planning to work with APIs)|
-| Jupyter and Pandas Assignment | ~~March 22~~ March 29 (to be posted)|
-| Text Mining Assignment | ~~March 29~~ April 5 (to be posted)|
-| Data Visualization Assignment | ~~March 31~~ April 12 (to be posted)|
+| [Jupyter and Pandas Assignment]({{site.baseurl}}/materials/getting-data/07-notebook-assignment) | ~~March 22~~ [Now Due April 5]({{site.baseurl}}/schedule/21-revised-models-and-machines) |
+| Text Mining Assignment | ~~March 29~~ April 12 (to be posted)|
+| Data Visualization Assignment | ~~March 31~~ April 21 (to be posted)|
 
 
