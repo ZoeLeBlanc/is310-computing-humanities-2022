@@ -35,10 +35,10 @@ var store = [{
         "url": "/is310-computing-humanities/assessments/06-project-update-presentation-guidelines",
         "teaser": null
       },{
-        "title": "Final Project Rubric",
+        "title": "Final Project Presentation Guidelines",
         "excerpt":" ","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/assessments/06-final-project-rubric",
+        "url": "/is310-computing-humanities/assessments/06-final-project-presentation-guidelines",
         "teaser": null
       },{
         "title": "Advanced Python",
@@ -78,7 +78,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Introduction to Exploratory Data Analysis",
-        "excerpt":"Cleaning and Preparing (Text) Data for Exploratory Analyses We will be working with our Pudding Film Dialogue datasets today. First let’s review some of the concepts we have already covered in our Introduction to Notebooks. How do we read in our film scripts dataset? How would we sort the values...","categories": [],
+        "excerpt":"⚡️ This lesson is now virtually available below and the notebook used is availble here Cleaning and Preparing (Text) Data for Exploratory Analyses We will be working with our Pudding Film Dialogue datasets today. First let’s review some of the concepts we have already covered in our Introduction to Notebooks....","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/exploratory-data-analysis/01-intro-eda",
         "teaser": null
