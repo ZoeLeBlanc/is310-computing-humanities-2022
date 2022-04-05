@@ -108,15 +108,15 @@ Let's start off with trying to explore the size of each volume over time. First,
 
 ```python
 # Split the dates column into year_start and year_end 
-humanist_vols['year_start'] = humanist_vols['dates'].str???
-humanist_vols['year_end'] = humanist_vols['dates'].str???
+humanist_vols['year_start'] = humanist_vols['dates'].str.split('-').str[0]
+humanist_vols['year_end'] = humanist_vols['dates'].str.split('-').str[1]
 ```
 
 Now that we have our years, we need to get the size of each volume. We can do this by using the `count` method and thinking of a pattern that would represent size of the volume (maybe the frequency of new lines `\n` or `FROM` ?).
 
 ```python
 # Count the number of characters in each volume
-humanist_vols['volume_size'] = humanist_vols['text'].str???
+humanist_vols['volume_size'] = humanist_vols['text'].str.count('\n')
 ```
 
 Final step is to plot our data to explore the pattern we are interested in! 
@@ -129,6 +129,8 @@ humanist_vols.plot(x='year_start', y='volume_size', kind='bar')
 We should produce a graph that looks like this:
 
 ![humanist size]({{site.baseurl}}/assets/images/humanist_size.png)
+
+Wonderful! We both structured our data and completed our exploratory analysis. But one remaining issue is how could we start to ask questions about the content of our text data from the listserv? What patterns and themes are there in the text? That's where text analysis comes in!
 
 ## What is Text Analysis?
 
@@ -156,13 +158,40 @@ Rather than trying to define text analysis as a whole, I find a more helpful dis
 - Focused on linguistic analysis of textual features
 - Requires both syntactic and semantic analysis
 
-Today we will be focusing on the first category of these two categories, Information Retrieval.
+Today we will be focusing on the first category of these two categories, Information Retrieval, and next week we will dig into Information Extraction.
 
 ### What is Information Retrieval?
 
 According to[Wikipedia](https://en.wikipedia.org/wiki/Information_retrieval), Information Retrieval (or IR) was first theorized in the 1940s:
 
 ![origins IR]({{site.baseurl}}/assets/images/origins_ir.png)
+
+Information retrieval is strongly tied to the historical development of search engines and the basic goal is to find relevant documents for a user’s query. To do that though requires parsing textual information and finding patterns in the text. 
+
+One way we can do that is with simple counting of words and the frequency they appear across a text. 
+
+In our example, we could start counting words that appear in our email logs. Thinking back to some of our readings, we could try and compare the rate that `humanities computing` appears compared to `digital humanities` that we first explored in the Google Ngram Viewer, demonstrated below.
+
+![hc dh]({{site.baseurl}}/assets/images/hc_dh.png)
+
+We can do a similar experiment in this listserv dataset. First we need to figure out how we can count strings in Pandas. We can do this by using the `count` method.
+
+```python
+# Count the number of occurrences of each word
+humanist_vols['humanities_computing_counts'] = humanist_vols['text'].str.count('humanities computing')
+humanist_vols['digital_humanities_counts'] = humanist_vols['text'].str.count('digital humanities')
+```
+
+Now we can plot the data.
+
+```python
+# Plot the data
+humanist_vols[['humanities_computing_counts', 'digital_humanities_counts']].plot()
+```
+
+Which produces the following graph:
+
+![hc dh counts]({{site.baseurl}}/assets/images/hc_dh_counts.png)
 
 ### Text Analysis with Python
 

@@ -90,7 +90,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Introduction to Unstructured Data",
-        "excerpt":"humanist listserv dataset string methods with pandas functions counting things TF IDF introduce unstructured vs structured data nlp vs text mining text mining with Pandas humanist listserv counts text mining in Python introduce TF-IDF get distinctive language from humanist What is Unstructured Data? When working with data, you’ll often come...","categories": [],
+        "excerpt":"What is Unstructured Data? When working with data, you’ll often come across the terms “structured” and “unstructured” data. There are lots of definitions online, like this graph below: This graph is technically correct, but it is also a bit confusing when you think about it (even highly organized data can...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/exploratory-data-analysis/03-intro-unstructured-data",
         "teaser": null
@@ -360,7 +360,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Text Mining ⚒️",
-        "excerpt":"Class Activities   DUE Project Update Presentations   - Project Updates and Peer Feedback      Read through the Introduction to Text Mining prior to class and come with any questions you have.  ","categories": [],
+        "excerpt":"Class Activities   DUE Project Update Presentations   - Project Updates and Peer Feedback      Read through the Introduction to Unstructured Data prior to class and come with any questions you have.  ","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/22-networking-and-peer-review",
         "teaser": null
