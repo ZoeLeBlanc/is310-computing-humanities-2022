@@ -89,6 +89,12 @@ var store = [{
         "url": "/is310-computing-humanities/materials/exploratory-data-analysis/02-eda-inclass-exercise",
         "teaser": null
       },{
+        "title": "Introduction to Unstructured Data",
+        "excerpt":"humanist listserv dataset string methods with pandas functions counting things TF IDF introduce unstructured vs structured data nlp vs text mining text mining with Pandas humanist listserv counts text mining in Python introduce TF-IDF get distinctive language from humanist What is Unstructured Data? When working with data, you’ll often come...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/exploratory-data-analysis/03-intro-unstructured-data",
+        "teaser": null
+      },{
         "title": "Advanced Data Visualization",
         "excerpt":"Data Visualization in Python and Pandas Up to now we’ve been using Pandas built in plot methods to display our data. While this is helpful for quick analyses, you’ll likely want more options for both how you visualize the data and interact with it. In Python, there are a number...","categories": [],
         "tags": [],
@@ -207,6 +213,18 @@ var store = [{
         "excerpt":"Monocle ipsum dolor sit amet handsome pariatur aliqua, hub remarkable irure commodo classic deserunt bespoke. Sunt commodo signature, Swiss minim flat white Tsutaya excepteur artisanal et Nordic laborum joy ANA. Beams mollit exquisite Ginza efficient dolore qui Comme des Garçons Winkreative Lufthansa bulletin global. Iconic sed liveable duis. Mollit dolore...","categories": ["Jekyll"],
         "tags": ["edge case"],
         "url": "/is310-computing-humanities/jekyll/post-draft/",
+        "teaser": "/is310-computing-humanities/unsplash-gallery-image-2-th.jpg"
+      },{
+        "title": "Untitled",
+        "excerpt":"March 22nd Blogpost I wanted to reflect on our 3/22 seminar discussion and readings. My first reaction to Data Humanism, The Revolution will be Visualized. was surprise. I had never heard anyone say infographics should be complicated before. I did understand the author’s point that by simplifying information to make...","categories": ["curating-course-content"],
+        "tags": [],
+        "url": "/is310-computing-humanities/curating-course-content/dharra-prashad-post/",
+        "teaser": "/is310-computing-humanities/unsplash-gallery-image-2-th.jpg"
+      },{
+        "title": "Links by Changho Jung",
+        "excerpt":"For the “Deep-Fried Data” reading, I recommend to read “What’s Up With Big Data Ethics?” The article is about data ethics from Big Data. https://www.forbes.com/sites/oreillymedia/2014/03/28/whats-up-with-big-data-ethics/?sh=497dcd853591 Probably many of you have already seen this TED video, about filter bubbles by Eli Pariser. This video might be related with our first reading,...","categories": ["sharing-relevant-links"],
+        "tags": [],
+        "url": "/is310-computing-humanities/sharing-relevant-links/relevant-links/",
         "teaser": "/is310-computing-humanities/unsplash-gallery-image-2-th.jpg"
       },{
         "title": "",

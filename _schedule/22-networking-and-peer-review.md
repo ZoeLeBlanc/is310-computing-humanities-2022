@@ -12,4 +12,4 @@ class_date: 2022-04-07
 
 ~~- Project Updates and Peer Feedback~~
 
-- Read through the [Introduction to Text Mining]({{site.baseurl}}/materials/exploratory-data-analysis/03-intro-text-mining) prior to class and come with any questions you have.
+- Read through the [Introduction to Unstructured Data]({{site.baseurl}}/materials/exploratory-data-analysis/03-intro-unstructured-data) prior to class and come with any questions you have.

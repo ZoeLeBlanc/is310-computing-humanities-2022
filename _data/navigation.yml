@@ -90,6 +90,8 @@ materials:
         url: /materials/exploratory-data-analysis/01-intro-eda
       - title: "EDA In-Class Exercise"
         url: /materials/exploratory-data-analysis/02-eda-inclass-exercise
+      - title: "Introduction to Unstructured Data"
+        url: /materials/exploratory-data-analysis/03-intro-unstructured-data
 
 
 schedule:

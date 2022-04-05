@@ -1,4 +1,0 @@
-- string methods with pandas
-- functions
-- counting things
-- TF IDF

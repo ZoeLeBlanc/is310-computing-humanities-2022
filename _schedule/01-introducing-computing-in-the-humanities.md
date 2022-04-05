@@ -2,7 +2,7 @@
 title: "Introducing Computing in the Humanities 🎟"
 permalink: /schedule/01-introducing-computing-in-the-humanities/
 toc: true
-class_ate: 2022-01-18
+class_date: 2022-01-18
 ---
 ## In-Class Activities
 
