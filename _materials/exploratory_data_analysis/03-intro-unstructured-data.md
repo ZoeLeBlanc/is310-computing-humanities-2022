@@ -251,19 +251,201 @@ There are, in fact, at least 7 different choices you can make in a typical token
 - Should bigrams or other multi-word phrase be used instead of or in addition to single word phrases?
 - Should stopwords (the most common words) be removed?
 - Should rare words be removed?
+
 Any of these can be combined: there at least a hundred common ways to tokenize even the simplest dataset.
 
-### Lemmatizing/Stemming
+We can try these out with our `humanist_vols` dataset. For example, would we get a different number of counts if we lowercased our words?
 
-![stemming](https://miro.medium.com/max/1400/1*-MTbZK9ha3Kp1Z50o79Tzg.png)
+```python
+# Count the number of occurrences of each word lowercased
+humanist_vols['lowercase_humanities_computing_counts'] = humanist_vols['text'].str.lower().str.count('humanities computing')
+humanist_vols['lowercase_digital_humanities_counts'] = humanist_vols['text'].str.lower().str.count('digital humanities')
+# Plot the data
+humanist_vols[['lowercase_humanities_computing_counts', 'lowercase_digital_humanities_counts', 'humanities_computing_counts', 'digital_humanities_counts']].plot()
+```
 
-![lemma](https://devopedia.org/images/article/227/6785.1570815200.png)
+![lowercase hc dh]({{site.baseurl}}/assets/images/lowercase_hc_dh.png)
 
-### Bag of Words
+We can see that actually lowercasing words leads to many more matches since all we are doing is trying to match exact patterns and upper and lower case represent differing patterns. While we could use the `replace()` method for removing punctuation, some of the other approaches listed above require more attention. Let's dig in!
+
+#### Lemmatizing/Stemming
+
+Lemmatizing and Stemming are both ways of reducing words to their root form to make them more normalized for analysis. Lemmatizing is the process of reducing words to their base form, while stemming is the process of reducing words to their stem, demonstrated in the figure below:
+
+![lemma and stem](https://devopedia.org/images/article/227/6785.1570815200.png)
+
+The NLTK library we used for FreqDist also comes with stemmers and lemmatizers. 
+
+```python
+import nltk
+from nltk.stem import PorterStemmer
+porter = PorterStemmer()
+```
+
+Now to use these we need to apply them to each of the rows in our dataframe. We could do this with a for loop, but it's more efficient to use the `apply()` method. To try this out, let's work on a subset of our humanist_vols dataset.
+
+```python
+
+subset_humanist_vols = humanist_vols[0:2]
+
+def stem_words(row):
+    stemmed_words = ''
+    for token in row.split(' '):
+        stemmed_words += porter.stem(token) + ' '
+    return stemmed_words
+subset_humanist_vols['stemmed_text'] = subset_humanist_vols.text.apply(stem_words)
+
+print(subset_humanist_vols[0:1]['stemmed_text'].values)
+```
+
+This will print out a large text string with the stemmed words. We can see what the first email looks like when it is stemmed:
+
+```shell
+from: mccarty@utorepas
+subject:
+date: 12 may 1987, 23:50:02 edt
+x-humanist: vol. 1 num. 1 (1)
+
+thi is test number 1. pleas acknowledge.
+```
+
+And compare it to the original:
+
+```shell
+From: MCCARTY@UTOREPAS
+Subject: 
+Date: 12 May 1987, 23:50:02 EDT
+X-Humanist: Vol. 1 Num. 1 (1)
+
+This is test number 1. Please acknowledge.
+```
+
+We notice that stemming lowercased the words, but did not remove the punctuation. It also stemmed the words so that there is less variation in the words. 
+
+But let's talk about the code above, and explain how we are doing this. To help make sense of everything, I'll show the same code written as a for loop below:
+
+```python
+
+stemmed_column = []
+for index, row, in subset_humanist_vols.iterrows():
+    stemmed_words = ''
+    for token in row.text.split(' '):
+        stemmed_words += porter.stem(token) + ' '
+    stemmed_column.append(stemmed_words)
+
+subset_humanist_vols['stemmed_text'] = stemmed_column
+```
+
+So rather than having a function that takes a row as an argument, we are using a for loop to iterate over the rows. We are first creating an empty variable called `stemmed_words` and then we are splitting the text column into tokens and then iterating over each token. To do stemming or lemmatizing or many other text analysis methods, you need your words as tokens rather than a giant string. In this example, we are simply splitting on spaces, but there are many other approaches to this problem. 
+
+Once we have our tokens we then pass them to the `porter.stem()` method to stem them. We then append the stemmed words to our `stemmed_words` variable. Finally we append the all the stemmed words to the `stemmed_column` variable and then add that back into our dataframe outside of the for loop.
+
+So let's compare this to our `apply` method:
+
+```python
+def stem_words(row):
+    stemmed_words = ''
+    for token in row.split(' '):
+        stemmed_words += porter.stem(token) + ' '
+    return stemmed_words
+subset_humanist_vols['stemmed_text'] = subset_humanist_vols.text.apply(stem_words)
+```
+
+Here we have a function called `stem_words` that takes a `row` of our dataframe, and then does the similar split to tokens and then stem and assing to `stemmed_words`. Instead of appending to a list though we are returning `stemmed_words` on each iteration and assigning it directly to our DataFrame in a new column.
+
+You'll notice that unlike in our for loop we write `row.split()` instead of `row.text.split()`. This is because we are doing the `apply` directly on the `text` column. We could also use apply to access all the columns in our dataframe with the following change:
+
+```python
+def stem_words(row):
+    stemmed_words = ''
+    for token in row.text.split(' '):
+        stemmed_words += porter.stem(token) + ' '
+    return stemmed_words
+subset_humanist_vols['stemmed_text'] = subset_humanist_vols.apply(stem_words, axis=1)
+```
+
+In channging `subset_humanist_vols.text.apply(stem_words)` to `subset_humanist_vols.apply(stem_words, axis=1)` we are now performing apply on all the columns of the dataframe, row by row. The biggest thing to remember with `apply` is that you need to pass in the name of the function you want to run into the `apply` method. You can read more about the `apply` method [https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html).
+
+Finally you might get an error when you run this code,
+
+```shell
+SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  subset_humanist_vols['stemmed_text'] = subset_humanist_vols.text.apply(stem_words)
+```
+
+That's a common Pandas error that has to do with how we're adding new data to our dataframe. There's a few different solutions listed here <https://stackoverflow.com/questions/20625582/how-to-deal-with-settingwithcopywarning-in-pandas> but for ease, I normally just surpress this warning with the following code:
+
+```python
+import pandas as pd
+pd.options.mode.chained_assignment = None  # default='warn'
+```
+
+#### Quick Assignment
+
+How might we try and rework our stemming code to work with lemmatizing?
+
+First we'll need to import the right libraries.
+
+```python
+from nltk.stem import WordNetLemmatizer
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+wordnet_lemmatizer = WordNetLemmatizer()
+```
+Now try and create a function called `lemmatize_words` that takes a row as an argument and returns a string of the lemmatized words.
+
+### TF-IDF
+
+So far we have been focused on counting and cleaning our textual data, but we could also try some more complex Information Retrieval techniques. One popular approach is an algorithm called `Term Frequency - Inverse Document Frequenc` or TF-IDF. TF-IDF was first proposed in a 1972 paper by Karen Spärck Jones under the name “term specificity.”
+
+<div class="notice--info">⚡️ Great resources for learning more about TF-IDF are: <a href="https://programminghistorian.org/en/lessons/analyzing-documents-with-tfidf"> Matthew J. Lavin, "Analyzing Documents with TF-IDF," <i>Programming Historian</i> 8 (2019)</a> and <a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/05-Text-Analysis/01-TF-IDF.html" >Melanie Walsh's Textbook</a></div>
+
+The reason TF-IDF is so popular is because it is intended to surface terms that are distinctive across as set of documents (or a **corpus**). Often times with word counting you get lots of high frequency words (remember Zipf's law) but these words aren't always helpful if you are trying to understand the concepts within the text. High frequency words are more useful for author attribution.
+
+So the way TF-IDF works is the following operations as visualized in this diagram:
+
+![tf-idf](https://miro.medium.com/max/1200/1*qQgnyPLDIkUmeZKN2_ZWbQ.png)
+
+To break this down into code it really looks like the following:
+
+```python
+term_frequency = number of times a given term appears in document
+
+inverse_document_frequency = log(total number of documents / number of documents with term) + 1*****
+
+tf-idf = term_frequency * inverse_document_frequency
+```
+
+So let's try it out! We could write this with plain Python, but we can also install the `scikit-learn` library with the following code `pip3 install sklearn`. We can then use the code from the Programming Historian lesson linked above to get the following:
+
+```python
+# Let's try TF-IDF. This code is from the PH Tutorial linked above
+# Import the TfidfVectorizer from sklearn.feature_extraction.text
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+#save our texts to a list
+all_docs = subset_humanist_vols.text.tolist()
+
+#Create a vectorizer
+vectorizer = TfidfVectorizer(max_df=.7, min_df=1, stop_words=None, use_idf=True, norm=None)
+transformed_documents = vectorizer.fit_transform(all_docs)
+
+transformed_documents_as_array = transformed_documents.toarray()
+
+all_files = humanist_vols.datetime.astype(str).tolist()
+tfidf_results = []
+for counter, doc in enumerate(transformed_documents_as_array):
+    # construct a dataframe
+    tf_idf_tuples = list(zip(vectorizer.get_feature_names(), doc))
+    one_doc_as_df = pd.DataFrame.from_records(tf_idf_tuples, columns=['term', 'score']).sort_values(by='score', ascending=False).reset_index(drop=True)
+    one_doc_as_df['datetime'] = all_files[counter]
+    tfidf_results.append(one_doc_as_df)
+```
 
 ![bag](https://qph.fs.quoracdn.net/main-qimg-4934f0958e121d33717f848230ef664a)
 
 
-In *Introduction to Cultural Analytics*, Melanie Walsh and Quinn Dombrowski discuss text mining beyond English. They write:
-
-![two texts]({{site.baseurl}}/assets/images/two_types_text_analysis.png)

@@ -78,7 +78,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Introduction to Exploratory Data Analysis",
-        "excerpt":"⚡️ This lesson is now virtually available below and the notebook used is availble here Cleaning and Preparing (Text) Data for Exploratory Analyses We will be working with our Pudding Film Dialogue datasets today. First let’s review some of the concepts we have already covered in our Introduction to Notebooks....","categories": [],
+        "excerpt":"⚡️ This lesson is now virtually available below and the notebook used in the video is availble here and from class is available here Cleaning and Preparing (Text) Data for Exploratory Analyses We will be working with our Pudding Film Dialogue datasets today. First let’s review some of the concepts...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/exploratory-data-analysis/01-intro-eda",
         "teaser": null
