@@ -4,7 +4,7 @@ permalink: /materials/exploratory-data-analysis/01-intro-eda
 toc: true
 ---
 
-<div class="notice--info">⚡️ This lesson is now virtually available below and the notebook used is availble <a href="{{site.baseurl}}/assets/files/Intro_EDA.ipynb" download>here</a></div>
+<div class="notice--info">⚡️ This lesson is now virtually available below and the notebook used in the video is availble <a href="{{site.baseurl}}/assets/files/Intro_EDA.ipynb" download>here</a> and from class is available <a href="{{site.baseurl}}/assets/files/IntroEDARedux.ipynb" download></div>
 
 <iframe id="kmsembed-1_yzuatkp0" width="640" height="394" src="https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_yzuatkp0/uiConfId/26883701/st/0" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen*; encrypted-media *" referrerPolicy="no-referrer-when-downgrade" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
 

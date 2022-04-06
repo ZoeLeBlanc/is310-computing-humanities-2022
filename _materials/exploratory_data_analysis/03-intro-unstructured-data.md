@@ -193,9 +193,11 @@ Which produces the following graph:
 
 ![hc dh counts]({{site.baseurl}}/assets/images/hc_dh_counts.png)
 
+We've officially done our first foray into text analysis 🥳!
+
 ### Text Analysis with Python
 
-In Python, there exists a few libraries specifically designed to work with text data.
+So far we've just been working with Pandas, but in Python, there exists a few libraries specifically designed to work with text data.
 
 - NLTK [https://www.nltk.org/](https://www.nltk.org/)
 
@@ -224,7 +226,7 @@ tokens.plot(30)
 ```
 
 We should get a graph that looks like this:
-![counts](images/counts.png).
+![counts]({{site.baseurl}}/assets/images/counts.png).
 
 In this graph, if we had used all the words we would see this trend continue, like in the graph below.
 
@@ -234,10 +236,7 @@ This is “Zipf’s law:” the phenomenon means that the most common word is tw
 
 It is named after the linguist George Zipf, who first found the phenomenon while laboriously counting occurrences of individual words in Joyce’s Ulysses in 1935.
 
-This is a core textual phenomenon, and one you must constantly keep in mind: common words are very common indeed, and logarithmic scales are more often appropriate for plotting than linear ones. This pattern results from many dynamic systems where the “rich get richer,” which characterizes all sorts of systems in the humanities.
-
-[https://tedunderwood.com/2013/02/20/wordcounts-are-amazing/](https://tedunderwood.com/2013/02/20/wordcounts-are-amazing/)
-![wordcounts](images/wordcounts.png)
+This is a core textual phenomenon, and one you must constantly keep in mind: common words are very common indeed, and logarithmic scales are more often appropriate for plotting than linear ones. This pattern results from many dynamic systems where the “rich get richer,” which characterizes all sorts of systems in the humanities. You can read more about the power of counting words here [https://tedunderwood.com/2013/02/20/wordcounts-are-amazing/](https://tedunderwood.com/2013/02/20/wordcounts-are-amazing/).
 
 ### Tokenization
 
@@ -263,7 +262,6 @@ Any of these can be combined: there at least a hundred common ways to tokenize e
 ### Bag of Words
 
 ![bag](https://qph.fs.quoracdn.net/main-qimg-4934f0958e121d33717f848230ef664a)
-
 
 
 In *Introduction to Cultural Analytics*, Melanie Walsh and Quinn Dombrowski discuss text mining beyond English. They write:
