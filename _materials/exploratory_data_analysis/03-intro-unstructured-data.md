@@ -428,24 +428,63 @@ So let's try it out! We could write this with plain Python, but we can also inst
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 #save our texts to a list
-all_docs = subset_humanist_vols.text.tolist()
+documents = subset_humanist_vols.text.tolist()
 
 #Create a vectorizer
-vectorizer = TfidfVectorizer(max_df=.7, min_df=1, stop_words=None, use_idf=True, norm=None)
-transformed_documents = vectorizer.fit_transform(all_docs)
+vectorizer = TfidfVectorizer(max_df=.7, min_df=1)
+```
 
+The documentation for the TfidfVectorizer is available here <https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html> and we can see what all these parameters mean. In particular, take a look at `max_df` and `min_df`. These parameters control how much frequency a word needs to be in a document to be included in the vocabulary. In our case we want to include words that appear in more than 70% of the documents, but also exclude words that appear in fewer than one document.
+
+Now we need to `fit` our emails to the vectorizer. We can do this with the following code:
+
+```python
+# Fit the vectorizer to our emails
+transformed_documents = vectorizer.fit_transform(documents)
+
+# Now get the top features for each document
 transformed_documents_as_array = transformed_documents.toarray()
 
-all_files = humanist_vols.datetime.astype(str).tolist()
+dates = humanist_vols.dates.tolist()
 tfidf_results = []
 for counter, doc in enumerate(transformed_documents_as_array):
     # construct a dataframe
     tf_idf_tuples = list(zip(vectorizer.get_feature_names(), doc))
     one_doc_as_df = pd.DataFrame.from_records(tf_idf_tuples, columns=['term', 'score']).sort_values(by='score', ascending=False).reset_index(drop=True)
-    one_doc_as_df['datetime'] = all_files[counter]
+    one_doc_as_df['dates'] = dates[counter]
     tfidf_results.append(one_doc_as_df)
 ```
 
-![bag](https://qph.fs.quoracdn.net/main-qimg-4934f0958e121d33717f848230ef664a)
+Once that is done we can save our results to a new dataframe and explore the top unique terms
 
+```python
+tfidf_df = pd.concat(tfidf_results)
+tfidf_df = tfidf_df.sort_values(by=['score'], ascending=False)
+tfidf_df.head(10)
+```
 
+You should see a lot of `http`. To get a better sense of let's try taking the 200 rows of this `tfidf_df` but only keeping the unique terms. We can do that with the `unique` method in Pandas.
+
+```python
+print(tfidf_df[0:200].term.unique())
+```
+
+Which should produce this list:
+
+```python
+['http' 'utorepas' 'bitnet' 'www' '2007' '2006' '2004' 'gopher' '2005'
+ '2002' '2003' 'html' 'ninch' '2008' 'vax' 'uottawa' 'qs' 'prolog'
+ 'hussein' 'acadvm1' 'kessler' 'doi' 'celia' 'cdt' 'na' '441495' 'cst'
+ 'penndrls' 'amico' 'brownvm' 'neach' 'epas' 'xxx' '1007' 'fqs' 'tlg'
+ 'kevitt' 'ocp' 'sanskrit' 'dfl' 'iraq' 'easi' 'pali' 'kleio' 'kurzweil'
+ 'rahtz' 'cti' 'kentvm' 'bene' 'giampapa' 'hurd' 'htm' 'chiba' 'gas'
+ 'nota' 'coombs' 'hypercard' 'cont' 'strangelove' 'ubiquity' 'cdn'
+ 'google' 'vm' 'snobol' 'taunivm' '8080' 'ere' 'ibycus' 'lml' 'koontz'
+ 'lowercase' 'nicolov' 'mst' 'artfl' 'guvax' 'stallman' 'crosby'
+ 'germaine' 'ijcai' 'marchand' 'bst'
+ '____________________________________________________________________'
+ 'pst' 'ucs' 'engst' 'aisb' 'israeli' 'mc' 'junger' 'masks' 'iraqi'
+ 'arundel' '10646' 'nicolas' 'lachance' 'spaeth']
+ ```
+
+Some of these terms are pretty meaningless and we might want to clean them out, but some like `prolog` or `google` look promising. In class, let's try and compare the tf-idf scores for these terms to the frequency of their counts.
