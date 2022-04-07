@@ -92,6 +92,8 @@ materials:
         url: /materials/exploratory-data-analysis/02-eda-inclass-exercise
       - title: "Introduction to Unstructured Data"
         url: /materials/exploratory-data-analysis/03-intro-unstructured-data
+      - title: "Text Analysis Assignment"
+        url: /materials/exploratory-data-analysis/04-text-analysis-assignment
 
 
 schedule:

@@ -10,7 +10,6 @@ class_date: 2022-04-12
 
 **VIDEO of Project Update Presentation DUE**
 
-- Discuss in class the [Advanced Data Visualization section]({{site.baseurl}}/materials/exploratory-data-analysis/05-advanced-data-visualization).
 - Review and continue work on the [text mining assignment]({{site.baseurl}}/materials/exploratory-data-analysis/04-text-mining-assignment)
 
 

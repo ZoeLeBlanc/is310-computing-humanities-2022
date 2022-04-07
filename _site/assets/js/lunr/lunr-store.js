@@ -95,6 +95,12 @@ var store = [{
         "url": "/is310-computing-humanities/materials/exploratory-data-analysis/03-intro-unstructured-data",
         "teaser": null
       },{
+        "title": "Text Analysis Assignment",
+        "excerpt":"Main Assignment In the Unstructured Data lesson, we learned and experimented with a few diffent approaches for analyzing textual data. For this assingment you will dig in a bit deeper. First, make sure you have the humanist listserv datasets and the code for running TF-IDF. The goal for this assignment...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/exploratory-data-analysis/04-text-analysis-assignment",
+        "teaser": null
+      },{
         "title": "Advanced Data Visualization",
         "excerpt":"Data Visualization in Python and Pandas Up to now we’ve been using Pandas built in plot methods to display our data. While this is helpful for quick analyses, you’ll likely want more options for both how you visualize the data and interact with it. In Python, there are a number...","categories": [],
         "tags": [],
@@ -366,7 +372,7 @@ var store = [{
         "teaser": null
       },{
         "title": "~~Preservation: Projects & People 🌅~~ <br> Painting A Picture 🎨",
-        "excerpt":"Class Activities VIDEO of Project Update Presentation DUE Discuss in class the Advanced Data Visualization section. Review and continue work on the text mining assignment Explore and read the principles of The Colored Conventions Project https://coloredconventions.org/ Explore “Slavery, Abolition, Emancipation and Freedom Primary Sources from Houghton Library” https://curiosity.lib.harvard.edu/slavery-abolition-emancipation-and-freedom and listen...","categories": [],
+        "excerpt":"Class Activities VIDEO of Project Update Presentation DUE Review and continue work on the text mining assignment Explore and read the principles of The Colored Conventions Project https://coloredconventions.org/ Explore “Slavery, Abolition, Emancipation and Freedom Primary Sources from Houghton Library” https://curiosity.lib.harvard.edu/slavery-abolition-emancipation-and-freedom and listen to an interview with the creator, archivist Dorothy...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/23-painting-a-picture",
         "teaser": null
