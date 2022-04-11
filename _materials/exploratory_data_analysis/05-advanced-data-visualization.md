@@ -1,9 +1,13 @@
 ---
 title: "Advanced Data Visualization"
-permalink: /materials/exploratory-data-analysis/03-advanced-data-visualization
+permalink: /materials/exploratory-data-analysis/05-advanced-data-visualization
 toc: true
 ---
-# Data Visualization in Python and Pandas
+
+## Data Visualization in the Humanities
+
+
+## Data Visualization in Python and Pandas
 
 Up to now we've been using Pandas built in `plot` methods to display our data. While this is helpful for quick analyses, you'll likely want more options for both how you visualize the data and interact with it.
 

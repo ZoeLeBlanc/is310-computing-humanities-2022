@@ -9,6 +9,8 @@ toc_sticky: true
 
 The second stage of your semester long project is worth 5%, and involves sharing and reflecting on your progress with your final project. You will explain how much you have completed from the initial write-up. Because we are a bit behind schedule, rather than presenting in-class you will be sharing you update asynchronously. Given that fact, I've tweaked the due dates to give you time to record your presentation and provide feedback to your peers.
 
+<div class="notice--info">⚡️ Project Update Presentation Feedback Form now available here <a href="https://forms.gle/Xzwo2eDicm117JNJ6">https://forms.gle/Xzwo2eDicm117JNJ6</a></div>
+
 ### Updated Due Dates
 
 1. The due date for submitting a link to your presentation is now prior to class on **April 12**.
