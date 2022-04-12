@@ -4,6 +4,8 @@ permalink: /materials/exploratory-data-analysis/03-intro-unstructured-data
 toc: true
 ---
 
+<div class="notice--info">⚡️ Our code from class is now available <a href="{{site.baseurl}}/assets/files/HumanistListservEDA.ipynb" download>here</a></div>
+
 ## What is Unstructured Data?
 
 When working with data, you'll often come across the terms "structured" and "unstructured" data. There are lots of definitions online, like this graph below:
