@@ -94,6 +94,10 @@ materials:
         url: /materials/exploratory-data-analysis/03-intro-unstructured-data
       - title: "Text Analysis Assignment"
         url: /materials/exploratory-data-analysis/04-text-analysis-assignment
+      - title: "Advanced Data Visualization"
+        url: /materials/exploratory-data-analysis/05-advanced-data-visualization
+      - title: "Data Visualization Assignment"
+        url: /materials/exploratory-data-analysis/06-data-visualization-assignment
 
 
 schedule:

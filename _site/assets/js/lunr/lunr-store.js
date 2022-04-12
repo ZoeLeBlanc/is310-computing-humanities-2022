@@ -102,9 +102,15 @@ var store = [{
         "teaser": null
       },{
         "title": "Advanced Data Visualization",
-        "excerpt":"Data Visualization in the Humanities Data Visualization in Python and Pandas Up to now we’ve been using Pandas built in plot methods to display our data. While this is helpful for quick analyses, you’ll likely want more options for both how you visualize the data and interact with it. In...","categories": [],
+        "excerpt":"Data Visualization &amp; Computing in the Humanities While we haven’t necessarily focused on data visualization per se, a lot of our readings, example projects, and discussions have touched on data visualization in various ways (whether discussions about interfaces or how to make arguments with data or doing exploratory data analysis)....","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/exploratory-data-analysis/05-advanced-data-visualization",
+        "teaser": null
+      },{
+        "title": "Data Visualization Assignment",
+        "excerpt":"So far we have been visualizing fairly structured data (counts mostly), but what if we wanted to explore our data from the Term Frequency-Inverse Document Frequency (TF-IDF) method? Using the tfidf_df from our Introduction to Unstructured Data and Text Analysis Assignment, try and use Altair to create visualizations to answer...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/exploratory-data-analysis/06-data-visualization-assignment",
         "teaser": null
       },{
         "title": "Introduction to HTML and Web Scraping",

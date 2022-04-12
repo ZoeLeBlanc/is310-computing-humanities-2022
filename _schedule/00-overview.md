@@ -52,6 +52,6 @@ This overview gives a top level view of the topics for each of our meetings. You
 | [API Assignment]({{site.baseurl}}/materials/getting-data/05-api-assignment) | ~~March 22~~ Now Optional <br> (Highly recommend for those behind on <br> annotations or planning to work with APIs)|
 | [Jupyter and Pandas Assignment]({{site.baseurl}}/materials/getting-data/07-notebook-assignment) | ~~March 22~~ [Now Due April 5]({{site.baseurl}}/schedule/21-revised-models-and-machines) |
 | [Text Mining Assignment]({{site.baseurl}}/materials/exploratory-data-analysis/04-text-analysis-assignment) | [~~March 29~~ April 14]({{site.baseurl}}/schedule/24-revised-names-and-spells) |
-| Data Visualization Assignment | ~~March 31~~ April 21 (to be posted)|
+| [Data Visualization Assignment]({{site.baseurl}}/materials/exploratory-data-analysis/06-data-visualization-assignment) | [~~March 31~~ April 21]({{site.baseurl}}/schedule/26-documents-and-documentation) |
 
 
