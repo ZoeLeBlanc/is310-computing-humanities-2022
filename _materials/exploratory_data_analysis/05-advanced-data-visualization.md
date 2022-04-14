@@ -4,6 +4,8 @@ permalink: /materials/exploratory-data-analysis/05-advanced-data-visualization
 toc: true
 ---
 
+<div class="notice--info">⚡️ Our code from class is now available <a href="{{site.baseurl}}/assets/files/IntroAltair.ipynb" download>here</a></div>
+
 ## Data Visualization & Computing in the Humanities
 
 While we haven't necessarily focused on data visualization per se, a lot of our readings, example projects, and discussions have touched on data visualization in various ways (whether discussions about interfaces or how to make arguments with data or doing exploratory data analysis).
