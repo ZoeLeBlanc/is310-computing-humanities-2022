@@ -8,10 +8,8 @@ class_date: 2022-04-21
 
 ## Class Activities
 
-- Review NER and NLP
-- Lauren Klein & Sandeep Soni “How Words Lead To Justice”  <https://www.publicbooks.org/how-words-lead-to-justice/>
-- Ruth Ahnert et al., *The Network Turn: Changing Perspectives in the Humanities* (Cambridge UP, 2021) Chapter 3 <https://www.cambridge.org/core/elements/network-turn/CC38F2EA9F51A6D1AFCB7E005218BBE5> and try out Palladio <http://hdlab.stanford.edu/projects/palladio/> (you can use their sample data).
-  - Optional listen to the interview with the authors at <https://newbooksnetwork.com/the-network-turn-changing-perspectives-in-the-humanities>
+- Introduction to NER and NLP
+- Discuss Project Update Feedback
 
 ## Additional Materials
 

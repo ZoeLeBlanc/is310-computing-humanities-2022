@@ -7,10 +7,9 @@ class_date: 2022-04-26
 
 ## Class Activities
 
-- Review the introduction to networks
-- Robert Lee, Tristan Ahtone, Margaret Pearce, Kalen Goodluck, Geoff McGhee, Cody Leff, Katherine Lanpher and Taryn Salinas. “Land Grab Universities: A High Country News Investigation” <https://www.landgrabu.org/>
-- Explore and read the principles of The Colored Conventions Project <https://coloredconventions.org/>
-- Ben Tarnoff "The Data is Ours" <https://logicmag.io/scale/the-data-is-ours/>
+- Ruth Ahnert et al., *The Network Turn: Changing Perspectives in the Humanities* (Cambridge UP, 2021) Chapters 3 and 5 <https://www.cambridge.org/core/elements/network-turn/CC38F2EA9F51A6D1AFCB7E005218BBE5> and try out Palladio <http://hdlab.stanford.edu/projects/palladio/> (you can use their sample data).
+  - Optional listen to the interview with the authors at <https://newbooksnetwork.com/the-network-turn-changing-perspectives-in-the-humanities>
+
 
   
 ## Additional Readings
