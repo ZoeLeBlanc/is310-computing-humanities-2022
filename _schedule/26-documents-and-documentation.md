@@ -12,5 +12,4 @@ class_date: 2022-04-21
 
 ## Additional Materials
 
--
 - Lauren Klein & Sandeep Soni “How Words Lead To Justice”  <https://www.publicbooks.org/how-words-lead-to-justice/>
