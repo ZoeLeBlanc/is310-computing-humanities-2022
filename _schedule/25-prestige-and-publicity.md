@@ -1,6 +1,6 @@
 ---
-title: "~~April 21 - Documents and Documentation 📑~~ <br> Connecting the Dots 🧩"
-redirect_from: /schedule/25-documents-and-documentation
+title: "~~April 21 -Prestige and Publicity 📑~~ <br> Connecting the Dots 🧩"
+redirect_from: /schedule/25-prestige-and-publicity
 permalink: /schedule/25-connecting-the-dots
 toc: true
 class_date: 2022-04-21

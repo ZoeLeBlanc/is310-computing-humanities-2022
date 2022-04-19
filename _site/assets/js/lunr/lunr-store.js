@@ -90,7 +90,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Introduction to Unstructured Data",
-        "excerpt":"What is Unstructured Data? When working with data, you’ll often come across the terms “structured” and “unstructured” data. There are lots of definitions online, like this graph below: This graph is technically correct, but it is also a bit confusing when you think about it (even highly organized data can...","categories": [],
+        "excerpt":"⚡️ Our code from class is now available here What is Unstructured Data? When working with data, you’ll often come across the terms “structured” and “unstructured” data. There are lots of definitions online, like this graph below: This graph is technically correct, but it is also a bit confusing when...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/exploratory-data-analysis/03-intro-unstructured-data",
         "teaser": null
@@ -102,7 +102,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Advanced Data Visualization",
-        "excerpt":"Data Visualization &amp; Computing in the Humanities While we haven’t necessarily focused on data visualization per se, a lot of our readings, example projects, and discussions have touched on data visualization in various ways (whether discussions about interfaces or how to make arguments with data or doing exploratory data analysis)....","categories": [],
+        "excerpt":"⚡️ Our code from class is now available here Data Visualization &amp; Computing in the Humanities While we haven’t necessarily focused on data visualization per se, a lot of our readings, example projects, and discussions have touched on data visualization in various ways (whether discussions about interfaces or how to...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/exploratory-data-analysis/05-advanced-data-visualization",
         "teaser": null
@@ -111,6 +111,12 @@ var store = [{
         "excerpt":"So far we have been visualizing fairly structured data (counts mostly), but what if we wanted to explore our data from the Term Frequency-Inverse Document Frequency (TF-IDF) method? Using the tfidf_df from our Introduction to Unstructured Data and Text Analysis Assignment, try and use Altair to create visualizations to answer...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/exploratory-data-analysis/06-data-visualization-assignment",
+        "teaser": null
+      },{
+        "title": "Introduction to Named Entity Recognition",
+        "excerpt":"Download relevant libraries Before we start today, I want to get people downloading the relevant libraries for this lesson since they are a bit larger than our previous Python packages. If you are using a virtual environment, be sure to activate yours before downloading the libraries. source is310-venv/bin/activate pip install...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/exploratory-data-analysis/07-intro-ner",
         "teaser": null
       },{
         "title": "Introduction to HTML and Web Scraping",
@@ -389,26 +395,26 @@ var store = [{
         "url": "/is310-computing-humanities/schedule/24-revised-names-and-spells",
         "teaser": null
       },{
-        "title": "~~April 21 - Documents and Documentation 📑~~ <br> Connecting the Dots 🧩",
-        "excerpt":"Class Activities Review NER and NLP Lauren Klein &amp; Sandeep Soni “How Words Lead To Justice” https://www.publicbooks.org/how-words-lead-to-justice/ Ruth Ahnert et al., The Network Turn: Changing Perspectives in the Humanities (Cambridge UP, 2021) Chapter 3 https://www.cambridge.org/core/elements/network-turn/CC38F2EA9F51A6D1AFCB7E005218BBE5 and try out Palladio http://hdlab.stanford.edu/projects/palladio/ (you can use their sample data). Optional listen to the...","categories": [],
+        "title": "~~April 21 -Prestige and Publicity 📑~~ <br> Connecting the Dots 🧩",
+        "excerpt":"Class Activities      Introduction to NER and NLP   Discuss Project Update Feedback   Additional Materials      Stephen Ramsay and Geofrey Rockwell, “Developing Things: Notes toward an Epistemology of Building in the Digital Humanities,” in Debates in the Digital Humanities https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/c733786e-5787-454e-8f12-e1b7a85cac72   Ben Schmidt “Javascript and the next decade of data programming” http://benschmidt.org/post/2020-01-15/2020-01-15-webgpu/  ","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/25-connecting-the-dots",
         "teaser": null
       },{
         "title": "April 21 - Documents and Documentation 📑",
-        "excerpt":"Class Activities      Read the introduction to Networks (link to be posted soon).   Ruth Ahnert et al., The Network Turn: Changing Perspectives in the Humanities (Cambridge UP, 2021) Chapter 5 https://www.cambridge.org/core/elements/network-turn/CC38F2EA9F51A6D1AFCB7E005218BBE5   Introduction to blogging and documentation practices   ","categories": [],
+        "excerpt":"Class Activities      Review Introduction to NER Introduction to blogging and documentation practices   Additional Materials      Lauren Klein &amp; Sandeep Soni “How Words Lead To Justice”  https://www.publicbooks.org/how-words-lead-to-justice/  ","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/26-documents-and-documentation",
         "teaser": null
       },{
         "title": "Sustainability & Society 🚧",
-        "excerpt":"Class Activities Review the introduction to networks Robert Lee, Tristan Ahtone, Margaret Pearce, Kalen Goodluck, Geoff McGhee, Cody Leff, Katherine Lanpher and Taryn Salinas. “Land Grab Universities: A High Country News Investigation” https://www.landgrabu.org/ Explore and read the principles of The Colored Conventions Project https://coloredconventions.org/ Ben Tarnoff “The Data is Ours”...","categories": [],
+        "excerpt":"Class Activities Ruth Ahnert et al., The Network Turn: Changing Perspectives in the Humanities (Cambridge UP, 2021) Chapters 3 and 5 https://www.cambridge.org/core/elements/network-turn/CC38F2EA9F51A6D1AFCB7E005218BBE5 and try out Palladio http://hdlab.stanford.edu/projects/palladio/ (you can use their sample data). Optional listen to the interview with the authors at https://newbooksnetwork.com/the-network-turn-changing-perspectives-in-the-humanities Additional Readings Listen “Why We Need a...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/27-sustainability-and-society",
         "teaser": null
       },{
         "title": "Review & Reflect 🧾",
-        "excerpt":"Class Activities Work on final project and review any remaining subjects Additional Materials Adam Crymble “Chapter 5 The Rise and Fall of the Scholarly Blog” Technology and the Historian Christen, Kim. “Does Information Really Want to be Free? Indigenous Knowledge Systems and the Question of Openness.” International Journal of Communication...","categories": [],
+        "excerpt":"Class Activities Review introduction to Networks Work on final project and review any remaining subjects Additional Materials Robert Lee, Tristan Ahtone, Margaret Pearce, Kalen Goodluck, Geoff McGhee, Cody Leff, Katherine Lanpher and Taryn Salinas. “Land Grab Universities: A High Country News Investigation” https://www.landgrabu.org/ Explore and read the principles of The...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/schedule/28-review-and-reflect",
         "teaser": null

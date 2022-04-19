@@ -98,6 +98,8 @@ materials:
         url: /materials/exploratory-data-analysis/05-advanced-data-visualization
       - title: "Data Visualization Assignment"
         url: /materials/exploratory-data-analysis/06-data-visualization-assignment
+      - title: "Introduction to Named Entity Recognition"
+        url: /materials/exploratory-data-analysis/07-intro-ner
 
 
 schedule:
