@@ -4,6 +4,8 @@ permalink: /materials/exploratory-data-analysis/07-intro-ner
 toc: true
 ---
 
+<div class="notice--info">⚡️ Our code from class is now available <a href="{{site.baseurl}}/assets/files/IntroNER.ipynb" download>here</a></div>
+
 ## Download relevant libraries
 
 Before we start today, I want to get people downloading the relevant libraries for this lesson since they are a bit larger than our previous Python packages. If you are using a virtual environment, be sure to activate yours before downloading the libraries.
