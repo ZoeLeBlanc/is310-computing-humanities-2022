@@ -36,9 +36,15 @@ var store = [{
         "teaser": null
       },{
         "title": "Final Project Presentation Guidelines",
-        "excerpt":" ","categories": [],
+        "excerpt":"Assignment Outline Your final presentation is worth 15% of your final grade. Presentations should be 15-20 minutes for individuals or 20-25 minutes for groups, and unlike the initial demo this presentation should present a narrative structured around your research question (rather than you experience doing the research.) You should begin...","categories": [],
         "tags": [],
-        "url": "/is310-computing-humanities/assessments/06-final-project-presentation-guidelines",
+        "url": "/is310-computing-humanities/assessments/07-final-project-presentation-guidelines",
+        "teaser": null
+      },{
+        "title": "Final Project Post Guidelines",
+        "excerpt":"Assignment Outline Your final project post is worth 15% of your final grade. This final piece involves both submitting any code, data, or materials you have created for the project (only need to be submitted once if working in a group), and then writing a reflective blog post on your...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/assessments/08-final-project-post-guidelines",
         "teaser": null
       },{
         "title": "Advanced Python",
@@ -114,7 +120,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Introduction to Named Entity Recognition",
-        "excerpt":"Download relevant libraries Before we start today, I want to get people downloading the relevant libraries for this lesson since they are a bit larger than our previous Python packages. If you are using a virtual environment, be sure to activate yours before downloading the libraries. source is310-venv/bin/activate pip install...","categories": [],
+        "excerpt":"⚡️ Our code from class is now available here Download relevant libraries Before we start today, I want to get people downloading the relevant libraries for this lesson since they are a bit larger than our previous Python packages. If you are using a virtual environment, be sure to activate...","categories": [],
         "tags": [],
         "url": "/is310-computing-humanities/materials/exploratory-data-analysis/07-intro-ner",
         "teaser": null

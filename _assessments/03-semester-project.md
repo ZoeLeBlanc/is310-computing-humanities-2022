@@ -35,16 +35,17 @@ The proposal should be 2-3 pages double spaced and can contain tables, graphs, b
 You will demo your project and explain how much you have completed from the initial proposal. Then through feedback from the instructor and your peers, you will assess how much progress you have made and whether you need to change directions or revise any goals. You should be prepared to speak for 5-10 minutes and are welcome to create slides, as well as show code or figures (though these are not required).
 
 ## Final Presentation 15% 🎉
-<h3> DUE MAY 3, 2022</h3>
+<h3> <strike>DUE MAY 3, 2022</strike> DUE MAY 10, 2022 -- SEE UPDATED GUIDELINES <a href="{{site.baseurl}}/assessments/07-final-project-presentation-guidelines">HERE</a></h3>
 
 *Detailed Guidelines Forthcoming*
 
 In 10-15 minutes, introduce your project through summarizing your initial proposal (including your initial research questions, planned datasets, and methods). Then you’ll demonstrate your initial data collection or study through giving us a brief biography of your dataset and methodologies. Outline what you plan to do next in the project and whether you need to change course from what you outlined in your initial proposal.
 
 ## Final Project 15% 🌟
-<h3>DUE MAY 13, 2022</h3>
+<h3><strike>DUE MAY 13, 2022</strike> DUE MAY 16, 2022 -- SEE UPDATED GUIDELINES <a href="{{site.baseurl}}/assessments/08-final-project-post-guidelines">HERE</a></h3>
 
 *Detailed Guidelines Forthcoming*
 
 This final project is intended to provide a space to reflect on the process of building your final project, as well as your intellectual forays into computing in the humanities. Shifting from the “so what” question of the demo presentation, your main question here is ‘how’. How have you worked on this project over the course of the semester? How have your ideas about data and working with data changed (or not) in this course? How have our readings and example projects inspired your final project? How would you build this project now knowing what you do know? How much of your initial project proposal were you able to complete? How well were you able to estimate the work involved for this project? How likely are you to continue working on this project and how might you change course in the future?
+
 In academia, we often like to focus on the why, and it is important here as well. But most of this course has been focused on exploring how computing in the humanities work happens and especially if that work involves ‘data’ in some form or another. To help support this assessment of your process, you should plan to include any relevant datasets, documentation, or code that you developed as either part of your paper (where you might detail aspects of these objects through a combination of figures and explanatory text) or as an appendix which you reference in your paper. While you might not have achieved everything you initially set out in your proposal (and you should directly address this rather than paper over it), the goal of this paper is not to judge whether you achieved certain milestones. The goal is to articulate how the act of making, curating, collecting, and interpreting data has shaped both your project and your knowledge of what it means to do computing in the humanities.

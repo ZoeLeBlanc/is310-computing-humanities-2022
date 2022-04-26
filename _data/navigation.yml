@@ -26,6 +26,10 @@ assessments:
         url: /assessments/04-project-proposal
       - title: Project Update Presentation Guidelines
         url: /assessments/06-project-update-presentation-guidelines
+      - title: Final Project Presentation Guidelines
+        url: /assessments/07-final-project-presentation-guidelines
+      - title: Final Project Post Guidelines
+        url: /assessments/08-final-project-post-guidelines
 
 materials:
   - title: Getting Started
