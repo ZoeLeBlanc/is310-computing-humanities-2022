@@ -125,6 +125,12 @@ var store = [{
         "url": "/is310-computing-humanities/materials/exploratory-data-analysis/07-intro-ner",
         "teaser": null
       },{
+        "title": "Introduction to Network Analysis",
+        "excerpt":"What is a network? In The Network Turn, we learned that: The network framework shapes how we interpret the world around us. Nothing is naturally a network; rather, networks are an abstraction into which we squeeze the world. Nevertheless, almost anything can be turned into a network, whether it be...","categories": [],
+        "tags": [],
+        "url": "/is310-computing-humanities/materials/exploratory-data-analysis/08-intro-networks",
+        "teaser": null
+      },{
         "title": "Introduction to HTML and Web Scraping",
         "excerpt":"⚡️ The files from our class session on March 8, 2022 are available for download first_page.html and scraping.py What’s HTML? According to the Mozilla website, “HTML (Hypertext Markup Language) is not a programming language; it is a markup language used to tell your browser how to structure the web pages...","categories": [],
         "tags": [],

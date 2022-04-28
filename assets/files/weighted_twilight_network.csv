@@ -1,0 +1,235 @@
+source,target,weight
+- emmett,alice,1
+- emmett,carlisle,2
+- emmett,emmett,2
+alice,alice follows,1
+alice,aro,4
+alice,bella,48
+alice,carlisle,4
+alice,demetri,1
+alice,edward,19
+alice,emmett,3
+alice,eric,1
+alice,jane,2
+alice,jump,4
+alice,laurent,1
+alice,san marcos,1
+alice,tim,1
+alice,v.o.,1
+alice,victoria,2
+alice,volturi,4
+alice follows,jane,1
+angela,aro,1
+angela,bella,4
+angela,eric,7
+angela,eric joust,1
+angela,jessica,6
+angela,jessica approach,1
+angela,mike,5
+aro,bella,18
+aro,bob,1
+aro,demetri,2
+aro,edward,17
+aro,edward overhead,1
+aro,emily,3
+aro,jane,5
+aro,laurent,1
+aro,mesmerizing,1
+aro,michael,1
+aro,mike,1
+aro,sam,6
+aro,volturi,3
+bella,bella approaches,1
+bella,bella awakens,1
+bella,bella drives,3
+bella,bella jumps,2
+bella,bella spins,3
+bella,bella swan,2
+bella,bella warmly,2
+bella,billy,5
+bella,bob,4
+bella,bob marks,1
+bella,carlisle,15
+bella,charlie,14
+bella,charlie              bella,1
+bella,demetri,1
+bella,edward,94
+bella,edward overhead,1
+bella,embry,10
+bella,emily,7
+bella,emmett,3
+bella,eric,3
+bella,eric joust,1
+bella,harry,2
+bella,jacob,2
+bella,jacob black,2
+bella,jacob black's,1
+bella,jacob drives,1
+bella,jacob exit,1
+bella,jacob follows,1
+bella,james,2
+bella,james grabs,1
+bella,jane,5
+bella,jared,7
+bella,jessica,9
+bella,juliet,1
+bella,jump,9
+bella,laurent,9
+bella,mike,4
+bella,mike newton,1
+bella,opens bella's,1
+bella,pete,1
+bella,quil,3
+bella,rez,2
+bella,sam,14
+bella,sam              bella,1
+bella,sam uley,1
+bella,sam uley?,1
+bella,tim,7
+bella,v.o.,15
+bella,victoria,6
+bella,volturi,6
+bella,wolf,9
+bella approaches,quil,1
+bella approaches,sam,1
+bella jumps,jump,2
+bella spins,carlisle,1
+bella spins,edward,2
+bella swan,embry,1
+bella swan,jared,1
+bella warmly,carlisle,1
+bella warmly,edward,1
+berty,edward,1
+berty,tim,1
+billy,billy black,1
+billy,billy called,1
+billy,charlie,3
+billy,harry,2
+billy,quil,1
+billy,sam,3
+billy,sam uley,1
+billy black,charlie,1
+billy black,harry,1
+billy black,quil,1
+billy called,charlie,1
+black ponytail,jacob black,1
+bob,bob marks,2
+bob,charlie,3
+bob,charlie              it's,1
+bob,tim,1
+bob,victoria,1
+bob marks,charlie,1
+bugs sam,sam,1
+carlisle,edward,7
+carlisle,emmett,5
+carlisle,jacob,1
+carlisle,jump,1
+carlisle,v.o.,1
+carlisle,victoria,1
+carlisle,volturi,1
+charlie,charlie              bella,1
+charlie,charlie              it's,2
+charlie,charlie sags,1
+charlie,charlie spins,2
+charlie,charlie swan,1
+charlie,edward,1
+charlie,harry,12
+charlie,quil,1
+charlie,rez,1
+charlie,sam,2
+charlie,shopping,1
+charlie,tim,2
+charlie,v.o.,1
+charlie,victoria,3
+charlie              it's,tim,1
+demetri,edward,2
+demetri,jane,1
+demetri,volturi,3
+edward,edward backs off,1
+edward,edward overhead,1
+edward,emmett,2
+edward,jacob black,1
+edward,james,1
+edward,james grabs,1
+edward,jane,10
+edward,jump,3
+edward,mike,1
+edward,sam,2
+edward,tim,5
+edward,v.o.,4
+edward,victoria,2
+edward,volturi,7
+edward,wolf,3
+edward backs off,sam,1
+edward backs off,wolf,1
+edward overhead,volturi,1
+embry,emily,4
+embry,grins,1
+embry,jacob drives,1
+embry,jared,11
+embry,quil,4
+embry,quil ateara,1
+embry,sam,5
+embry,sam uley,2
+embry,wolf,3
+emily,jared,3
+emily,sam,7
+emmett,emmett blank,1
+eric,eric joust,1
+eric,jessica,5
+eric,jessica approach,1
+eric,jump,1
+eric,mike,5
+eric,tim,1
+eric joust,jessica,1
+eric joust,mike,1
+grins,jacob grins,1
+grins,james,1
+grins,victoria,1
+grins,victoria grins,1
+grins,wolf,1
+harry,quil,1
+harry,rez,1
+harry,sam,2
+harry,victoria,3
+harry,wolf,1
+jacob,sam,1
+jacob black,jacob black's,1
+jacob black,mike,1
+jacob black,mike newton,1
+james,james grabs,1
+james,laurent,1
+james,victoria,4
+jane,jane just,1
+jane,sam,1
+jane,volturi,1
+jared,jump,1
+jared,opens bella's,1
+jared,sam,7
+jared,sam uley,3
+jessica,jessica approach,1
+jessica,mike,5
+jessica,tim,1
+jessica approach,mike,1
+jump,laurent,1
+jump,opens bella's,1
+laurent,victoria,2
+laurent,wolf,2
+mike,mike              no,1
+mike,mike newton,1
+mike,shakespeare,1
+pete,tim,1
+quil,quil ateara,1
+quil,sam,2
+quil,sam uley,1
+rez,wolf,1
+sam,sam              bella,1
+sam,sam jogs,1
+sam,sam turns,1
+sam,sam uley,7
+sam,sam uley?,1
+sam,victoria,5
+sam,wolf,1
+sam uley,sam uley?,1
+v.o.,wolf,1
+victoria,victoria grins,1
