@@ -37,7 +37,7 @@ That is because I will be sharing your videos, along with your final project pos
 
 *A/A+ Presentations*
 
-- Presenters clearly outline the research question and why the presenters think it is significant. Presenters tie their question to digital humanities research (for A+).
+- Presenters clearly outline the research question and why the presenters think it is significant, and tie their question to digital humanities research.
 - Presenters thoroughly explain their dataset(s), including what it contains and what might be missing, as well as how you obtained the data. Presentations discuss any efforts at getting data that failed and how the presenters pivoted to other datasets or research questions.
 - Presenters explain their methods including rationale and how it works. This could include diagrams for more complex methods.
 - Presenters discuss their results and how it answers *or doesn't* their initial research question. Presenters detail what they think their results represent, and whether what they found was surprising or expected.
@@ -70,7 +70,3 @@ That is because I will be sharing your videos, along with your final project pos
 - Presenters lack any direction on completing their project.
 
 
-
-Ideally, you will also bring in some of the topics we've discussed over the course of the semester and include some mention of how your project might this be relevant to digital humanities (not necessarily research questions, but maybe in terms of methods or datasets).
-
-You do not need to follow the order of these guidelines in terms of how you structure your presentation. Also you can use slides, jupyter notebooks, or any other documents to present your materials. After your presentation, we will have ten minutes for question and answer, and just like the demo you will complete a final self assessment survey.
