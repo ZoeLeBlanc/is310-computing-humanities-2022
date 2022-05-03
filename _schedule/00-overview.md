@@ -47,7 +47,7 @@ This overview gives a top level view of the topics for each of our meetings. You
 | [Github Repository Assignment]({{site.baseurl}}/materials/intro-python-git/01-git-github#git--github-assignment) | [February 8]({{site.baseurl}}/schedule/07-culture-as-data-and-data-cultures)|
 | [Introduction to Python Assignment]({{site.baseurl}}/materials/intro-python-git/06-python-assignment) | [February 22]({{site.baseurl}}/schedule/11-platforms-and-web-cultures)|
 | [Advanced Python Assignment]({{site.baseurl}}/materials/advanced-python/04-python-assignment)| ~~March 1~~ [March 8]({{site.baseurl}}/schedule/14-getting-data)|
-| [Python Libraries Assignment]({{site.baseurl}}/05-libraries-assignment) | ~~March 3~~ Now Optional|
+| [Python Libraries Assignment]({{site.baseurl}}/materials/advanced-python/06-libraries-assignment) | ~~March 3~~ Now Optional|
 | [Web Scraping Assignment]({{site.baseurl}}/materials/getting-data/02-webscraping-assignment) | ~~March 8~~ [March 22]({{site.baseurl}}/schedule/15-trending-and-cleaning)|
 | [API Assignment]({{site.baseurl}}/materials/getting-data/05-api-assignment) | ~~March 22~~ Now Optional <br> (Highly recommend for those behind on <br> annotations or planning to work with APIs)|
 | [Jupyter and Pandas Assignment]({{site.baseurl}}/materials/getting-data/07-notebook-assignment) | ~~March 22~~ [Now Due April 5]({{site.baseurl}}/schedule/21-revised-models-and-machines) |
