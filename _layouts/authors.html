@@ -4,8 +4,10 @@ layout: archive
 
 {{ content }}
 
+{{site.data.authors}}
+
 {% assign authors_max = 0 %}
-{% for author in site.authors %}
+{% for author in site.data.authors %}
 {% if author[1].size > authors_max %}
 {% assign authors_max = author[1].size %}
 {% endif %}

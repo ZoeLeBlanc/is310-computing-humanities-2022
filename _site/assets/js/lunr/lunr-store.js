@@ -239,17 +239,23 @@ var store = [{
         "url": "/is310-computing-humanities/materials/getting-started/07-github-workflows",
         "teaser": null
       },{
+        "title": "Shaping Ideas into Data Stories",
+        "excerpt":"It was the first week of the class, and one of the first readings assigned was in the Puddings. I first watched the interview with Amber Thomas about shaping ideas into data stories. https://www.youtube.com/watch?v=J3Awc4HxDK0 The video talks about three things. The first came was how Amber shifted from a journalist...","categories": ["curating-course-content"],
+        "tags": [],
+        "url": "/is310-computing-humanities/curating-course-content/jacky-chen/",
+        "teaser": null
+      },{
         "title": "Draft Post",
         "excerpt":"Monocle ipsum dolor sit amet handsome pariatur aliqua, hub remarkable irure commodo classic deserunt bespoke. Sunt commodo signature, Swiss minim flat white Tsutaya excepteur artisanal et Nordic laborum joy ANA. Beams mollit exquisite Ginza efficient dolore qui Comme des Garçons Winkreative Lufthansa bulletin global. Iconic sed liveable duis. Mollit dolore...","categories": ["Jekyll"],
         "tags": ["edge case"],
         "url": "/is310-computing-humanities/jekyll/post-draft/",
-        "teaser": "/is310-computing-humanities/unsplash-gallery-image-2-th.jpg"
+        "teaser": null
       },{
         "title": "Untitled",
         "excerpt":"March 22nd Blogpost I wanted to reflect on our 3/22 seminar discussion and readings. My first reaction to Data Humanism, The Revolution will be Visualized. was surprise. I had never heard anyone say infographics should be complicated before. I did understand the author’s point that by simplifying information to make...","categories": ["curating-course-content"],
         "tags": [],
         "url": "/is310-computing-humanities/curating-course-content/dharra-prashad-post/",
-        "teaser": "/is310-computing-humanities/unsplash-gallery-image-2-th.jpg"
+        "teaser": null
       },{
         "title": "Links by Changho Jung",
         "excerpt":"For the “Deep-Fried Data” reading, I recommend to read “What’s Up With Big Data Ethics?” The article is about data ethics from Big Data. https://www.forbes.com/sites/oreillymedia/2014/03/28/whats-up-with-big-data-ethics/?sh=497dcd853591 Probably many of you have already seen this TED video, about filter bubbles by Eli Pariser. This video might be related with our first reading,...","categories": ["sharing-relevant-links"],

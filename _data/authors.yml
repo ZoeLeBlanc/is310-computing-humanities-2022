@@ -1,3 +1,33 @@
+Faadil Ahmed:
+  name        : "Faadil Ahmed"
+  # bio         : "Insert bio."
+  # avatar      : "/assets/images/bio-photo-2.jpg"
+  links:
+    - label: "Github"
+      icon: "fas fa-fw fa-github"
+      url: "https://github.com/faadilahmed/faadilahmed_IS310"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-github"
+    #   url: "https://thewhip.com"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/extravagantman"
+
+Jacky Chen:
+  name        : "Jacky Chen"
+  # bio         : "Insert bio."
+  # avatar      : "/assets/images/bio-photo-2.jpg"
+  links:
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Towerhint/is310_final_project"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-github"
+    #   url: "https://thewhip.com"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/extravagantman"
+
 Dharra Prashad:
   name        : "Dharra Prashad"
   bio         : "Insert bio."
