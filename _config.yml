@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : "✨ A course at the intersection of culture and code ✨"
 name                     : "Prof. Zoe LeBlanc"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/is310-computing-humanities" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -221,6 +221,7 @@ collections:
   schedule:
     output: true
     permalink: /:collection/:path/
+  
 
 # Sass/SCSS
 sass:

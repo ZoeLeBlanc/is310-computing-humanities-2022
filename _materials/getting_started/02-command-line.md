@@ -34,7 +34,7 @@ We've already interacted with the command line, terminal, and shell through our 
 
 ### Let's do an exercise together
 
-1. Open the [cheatsheet](command-line-cheatsheet). Copying is encouraged in coding, so make sure you use the cheatsheet!
+1. Open the [cheatsheet]({{site.baseurl}}/materials/getting-started/03-command-line-cheatsheet). Copying is encouraged in coding, so make sure you use the cheatsheet!
 
 2. Create a directory called `workspace` in your home directory.
 

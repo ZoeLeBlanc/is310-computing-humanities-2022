@@ -10,7 +10,7 @@ class_date: 2022-04-12
 
 **VIDEO of Project Update Presentation DUE**
 
-- Review and continue work on the [text mining assignment]({{site.baseurl}}/materials/exploratory-data-analysis/04-text-mining-assignment)
+- Review and continue work on the [text mining assignment]({{site.baseurl}}/materials/exploratory-data-analysis/04-text-analysis-assignment)
 
 
 - ~~Explore and read the principles of The Colored Conventions Project <https://coloredconventions.org/>~~

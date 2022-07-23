@@ -137,7 +137,7 @@ For more information, read through this [introduction from Mozilla on HTML](http
 
 ## Introduction to Web Scraping in Python
 
-Let's install our required packages. If you haven't already, check out the instructions for installing a [virtual environment]({{site.baseurl}}/materials/advance-python/05-virtual-environment).
+Let's install our required packages. If you haven't already, check out the instructions for installing a [virtual environment]({{site.baseurl}}/materials/advanced-python/05-virtual-environment).
 
 We previously discussed Python libraries when we talked about classes and file input and outputs, but let's dig in a bit deeper. 
 

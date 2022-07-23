@@ -1,8 +1,6 @@
 ---
 layout: single
 title:  "Untitled"
-header:
-  teaser: "unsplash-gallery-image-2-th.jpg"
 author: Dharra Prashad
 comments: true
 categories:
